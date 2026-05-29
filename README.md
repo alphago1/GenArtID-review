@@ -76,6 +76,7 @@ Official reproduction package for *Rethinking Legal Retrieval as Generative Arti
 - Python 3.10+
 - DeepSeek API key (for GenArtID retrieval)
 - SiliconFlow API key (for Qwen3-8B, GLM-4-9B, Embedding baselines)
+- GPT And Claude API key
 - NVIDIA RTX 5090 (for LoRA fine-tuning notebooks)
 
 ### Quick Verification
