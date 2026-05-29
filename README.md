@@ -104,6 +104,6 @@ python scripts/content_fidelity.py
   title     = {Rethinking Legal Retrieval as Generative Article Identifier Prediction},
   author    = {},
   booktitle = {ACL},
-  year      = {2025}
+  year      = {2026}
 }
 ```
