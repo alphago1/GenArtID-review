@@ -1,0 +1,29 @@
+{
+  "model": "THUDM/GLM-4-9B-0414",
+  "civil_code": {
+    "memory": {
+      "effective_memory": 0.0103,
+      "invalid_duplicate": 0.6579,
+      "error_hallucination": 0.3317,
+      "total": 1260
+    },
+    "retrieval": {
+      "P@5": 0.0422,
+      "R@5": 0.1611,
+      "F1@5": 0.0651
+    }
+  },
+  "cpl": {
+    "memory": {
+      "effective_memory": 0.0391,
+      "invalid_duplicate": 0.759,
+      "error_hallucination": 0.202,
+      "total": 307
+    },
+    "retrieval": {
+      "P@5": 0.0285,
+      "R@5": 0.0938,
+      "F1@5": 0.0435
+    }
+  }
+}

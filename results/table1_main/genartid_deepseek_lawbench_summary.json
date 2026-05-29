@@ -1,0 +1,12 @@
+{
+  "model_key": "deepseek-v4-flash",
+  "dataset": "LawBench",
+  "num_samples": 439,
+  "num_with_gold": 439,
+  "P@5": 0.1423,
+  "R@5": 0.4318,
+  "F1@5": 0.2033,
+  "parse_failures": 1,
+  "api_calls": 439,
+  "api_retries": 0
+}

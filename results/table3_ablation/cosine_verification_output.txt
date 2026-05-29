@@ -1,0 +1,40 @@
+Law library: 17229 articles
+Loading text2vec...
+Model ready.
+
+============================================================
+id_content_deepseek_v4flash.json
+============================================================
+Samples: 1013
+Lookup failures: 11
+
+--- Per-prediction (cosine sim, same as compare_laws.py) ---
+Total with content: 4716
+  Correct (>=0.85):  4271 (90.6%)
+  Partial (0.6-0.85): 356 (7.5%)
+  Wrong (<0.6):      89 (1.9%)
+  Missing:           345
+  Avg sim:           0.9322
+
+--- Per-sample ---
+>=1 correct content:  995 (98.2%)
+>=1 any content:      1002 (98.9%)
+
+============================================================
+id_content_qwen3_8b.json
+============================================================
+Samples: 1013
+Lookup failures: 2
+
+--- Per-prediction (cosine sim, same as compare_laws.py) ---
+Total with content: 4442
+  Correct (>=0.85):  1782 (40.1%)
+  Partial (0.6-0.85): 2103 (47.3%)
+  Wrong (<0.6):      557 (12.5%)
+  Missing:           623
+  Avg sim:           0.7794
+
+--- Per-sample ---
+>=1 correct content:  815 (80.5%)
+>=1 any content:      1011 (99.8%)
+

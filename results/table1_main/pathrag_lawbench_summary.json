@@ -1,0 +1,8 @@
+{
+  "Retrieval Rounds": 1.0,
+  "Context Budget": 636.6127562642369,
+  "Recall@5": 0.0,
+  "Precision@5": 0.0,
+  "F1@5": 0.0,
+  "PoolRecall@40": 0.0
+}

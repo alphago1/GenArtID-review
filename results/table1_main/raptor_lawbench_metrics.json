@@ -1,0 +1,8 @@
+{
+  "macro_precision_at_5": 0.005011389521640091,
+  "macro_recall_at_5": 0.01366742596810934,
+  "macro_f1_at_5": 0.007132009979390391,
+  "hit_at_5_rate": 0.018223234624145785,
+  "avg_context_budget": 3180.6059225512527,
+  "total_turns": 439
+}

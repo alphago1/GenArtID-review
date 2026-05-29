@@ -1,0 +1,9 @@
+{
+  "model": "deepseek-chat",
+  "dataset": "LexRAG 1013",
+  "samples": 1013,
+  "with_gold": 954,
+  "P@5": 0.1196,
+  "R@5": 0.5023,
+  "F1@5": 0.1891
+}

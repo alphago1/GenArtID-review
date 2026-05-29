@@ -1,0 +1,30 @@
+{
+  "case_id": 207,
+  "table_in_paper": "Table 8 (Criminal Procedure Law case study)",
+  "question": "醉酒驾车，没有肇事。现在在拘留所不让见犯罪嫌疑人，请问是什么阶段？",
+  "question_english_gloss": "Suspected drunk driving reported; the suspect was not caught at the scene. What procedures follow?",
+  "gold_article": "《刑事诉讼法》第85条",
+  "gold_article_text": "公安机关拘留人的时候，必须出示拘留证。\n\n拘留后，应当立即将被拘留人送看守所羁押，至迟不得超过二十四小时。除无法通知或者涉嫌危害国家安全犯罪、恐怖活动犯罪通知可能有碍侦查的情形以外，应当在拘留后二十四小时以内，通知被拘留人的家属。有碍侦查的情形消失以后，应当立即通知被拘留人的家属。",
+  "source_file_base": "D:\\download\\LexRAG-main-new\\刑事诉讼法\\刑事诉讼法的结果\\base.json",
+  "source_file_ssl": "D:\\download\\LexRAG-main-new\\刑事诉讼法\\刑事诉讼法的结果\\checkpoint-180.json",
+  "base_predictions": ["《刑事诉讼法》第82条", "《刑法》第133条", "《刑事诉讼法》第91条", "《刑事诉讼法》第113条", "《刑事诉讼法》第114条"],
+  "base_hit": false,
+  "base_R@5": 0.0,
+  "base_F1@5": 0.0,
+  "ssl_predictions": ["《刑事诉讼法》第85条", "《刑事诉讼法》第108条", "《刑事诉讼法》第92条", "《刑事诉讼法》第93条", "《刑事诉讼法》第116条"],
+  "ssl_hit": true,
+  "ssl_correct_rank": 1,
+  "ssl_R@5": 1.0,
+  "ssl_F1@5": 0.333333,
+  "paper_narrative_validation": {
+    "paper_claim_base": "GenArtID (base): Art. 82, 91, 113, 114, and Criminal Law Art. 133 ✗",
+    "evidence_base": "Predictions are [CPL 82, Criminal 133, CPL 91, CPL 113, CPL 114]. Gold is CPL 85. None match gold. NOTE: Paper reorders the predictions grouping CPL articles together; the actual model output order is 82, 133, 91, 113, 114 (Criminal Law Art. 133 at rank 2, not rank 5). Content is the same 5 articles.",
+    "base_matches_paper": true,
+    "paper_claim_ssl": "GenArtID-SSL: Art. 85 (rank 1), Art. 108, 92, 93, 116 ✓",
+    "evidence_ssl": "Predictions are [85, 108, 92, 93, 116]. Gold 85 at rank 1. Exact match to paper claim.",
+    "ssl_matches_paper": true,
+    "discrepancies": [
+      "Paper lists base predictions as 'Art. 82, 91, 113, 114, and Criminal Law Art. 133' (CPL-grouped order). Actual model output order is: CPL 82, Criminal 133, CPL 91, CPL 113, CPL 114. The paper reordered for readability. Content is identical."
+    ]
+  }
+}

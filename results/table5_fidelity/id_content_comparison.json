@@ -1,0 +1,25 @@
+{
+  "id_only_baselines": {
+    "v4_flash": {
+      "P@5": 0.1171,
+      "R@5": 0.5004,
+      "F1@5": 0.186
+    }
+  },
+  "id_content_results": [
+    {
+      "model": "deepseek-v4-flash",
+      "P@5": 0.1148,
+      "R@5": 0.4842,
+      "F1@5": 0.1816,
+      "content_similarity": 0.8368
+    },
+    {
+      "model": "qwen3-8b",
+      "P@5": 0.0824,
+      "R@5": 0.3513,
+      "F1@5": 0.1308,
+      "content_similarity": 0.4529
+    }
+  ]
+}

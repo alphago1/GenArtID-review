@@ -1,0 +1,59 @@
+{
+  "description": "Table 5: Candidate ranking quality after knowledge injection (recomputed from actual result files)",
+  "data_sources": {
+    "civil_base": "D:\\download\\LexRAG-main-new\\民法典\\civilresults\\results\\base_local_per_sample.json",
+    "civil_checkpoint": "D:\\download\\LexRAG-main-new\\民法典\\civilresults\\results\\checkpoint-280.json",
+    "cpl_base": "D:\\download\\LexRAG-main-new\\刑事诉讼法\\刑事诉讼法的结果\\base.json",
+    "cpl_checkpoint": "D:\\download\\LexRAG-main-new\\刑事诉讼法\\刑事诉讼法的结果\\checkpoint-180.json"
+  },
+  "results": [
+    {
+      "label": "Civil Code | Qwen3-8B Base (4-bit)",
+      "samples": 361,
+      "samples_with_correct": 146,
+      "avg_correct_rank": 1.78,
+      "top1_hit": 23.5,
+      "top3_hit": 35.5,
+      "top5_hit": 40.4,
+      "top1_count": 85,
+      "top3_count": 128,
+      "top5_count": 146
+    },
+    {
+      "label": "Civil Code | Qwen3-8B LoRA (checkpoint-280)",
+      "samples": 362,
+      "samples_with_correct": 161,
+      "avg_correct_rank": 1.7,
+      "top1_hit": 27.6,
+      "top3_hit": 41.2,
+      "top5_hit": 44.5,
+      "top1_count": 100,
+      "top3_count": 149,
+      "top5_count": 161
+    },
+    {
+      "label": "Criminal Procedure Law | Qwen3-8B Base",
+      "samples": 48,
+      "samples_with_correct": 16,
+      "avg_correct_rank": 1.12,
+      "top1_hit": 29.2,
+      "top3_hit": 33.3,
+      "top5_hit": 33.3,
+      "top1_count": 14,
+      "top3_count": 16,
+      "top5_count": 16
+    },
+    {
+      "label": "Criminal Procedure Law | Qwen3-8B LoRA (checkpoint-180)",
+      "samples": 48,
+      "samples_with_correct": 23,
+      "avg_correct_rank": 1.78,
+      "top1_hit": 22.9,
+      "top3_hit": 43.8,
+      "top5_hit": 47.9,
+      "top1_count": 11,
+      "top3_count": 21,
+      "top5_count": 23
+    }
+  ]
+}

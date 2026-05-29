@@ -1,0 +1,28 @@
+{
+  "case_id": 250,
+  "table_in_paper": "Table 4 (Civil Code case study)",
+  "question": "由xx物流公司承运的货物发生损坏，保价5万，只赔1千，求助法律帮助。",
+  "question_english_gloss": "Goods damaged during carrier transport; compensation only 1,000 RMB for loss of 50,000 RMB.",
+  "gold_article": "《民法典》第832条",
+  "gold_article_text": "承运人对运输过程中货物的毁损、灭失承担赔偿责任。但是，承运人证明货物的毁损、灭失是因不可抗力、货物本身的自然性质或者合理损耗以及托运人、收货人的过错造成的，不承担赔偿责任。",
+  "source_file_base": "D:\\download\\LexRAG-main-new\\民法典\\civilresults\\results\\base_local_per_sample.json",
+  "source_file_ssl": "D:\\download\\LexRAG-main-new\\民法典\\civilresults\\results\\checkpoint-280.json",
+  "base_predictions": ["《民法典》第803条", "《民法典》第804条", "《民法典》第805条", "《民法典》第806条", "《民法典》第807条"],
+  "base_hit": false,
+  "base_R@5": 0.0,
+  "base_F1@5": 0.0,
+  "ssl_predictions": ["《民法典》第832条", "《民法典》第833条", "《民法典》第584条", "《民法典》第585条", "《民法典》第586条"],
+  "ssl_hit": true,
+  "ssl_correct_rank": 1,
+  "ssl_R@5": 1.0,
+  "ssl_F1@5": 0.333333,
+  "paper_narrative_validation": {
+    "paper_claim_base": "GenArtID (base): Art. 803-807 (carrier-related, none matches gold) ✗",
+    "evidence_base": "Predictions are [803, 804, 805, 806, 807]. Gold is 832. None match gold.",
+    "base_matches_paper": true,
+    "paper_claim_ssl": "GenArtID-SSL: Art. 832 (rank 1), Art. 833, 584, 585, 586 ✓",
+    "evidence_ssl": "Predictions are [832, 833, 584, 585, 586]. Gold 832 at rank 1.",
+    "ssl_matches_paper": true,
+    "discrepancies": []
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "model": "Qwen/Qwen3-Embedding-8B",
+  "provider": "SiliconFlow API",
+  "dataset": "LawBench (439)",
+  "samples": 439,
+  "with_gold": 439,
+  "P@5": 0.0779,
+  "R@5": 0.2338,
+  "F1@5": 0.112
+}

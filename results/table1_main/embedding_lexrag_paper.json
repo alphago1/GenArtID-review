@@ -1,0 +1,7 @@
+{
+  "model": "Qwen/Qwen3-Embedding-8B",
+  "samples": 1013,
+  "precision_at_5": 0.0492,
+  "recall_at_5": 0.2178,
+  "f1_at_5": 0.0789
+}
