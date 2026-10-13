@@ -1,0 +1,4042 @@
+[
+  {
+    "item_id": "《刑法》第100条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9854066578285734,
+    "s_other": 0.7502872799788741,
+    "best_other_id": "《刑法》第65条"
+  },
+  {
+    "item_id": "《刑法》第101条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.6379385097437821,
+    "s_other": 0.9485551665395291,
+    "best_other_id": "《刑法》第11条"
+  },
+  {
+    "item_id": "《刑法》第102条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9683313970247358,
+    "s_other": 0.8853666352584043,
+    "best_other_id": "《刑法》第106条"
+  },
+  {
+    "item_id": "《刑法》第103条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.972745730407046,
+    "s_other": 0.9372912901349826,
+    "best_other_id": "《刑法》第105条"
+  },
+  {
+    "item_id": "《刑法》第104条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9498477975851103,
+    "s_other": 0.9491068097315892,
+    "best_other_id": "《刑法》第103条"
+  },
+  {
+    "item_id": "《刑法》第105条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.8094260299635261,
+    "s_other": 0.9219976652117359,
+    "best_other_id": "《刑法》第290条"
+  },
+  {
+    "item_id": "《刑法》第106条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9426528813965418,
+    "s_other": 0.8435446522875938,
+    "best_other_id": "《刑法》第211条"
+  },
+  {
+    "item_id": "《刑法》第107条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.8671310402030412,
+    "s_other": 0.8848713549183174,
+    "best_other_id": "《刑法》第120条之一"
+  },
+  {
+    "item_id": "《刑法》第108条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 1.0,
+    "s_other": 0.859422834192995,
+    "best_other_id": "《刑法》第421条"
+  },
+  {
+    "item_id": "《刑法》第109条",
+    "class": "Err.",
+    "empty_output": false,
+    "s_target": 0.6401815851984141,
+    "s_other": 0.6787156131560101,
+    "best_other_id": "《刑法》第110条"
+  },
+  {
+    "item_id": "《刑法》第10条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.7076480909267796,
+    "s_other": 0.9763215595552922,
+    "best_other_id": "《刑法》第6条"
+  },
+  {
+    "item_id": "《刑法》第110条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.7725766600923276,
+    "s_other": 1.0,
+    "best_other_id": "《刑法》第108条"
+  },
+  {
+    "item_id": "《刑法》第111条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 1.0,
+    "s_other": 0.934499708647436,
+    "best_other_id": "《刑法》第431条"
+  },
+  {
+    "item_id": "《刑法》第112条",
+    "class": "Err.",
+    "empty_output": false,
+    "s_target": 0.5903760641686668,
+    "s_other": 0.7686875972579493,
+    "best_other_id": "《刑法》第64条"
+  },
+  {
+    "item_id": "《刑法》第113条",
+    "class": "Err.",
+    "empty_output": false,
+    "s_target": 0.710827097481143,
+    "s_other": 0.7842895689916966,
+    "best_other_id": "《刑法》第13条"
+  },
+  {
+    "item_id": "《刑法》第114条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 1.0,
+    "s_other": 0.9333491319397113,
+    "best_other_id": "《刑法》第115条"
+  },
+  {
+    "item_id": "《刑法》第115条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9999999999999998,
+    "s_other": 0.9333491319397113,
+    "best_other_id": "《刑法》第114条"
+  },
+  {
+    "item_id": "《刑法》第116条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.961236263630566,
+    "s_other": 0.9080417319234377,
+    "best_other_id": "《刑法》第117条"
+  },
+  {
+    "item_id": "《刑法》第117条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 1.0,
+    "s_other": 0.9336069759480846,
+    "best_other_id": "《刑法》第116条"
+  },
+  {
+    "item_id": "《刑法》第118条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 1.0000000000000002,
+    "s_other": 0.8680620986466447,
+    "best_other_id": "《刑法》第119条"
+  },
+  {
+    "item_id": "《刑法》第119条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 1.0,
+    "s_other": 0.932740531238571,
+    "best_other_id": "《刑法》第124条"
+  },
+  {
+    "item_id": "《刑法》第11条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.6045303956602477,
+    "s_other": 1.0000000000000002,
+    "best_other_id": "《刑法》第7条"
+  },
+  {
+    "item_id": "《刑法》第120条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9966164412644511,
+    "s_other": 0.9018850275769847,
+    "best_other_id": "《刑法》第300条"
+  },
+  {
+    "item_id": "《刑法》第120条之一",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.951052691041882,
+    "s_other": 0.89758310959813,
+    "best_other_id": "《刑法》第107条"
+  },
+  {
+    "item_id": "《刑法》第120条之三",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.8502462017995998,
+    "s_other": 0.9703486899910401,
+    "best_other_id": "《刑法》第291条之一"
+  },
+  {
+    "item_id": "《刑法》第120条之二",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.8776102221976425,
+    "s_other": 0.9531024833435336,
+    "best_other_id": "《刑法》第120条之一"
+  },
+  {
+    "item_id": "《刑法》第120条之五",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.7823074120896528,
+    "s_other": 0.9533668479160108,
+    "best_other_id": "《刑法》第371条"
+  },
+  {
+    "item_id": "《刑法》第120条之六",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.7199919806144572,
+    "s_other": 0.94071433249955,
+    "best_other_id": "《刑法》第290条"
+  },
+  {
+    "item_id": "《刑法》第120条之四",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.7258352953434544,
+    "s_other": 0.9703486899910401,
+    "best_other_id": "《刑法》第291条之一"
+  },
+  {
+    "item_id": "《刑法》第121条",
+    "class": "Err.",
+    "empty_output": false,
+    "s_target": 0.599741082846327,
+    "s_other": 0.8290142884728131,
+    "best_other_id": "《刑法》第6条"
+  },
+  {
+    "item_id": "《刑法》第122条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.6300807620370487,
+    "s_other": 0.9275411353061914,
+    "best_other_id": "《刑法》第56条"
+  },
+  {
+    "item_id": "《刑法》第123条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.7252754525326337,
+    "s_other": 0.933938404836868,
+    "best_other_id": "《刑法》第120条之一"
+  },
+  {
+    "item_id": "《刑法》第124条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.8640277171023458,
+    "s_other": 0.8116133789676758,
+    "best_other_id": "《刑法》第119条"
+  },
+  {
+    "item_id": "《刑法》第125条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9571824648267886,
+    "s_other": 0.8976730428716804,
+    "best_other_id": "《刑法》第350条"
+  },
+  {
+    "item_id": "《刑法》第126条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.901307546594042,
+    "s_other": 0.9708827133272292,
+    "best_other_id": "《刑法》第128条"
+  },
+  {
+    "item_id": "《刑法》第127条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9220177942456378,
+    "s_other": 0.9056002441948509,
+    "best_other_id": "《刑法》第438条"
+  },
+  {
+    "item_id": "《刑法》第128条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9865505034531186,
+    "s_other": 0.9168170818136278,
+    "best_other_id": "《刑法》第125条"
+  },
+  {
+    "item_id": "《刑法》第129条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.5416931856220588,
+    "s_other": 0.9486678636224005,
+    "best_other_id": "《刑法》第161条"
+  },
+  {
+    "item_id": "《刑法》第12条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9997346141450183,
+    "s_other": 0.8376710625317816,
+    "best_other_id": "《刑法》第452条"
+  },
+  {
+    "item_id": "《刑法》第130条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.7566833365704603,
+    "s_other": 0.9655954910040678,
+    "best_other_id": "《刑法》第290条"
+  },
+  {
+    "item_id": "《刑法》第131条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.7325012434417357,
+    "s_other": 0.9334634036421561,
+    "best_other_id": "《刑法》第139条之一"
+  },
+  {
+    "item_id": "《刑法》第132条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.883820056876364,
+    "s_other": 0.9999999999999999,
+    "best_other_id": "《刑法》第133条"
+  },
+  {
+    "item_id": "《刑法》第133条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9999999999999999,
+    "s_other": 0.885856672658641,
+    "best_other_id": "《刑法》第436条"
+  },
+  {
+    "item_id": "《刑法》第133条之一",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9999999999999998,
+    "s_other": 0.8889508104458681,
+    "best_other_id": "《刑法》第133条之二"
+  },
+  {
+    "item_id": "《刑法》第133条之二",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.7253674184394612,
+    "s_other": 0.8882420688760423,
+    "best_other_id": "《刑法》第144条"
+  },
+  {
+    "item_id": "《刑法》第134条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9661951268156779,
+    "s_other": 0.912488822765073,
+    "best_other_id": "《刑法》第135条"
+  },
+  {
+    "item_id": "《刑法》第134条之一",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9418999122195494,
+    "s_other": 0.8612011175804669,
+    "best_other_id": "《刑法》第135条"
+  },
+  {
+    "item_id": "《刑法》第135条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9417918317536622,
+    "s_other": 0.9127266198560874,
+    "best_other_id": "《刑法》第135条之一"
+  },
+  {
+    "item_id": "《刑法》第135条之一",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9999999999999998,
+    "s_other": 0.9478145274542062,
+    "best_other_id": "《刑法》第135条"
+  },
+  {
+    "item_id": "《刑法》第136条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9737346242493513,
+    "s_other": 0.8953091026642106,
+    "best_other_id": "《刑法》第115条"
+  },
+  {
+    "item_id": "《刑法》第137条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9678213845216213,
+    "s_other": 0.9171782146604475,
+    "best_other_id": "《刑法》第135条"
+  },
+  {
+    "item_id": "《刑法》第138条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.8159602554649712,
+    "s_other": 0.8765270301188782,
+    "best_other_id": "《刑法》第370条"
+  },
+  {
+    "item_id": "《刑法》第139条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9729928723624454,
+    "s_other": 0.8623388401513069,
+    "best_other_id": "《刑法》第135条"
+  },
+  {
+    "item_id": "《刑法》第139条之一",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 1.0,
+    "s_other": 0.9009637088683958,
+    "best_other_id": "《刑法》第135条"
+  },
+  {
+    "item_id": "《刑法》第13条",
+    "class": "Err.",
+    "empty_output": false,
+    "s_target": 0.6218562344702184,
+    "s_other": 0.7017770146454326,
+    "best_other_id": "《刑法》第96条"
+  },
+  {
+    "item_id": "《刑法》第140条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9951966899862486,
+    "s_other": 0.8961937324981202,
+    "best_other_id": "《刑法》第171条"
+  },
+  {
+    "item_id": "《刑法》第141条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.8379796891292467,
+    "s_other": 0.868994900254557,
+    "best_other_id": "《刑法》第145条"
+  },
+  {
+    "item_id": "《刑法》第142条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.7955778726321306,
+    "s_other": 0.9314316980332666,
+    "best_other_id": "《刑法》第338条"
+  },
+  {
+    "item_id": "《刑法》第142条之一",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.8666020817866311,
+    "s_other": 1.0,
+    "best_other_id": "《刑法》第144条"
+  },
+  {
+    "item_id": "《刑法》第143条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9999999999999998,
+    "s_other": 0.9248942708449874,
+    "best_other_id": "《刑法》第144条"
+  },
+  {
+    "item_id": "《刑法》第144条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.938272499112486,
+    "s_other": 0.8915424888126291,
+    "best_other_id": "《刑法》第143条"
+  },
+  {
+    "item_id": "《刑法》第145条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9654093577409301,
+    "s_other": 0.9118926330530053,
+    "best_other_id": "《刑法》第146条"
+  },
+  {
+    "item_id": "《刑法》第146条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.8406754765915598,
+    "s_other": 0.9027027383396189,
+    "best_other_id": "《刑法》第136条"
+  },
+  {
+    "item_id": "《刑法》第147条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9163438178042913,
+    "s_other": 0.9505504104152271,
+    "best_other_id": "《刑法》第145条"
+  },
+  {
+    "item_id": "《刑法》第148条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9705664113615025,
+    "s_other": 0.8703222663559594,
+    "best_other_id": "《刑法》第145条"
+  },
+  {
+    "item_id": "《刑法》第149条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.8990576972560671,
+    "s_other": 0.829089205468863,
+    "best_other_id": "《刑法》第150条"
+  },
+  {
+    "item_id": "《刑法》第14条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9620399922212954,
+    "s_other": 0.7851518848642254,
+    "best_other_id": "《刑法》第16条"
+  },
+  {
+    "item_id": "《刑法》第150条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9588969205911214,
+    "s_other": 0.9712365538108954,
+    "best_other_id": "《刑法》第220条"
+  },
+  {
+    "item_id": "《刑法》第151条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9925789271013062,
+    "s_other": 0.9290684397595095,
+    "best_other_id": "《刑法》第152条"
+  },
+  {
+    "item_id": "《刑法》第152条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9466901142150914,
+    "s_other": 0.9415570307212106,
+    "best_other_id": "《刑法》第151条"
+  },
+  {
+    "item_id": "《刑法》第153条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9938317353703395,
+    "s_other": 0.9336980859502225,
+    "best_other_id": "《刑法》第206条"
+  },
+  {
+    "item_id": "《刑法》第154条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9066688405873221,
+    "s_other": 0.9024065860301975,
+    "best_other_id": "《刑法》第155条"
+  },
+  {
+    "item_id": "《刑法》第155条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9712004230486376,
+    "s_other": 0.8911983623160489,
+    "best_other_id": "《刑法》第154条"
+  },
+  {
+    "item_id": "《刑法》第156条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9998961802066815,
+    "s_other": 0.8315267826716475,
+    "best_other_id": "《刑法》第155条"
+  },
+  {
+    "item_id": "《刑法》第157条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.6536234661041617,
+    "s_other": 0.9754296050596732,
+    "best_other_id": "《刑法》第171条"
+  },
+  {
+    "item_id": "《刑法》第158条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.8059381082975305,
+    "s_other": 0.955495514863062,
+    "best_other_id": "《刑法》第200条"
+  },
+  {
+    "item_id": "《刑法》第159条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9172842280608738,
+    "s_other": 0.9601926945071309,
+    "best_other_id": "《刑法》第160条"
+  },
+  {
+    "item_id": "《刑法》第15条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 1.0,
+    "s_other": 0.8114168545585683,
+    "best_other_id": "《刑法》第14条"
+  },
+  {
+    "item_id": "《刑法》第160条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9710687262248716,
+    "s_other": 0.9516782819553297,
+    "best_other_id": "《刑法》第179条"
+  },
+  {
+    "item_id": "《刑法》第161条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9526027122400358,
+    "s_other": 0.9075516647803606,
+    "best_other_id": "《刑法》第162条之二"
+  },
+  {
+    "item_id": "《刑法》第162条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9585616592924875,
+    "s_other": 1.0,
+    "best_other_id": "《刑法》第162条之二"
+  },
+  {
+    "item_id": "《刑法》第162条之一",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.7436768224956103,
+    "s_other": 0.9708108226387969,
+    "best_other_id": "《刑法》第133条之二"
+  },
+  {
+    "item_id": "《刑法》第162条之二",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.840892272157511,
+    "s_other": 0.9475124983795683,
+    "best_other_id": "《刑法》第272条"
+  },
+  {
+    "item_id": "《刑法》第163条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9738226679240685,
+    "s_other": 0.9478891723168087,
+    "best_other_id": "《刑法》第184条"
+  },
+  {
+    "item_id": "《刑法》第164条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 1.0000000000000002,
+    "s_other": 0.9350098781787326,
+    "best_other_id": "《刑法》第163条"
+  },
+  {
+    "item_id": "《刑法》第165条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9999999999999998,
+    "s_other": 0.9194022870641181,
+    "best_other_id": "《刑法》第271条"
+  },
+  {
+    "item_id": "《刑法》第166条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.7890672554909195,
+    "s_other": 0.9526027122400358,
+    "best_other_id": "《刑法》第161条"
+  },
+  {
+    "item_id": "《刑法》第167条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 1.0,
+    "s_other": 0.9711495630795582,
+    "best_other_id": "《刑法》第406条"
+  },
+  {
+    "item_id": "《刑法》第168条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.94398546965397,
+    "s_other": 0.9317078477703084,
+    "best_other_id": "《刑法》第167条"
+  },
+  {
+    "item_id": "《刑法》第169条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.8905728527047546,
+    "s_other": 0.973341973603274,
+    "best_other_id": "《刑法》第410条"
+  },
+  {
+    "item_id": "《刑法》第169条之一",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.770260131050309,
+    "s_other": 0.9024138016883524,
+    "best_other_id": "《刑法》第402条"
+  },
+  {
+    "item_id": "《刑法》第16条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 1.0000000000000002,
+    "s_other": 0.8044305500699349,
+    "best_other_id": "《刑法》第20条"
+  },
+  {
+    "item_id": "《刑法》第170条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9828040711060491,
+    "s_other": 0.9524747125609331,
+    "best_other_id": "《刑法》第171条"
+  },
+  {
+    "item_id": "《刑法》第171条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9934605406911332,
+    "s_other": 0.9676195453141645,
+    "best_other_id": "《刑法》第172条"
+  },
+  {
+    "item_id": "《刑法》第172条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.958868243308516,
+    "s_other": 0.9491803551198165,
+    "best_other_id": "《刑法》第171条"
+  },
+  {
+    "item_id": "《刑法》第173条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.45228012828411324,
+    "s_other": 0.9174007457843184,
+    "best_other_id": "《刑法》第49条"
+  },
+  {
+    "item_id": "《刑法》第174条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9572943256745535,
+    "s_other": 0.9276880894177628,
+    "best_other_id": "《刑法》第178条"
+  },
+  {
+    "item_id": "《刑法》第175条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9409240442318894,
+    "s_other": 0.8746992454445137,
+    "best_other_id": "《刑法》第193条"
+  },
+  {
+    "item_id": "《刑法》第175条之一",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.884197772829616,
+    "s_other": 0.9382750422634584,
+    "best_other_id": "《刑法》第177条之一"
+  },
+  {
+    "item_id": "《刑法》第176条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9373695608797046,
+    "s_other": 0.926294662396282,
+    "best_other_id": "《刑法》第192条"
+  },
+  {
+    "item_id": "《刑法》第177条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9872648125928666,
+    "s_other": 0.949169503114285,
+    "best_other_id": "《刑法》第178条"
+  },
+  {
+    "item_id": "《刑法》第177条之一",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9224080520347803,
+    "s_other": 0.9346512960011198,
+    "best_other_id": "《刑法》第195条"
+  },
+  {
+    "item_id": "《刑法》第178条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9918687343603373,
+    "s_other": 0.9476896572638986,
+    "best_other_id": "《刑法》第197条"
+  },
+  {
+    "item_id": "《刑法》第179条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 1.0,
+    "s_other": 0.9563146325728153,
+    "best_other_id": "《刑法》第160条"
+  },
+  {
+    "item_id": "《刑法》第17条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9490255393706553,
+    "s_other": 0.8478910156388588,
+    "best_other_id": "《刑法》第78条"
+  },
+  {
+    "item_id": "《刑法》第17条之一",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 1.0,
+    "s_other": 0.7805141751174831,
+    "best_other_id": "《刑法》第62条"
+  },
+  {
+    "item_id": "《刑法》第180条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9718409540407967,
+    "s_other": 0.9247570964873921,
+    "best_other_id": "《刑法》第181条"
+  },
+  {
+    "item_id": "《刑法》第181条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9107918315258803,
+    "s_other": 0.917679266661199,
+    "best_other_id": "《刑法》第174条"
+  },
+  {
+    "item_id": "《刑法》第182条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9774825794735884,
+    "s_other": 0.9242557646278031,
+    "best_other_id": "《刑法》第180条"
+  },
+  {
+    "item_id": "《刑法》第183条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9903624633830684,
+    "s_other": 0.8667205657629312,
+    "best_other_id": "《刑法》第184条"
+  },
+  {
+    "item_id": "《刑法》第184条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.7855231073547561,
+    "s_other": 0.9889837558104217,
+    "best_other_id": "《刑法》第244条"
+  },
+  {
+    "item_id": "《刑法》第185条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.848139831536757,
+    "s_other": 0.9688521724351856,
+    "best_other_id": "《刑法》第229条"
+  },
+  {
+    "item_id": "《刑法》第185条之一",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.96954528354983,
+    "s_other": 0.8937839255526332,
+    "best_other_id": "《刑法》第174条"
+  },
+  {
+    "item_id": "《刑法》第186条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9892315331985506,
+    "s_other": 0.9289406526446108,
+    "best_other_id": "《刑法》第188条"
+  },
+  {
+    "item_id": "《刑法》第187条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9516817551380192,
+    "s_other": 0.9030216687111574,
+    "best_other_id": "《刑法》第197条"
+  },
+  {
+    "item_id": "《刑法》第188条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.8826131788735787,
+    "s_other": 0.9666307485249093,
+    "best_other_id": "《刑法》第178条"
+  },
+  {
+    "item_id": "《刑法》第189条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.8664449331180095,
+    "s_other": 0.9030184806900335,
+    "best_other_id": "《刑法》第307条之一"
+  },
+  {
+    "item_id": "《刑法》第18条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.991681635637653,
+    "s_other": 0.7949360349795467,
+    "best_other_id": "《刑法》第17条"
+  },
+  {
+    "item_id": "《刑法》第190条",
+    "class": "Err.",
+    "empty_output": false,
+    "s_target": 0.7835593522225779,
+    "s_other": 0.8419285064499602,
+    "best_other_id": "《刑法》第171条"
+  },
+  {
+    "item_id": "《刑法》第191条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9551171881733189,
+    "s_other": 0.894505355027861,
+    "best_other_id": "《刑法》第177条"
+  },
+  {
+    "item_id": "《刑法》第192条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9018806042525721,
+    "s_other": 0.9553308478685048,
+    "best_other_id": "《刑法》第197条"
+  },
+  {
+    "item_id": "《刑法》第193条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9473401530962133,
+    "s_other": 0.9675502443115943,
+    "best_other_id": "《刑法》第197条"
+  },
+  {
+    "item_id": "《刑法》第194条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9102052516952601,
+    "s_other": 0.9640619615373254,
+    "best_other_id": "《刑法》第177条"
+  },
+  {
+    "item_id": "《刑法》第195条",
+    "class": "Err.",
+    "empty_output": false,
+    "s_target": 0.6161210398792472,
+    "s_other": 0.7873457287442822,
+    "best_other_id": "《刑法》第10条"
+  },
+  {
+    "item_id": "《刑法》第196条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 1.0,
+    "s_other": 0.9304786054034592,
+    "best_other_id": "《刑法》第195条"
+  },
+  {
+    "item_id": "《刑法》第197条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.8747591826793032,
+    "s_other": 0.9930324223898876,
+    "best_other_id": "《刑法》第194条"
+  },
+  {
+    "item_id": "《刑法》第198条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.8581091734794886,
+    "s_other": 1.0,
+    "best_other_id": "《刑法》第183条"
+  },
+  {
+    "item_id": "《刑法》第199条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.24420891208662213,
+    "s_other": 0.9198272698398948,
+    "best_other_id": "《刑法》第200条"
+  },
+  {
+    "item_id": "《刑法》第19条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 1.0000000000000002,
+    "s_other": 0.6267747165348395,
+    "best_other_id": "《刑法》第37条"
+  },
+  {
+    "item_id": "《刑法》第1条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 1.0,
+    "s_other": 0.7338059476166358,
+    "best_other_id": "《刑法》第9条"
+  },
+  {
+    "item_id": "《刑法》第200条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.8416954381141425,
+    "s_other": 0.9972296604346783,
+    "best_other_id": "《刑法》第220条"
+  },
+  {
+    "item_id": "《刑法》第201条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.6841544910485448,
+    "s_other": 0.882737187234204,
+    "best_other_id": "《刑法》第61条"
+  },
+  {
+    "item_id": "《刑法》第202条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.6960929332235912,
+    "s_other": 1.0,
+    "best_other_id": "《刑法》第269条"
+  },
+  {
+    "item_id": "《刑法》第203条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.979433456510714,
+    "s_other": 0.9189733901426073,
+    "best_other_id": "《刑法》第204条"
+  },
+  {
+    "item_id": "《刑法》第204条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9617450646641479,
+    "s_other": 0.9325384646536413,
+    "best_other_id": "《刑法》第203条"
+  },
+  {
+    "item_id": "《刑法》第205条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9818446125842926,
+    "s_other": 0.9411659132518213,
+    "best_other_id": "《刑法》第204条"
+  },
+  {
+    "item_id": "《刑法》第205条之一",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9339830574333697,
+    "s_other": 0.8962466407708535,
+    "best_other_id": "《刑法》第210条之一"
+  },
+  {
+    "item_id": "《刑法》第206条",
+    "class": "Err.",
+    "empty_output": false,
+    "s_target": 0.695558648801037,
+    "s_other": 0.7798947394031994,
+    "best_other_id": "《刑法》第177条"
+  },
+  {
+    "item_id": "《刑法》第207条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.8040286369474898,
+    "s_other": 0.9259646899740315,
+    "best_other_id": "《刑法》第202条"
+  },
+  {
+    "item_id": "《刑法》第208条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.7913286773328077,
+    "s_other": 0.9304016221940042,
+    "best_other_id": "《刑法》第215条"
+  },
+  {
+    "item_id": "《刑法》第209条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.8550644573911411,
+    "s_other": 0.9695231880945221,
+    "best_other_id": "《刑法》第280条"
+  },
+  {
+    "item_id": "《刑法》第20条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9734321408080269,
+    "s_other": 0.8703398004726728,
+    "best_other_id": "《刑法》第21条"
+  },
+  {
+    "item_id": "《刑法》第210条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.8052135052855826,
+    "s_other": 0.9677477083848975,
+    "best_other_id": "《刑法》第209条"
+  },
+  {
+    "item_id": "《刑法》第210条之一",
+    "class": "Err.",
+    "empty_output": false,
+    "s_target": 0.7287765009349498,
+    "s_other": 0.8362390889889355,
+    "best_other_id": "《刑法》第191条"
+  },
+  {
+    "item_id": "《刑法》第211条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.4684538802762009,
+    "s_other": 1.0000000000000002,
+    "best_other_id": "《刑法》第19条"
+  },
+  {
+    "item_id": "《刑法》第212条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.7610138201784836,
+    "s_other": 0.9201343425055741,
+    "best_other_id": "《刑法》第64条"
+  },
+  {
+    "item_id": "《刑法》第213条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9201899505635681,
+    "s_other": 0.8926348900587586,
+    "best_other_id": "《刑法》第214条"
+  },
+  {
+    "item_id": "《刑法》第214条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9616713701971369,
+    "s_other": 0.9270865095202261,
+    "best_other_id": "《刑法》第215条"
+  },
+  {
+    "item_id": "《刑法》第215条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.8392102927806027,
+    "s_other": 0.9428320331406463,
+    "best_other_id": "《刑法》第177条"
+  },
+  {
+    "item_id": "《刑法》第216条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 1.0,
+    "s_other": 0.8458127867277838,
+    "best_other_id": "《刑法》第215条"
+  },
+  {
+    "item_id": "《刑法》第217条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9753098761064365,
+    "s_other": 0.8633215507951826,
+    "best_other_id": "《刑法》第364条"
+  },
+  {
+    "item_id": "《刑法》第218条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.8761267843083916,
+    "s_other": 0.9718610277731247,
+    "best_other_id": "《刑法》第214条"
+  },
+  {
+    "item_id": "《刑法》第219条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9818703167942904,
+    "s_other": 0.841257398345727,
+    "best_other_id": "《刑法》第224条"
+  },
+  {
+    "item_id": "《刑法》第219条之一",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.969373763438272,
+    "s_other": 0.8816609085977241,
+    "best_other_id": "《刑法》第111条"
+  },
+  {
+    "item_id": "《刑法》第21条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9295408845175399,
+    "s_other": 0.8246139316445489,
+    "best_other_id": "《刑法》第20条"
+  },
+  {
+    "item_id": "《刑法》第220条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9999999999999998,
+    "s_other": 0.9943730779010113,
+    "best_other_id": "《刑法》第231条"
+  },
+  {
+    "item_id": "《刑法》第221条",
+    "class": "Err.",
+    "empty_output": false,
+    "s_target": 0.5107174370317252,
+    "s_other": 0.6616388545967236,
+    "best_other_id": "《刑法》第9条"
+  },
+  {
+    "item_id": "《刑法》第222条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9672177874673991,
+    "s_other": 0.8541368107155973,
+    "best_other_id": "《刑法》第221条"
+  },
+  {
+    "item_id": "《刑法》第223条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9408842612306714,
+    "s_other": 0.8786406474313833,
+    "best_other_id": "《刑法》第307条之一"
+  },
+  {
+    "item_id": "《刑法》第224条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9952046348549883,
+    "s_other": 0.9271301806557498,
+    "best_other_id": "《刑法》第193条"
+  },
+  {
+    "item_id": "《刑法》第224条之一",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 1.0000000000000004,
+    "s_other": 0.847722239235777,
+    "best_other_id": "《刑法》第294条"
+  },
+  {
+    "item_id": "《刑法》第225条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9883109317249025,
+    "s_other": 0.898487269166885,
+    "best_other_id": "《刑法》第174条"
+  },
+  {
+    "item_id": "《刑法》第226条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9315612427852527,
+    "s_other": 0.8582289890406469,
+    "best_other_id": "《刑法》第244条"
+  },
+  {
+    "item_id": "《刑法》第227条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.7399205498187669,
+    "s_other": 0.8974194985463491,
+    "best_other_id": "《刑法》第223条"
+  },
+  {
+    "item_id": "《刑法》第228条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.940183272766111,
+    "s_other": 0.8879768738371965,
+    "best_other_id": "《刑法》第442条"
+  },
+  {
+    "item_id": "《刑法》第229条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.986531267434442,
+    "s_other": 0.892178956161447,
+    "best_other_id": "《刑法》第169条之一"
+  },
+  {
+    "item_id": "《刑法》第22条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9373844574772557,
+    "s_other": 0.7928449260675673,
+    "best_other_id": "《刑法》第23条"
+  },
+  {
+    "item_id": "《刑法》第230条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.7502037443911295,
+    "s_other": 0.9676885447928214,
+    "best_other_id": "《刑法》第330条"
+  },
+  {
+    "item_id": "《刑法》第231条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9847753351258572,
+    "s_other": 0.9802489794291458,
+    "best_other_id": "《刑法》第220条"
+  },
+  {
+    "item_id": "《刑法》第232条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 1.0,
+    "s_other": 0.8777699220383788,
+    "best_other_id": "《刑法》第233条"
+  },
+  {
+    "item_id": "《刑法》第233条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9999999999999996,
+    "s_other": 0.9094406431365984,
+    "best_other_id": "《刑法》第235条"
+  },
+  {
+    "item_id": "《刑法》第234条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9999999999999999,
+    "s_other": 0.9033969308559392,
+    "best_other_id": "《刑法》第436条"
+  },
+  {
+    "item_id": "《刑法》第234条之一",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.7977204445323978,
+    "s_other": 0.9738556912927493,
+    "best_other_id": "《刑法》第333条"
+  },
+  {
+    "item_id": "《刑法》第235条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9133999078344143,
+    "s_other": 0.8627160325576122,
+    "best_other_id": "《刑法》第233条"
+  },
+  {
+    "item_id": "《刑法》第236条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9891198147931107,
+    "s_other": 0.8554465921293244,
+    "best_other_id": "《刑法》第240条"
+  },
+  {
+    "item_id": "《刑法》第236条之一",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9855632574885764,
+    "s_other": 0.8480751956901933,
+    "best_other_id": "《刑法》第236条"
+  },
+  {
+    "item_id": "《刑法》第237条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9447899829458286,
+    "s_other": 0.8459099748415909,
+    "best_other_id": "《刑法》第236条"
+  },
+  {
+    "item_id": "《刑法》第238条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9999999999999998,
+    "s_other": 0.9210240262376194,
+    "best_other_id": "《刑法》第399条"
+  },
+  {
+    "item_id": "《刑法》第239条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.7348565743760762,
+    "s_other": 0.858792429501916,
+    "best_other_id": "《刑法》第236条"
+  },
+  {
+    "item_id": "《刑法》第23条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9443358558155771,
+    "s_other": 0.816717895766728,
+    "best_other_id": "《刑法》第78条"
+  },
+  {
+    "item_id": "《刑法》第240条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9896403058166672,
+    "s_other": 0.8936866382050435,
+    "best_other_id": "《刑法》第241条"
+  },
+  {
+    "item_id": "《刑法》第241条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9920975370053412,
+    "s_other": 0.8935189517505409,
+    "best_other_id": "《刑法》第240条"
+  },
+  {
+    "item_id": "《刑法》第242条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.6680784928229315,
+    "s_other": 0.927902391009681,
+    "best_other_id": "《刑法》第313条"
+  },
+  {
+    "item_id": "《刑法》第243条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9987097096749116,
+    "s_other": 0.8849060111555522,
+    "best_other_id": "《刑法》第399条"
+  },
+  {
+    "item_id": "《刑法》第244条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.8145160803531611,
+    "s_other": 0.9706068491395135,
+    "best_other_id": "《刑法》第244条之一"
+  },
+  {
+    "item_id": "《刑法》第244条之一",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9687770090887052,
+    "s_other": 0.8604436824116213,
+    "best_other_id": "《刑法》第134条"
+  },
+  {
+    "item_id": "《刑法》第245条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9008139190710064,
+    "s_other": 0.7462854798769974,
+    "best_other_id": "《刑法》第282条"
+  },
+  {
+    "item_id": "《刑法》第246条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 1.0000000000000004,
+    "s_other": 0.8481898895580202,
+    "best_other_id": "《刑法》第308条之一"
+  },
+  {
+    "item_id": "《刑法》第247条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9134033399125641,
+    "s_other": 0.8478180481620998,
+    "best_other_id": "《刑法》第238条"
+  },
+  {
+    "item_id": "《刑法》第248条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9979898173274164,
+    "s_other": 0.9030527119467018,
+    "best_other_id": "《刑法》第315条"
+  },
+  {
+    "item_id": "《刑法》第249条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9609477425904559,
+    "s_other": 0.8690476796085861,
+    "best_other_id": "《刑法》第278条"
+  },
+  {
+    "item_id": "《刑法》第24条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 1.0,
+    "s_other": 0.8276860781260887,
+    "best_other_id": "《刑法》第23条"
+  },
+  {
+    "item_id": "《刑法》第250条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.5618765383931043,
+    "s_other": 0.9398652178301318,
+    "best_other_id": "《刑法》第7条"
+  },
+  {
+    "item_id": "《刑法》第251条",
+    "class": "Err.",
+    "empty_output": false,
+    "s_target": 0.4880158646195129,
+    "s_other": 0.7180371369624948,
+    "best_other_id": "《刑法》第246条"
+  },
+  {
+    "item_id": "《刑法》第252条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.8373782684806124,
+    "s_other": 0.882785810811903,
+    "best_other_id": "《刑法》第253条"
+  },
+  {
+    "item_id": "《刑法》第253条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9171729993563441,
+    "s_other": 0.7819579969077761,
+    "best_other_id": "《刑法》第329条"
+  },
+  {
+    "item_id": "《刑法》第253条之一",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 1.0,
+    "s_other": 0.9320242822302581,
+    "best_other_id": "《刑法》第307条之一"
+  },
+  {
+    "item_id": "《刑法》第254条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9204825106832302,
+    "s_other": 0.8358406633013706,
+    "best_other_id": "《刑法》第247条"
+  },
+  {
+    "item_id": "《刑法》第255条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.7261711929549921,
+    "s_other": 0.9381442113943265,
+    "best_other_id": "《刑法》第387条"
+  },
+  {
+    "item_id": "《刑法》第256条",
+    "class": "Err.",
+    "empty_output": false,
+    "s_target": 0.7194776624913214,
+    "s_other": 0.8305110791912838,
+    "best_other_id": "《刑法》第294条"
+  },
+  {
+    "item_id": "《刑法》第257条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.936331642619572,
+    "s_other": 0.8142459038026648,
+    "best_other_id": "《刑法》第238条"
+  },
+  {
+    "item_id": "《刑法》第258条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9617982671862272,
+    "s_other": 0.7725621376369246,
+    "best_other_id": "《刑法》第259条"
+  },
+  {
+    "item_id": "《刑法》第259条",
+    "class": "Err.",
+    "empty_output": false,
+    "s_target": 0.6116214406943703,
+    "s_other": 0.7495185199003892,
+    "best_other_id": "《刑法》第262条之二"
+  },
+  {
+    "item_id": "《刑法》第25条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 1.0000000000000004,
+    "s_other": 0.7509877578917984,
+    "best_other_id": "《刑法》第26条"
+  },
+  {
+    "item_id": "《刑法》第260条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9119730380516231,
+    "s_other": 0.8630538836906408,
+    "best_other_id": "《刑法》第260条之一"
+  },
+  {
+    "item_id": "《刑法》第260条之一",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.8827937576225864,
+    "s_other": 0.8557770973877356,
+    "best_other_id": "《刑法》第248条"
+  },
+  {
+    "item_id": "《刑法》第261条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.8769295325097187,
+    "s_other": 0.7348484692895558,
+    "best_other_id": "《刑法》第444条"
+  },
+  {
+    "item_id": "《刑法》第262条",
+    "class": "Err.",
+    "empty_output": false,
+    "s_target": 0.8171834381751846,
+    "s_other": 0.7403320613598122,
+    "best_other_id": "《刑法》第262条之二"
+  },
+  {
+    "item_id": "《刑法》第262条之一",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.6902892982336959,
+    "s_other": 0.9943105571582004,
+    "best_other_id": "《刑法》第318条"
+  },
+  {
+    "item_id": "《刑法》第262条之二",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.833132954511804,
+    "s_other": 0.9144870051396097,
+    "best_other_id": "《刑法》第365条"
+  },
+  {
+    "item_id": "《刑法》第263条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9908123036982326,
+    "s_other": 0.9030250829909288,
+    "best_other_id": "《刑法》第267条"
+  },
+  {
+    "item_id": "《刑法》第264条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9999999999999998,
+    "s_other": 0.9438220953336471,
+    "best_other_id": "《刑法》第274条"
+  },
+  {
+    "item_id": "《刑法》第265条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9999999999999998,
+    "s_other": 0.8012162913014542,
+    "best_other_id": "《刑法》第219条"
+  },
+  {
+    "item_id": "《刑法》第266条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 1.0000000000000002,
+    "s_other": 0.939918762609186,
+    "best_other_id": "《刑法》第274条"
+  },
+  {
+    "item_id": "《刑法》第267条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9891763138973149,
+    "s_other": 0.9438383997541303,
+    "best_other_id": "《刑法》第264条"
+  },
+  {
+    "item_id": "《刑法》第268条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9999999999999999,
+    "s_other": 0.9063543543543102,
+    "best_other_id": "《刑法》第267条"
+  },
+  {
+    "item_id": "《刑法》第269条",
+    "class": "Err.",
+    "empty_output": false,
+    "s_target": 0.5759914784733925,
+    "s_other": 0.8024151356292267,
+    "best_other_id": "《刑法》第67条"
+  },
+  {
+    "item_id": "《刑法》第26条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 1.0000000000000002,
+    "s_other": 0.8563107941158989,
+    "best_other_id": "《刑法》第294条"
+  },
+  {
+    "item_id": "《刑法》第270条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.7472335132143735,
+    "s_other": 0.9999999999999998,
+    "best_other_id": "《刑法》第275条"
+  },
+  {
+    "item_id": "《刑法》第271条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9758901077064658,
+    "s_other": 0.9616500928461684,
+    "best_other_id": "《刑法》第163条"
+  },
+  {
+    "item_id": "《刑法》第272条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9322782030591577,
+    "s_other": 0.9383590819794799,
+    "best_other_id": "《刑法》第384条"
+  },
+  {
+    "item_id": "《刑法》第273条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.7617360155631213,
+    "s_other": 0.8977549815215327,
+    "best_other_id": "《刑法》第430条"
+  },
+  {
+    "item_id": "《刑法》第274条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9782349891173278,
+    "s_other": 0.9264965953940766,
+    "best_other_id": "《刑法》第266条"
+  },
+  {
+    "item_id": "《刑法》第275条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9999999999999998,
+    "s_other": 0.890654663343174,
+    "best_other_id": "《刑法》第264条"
+  },
+  {
+    "item_id": "《刑法》第276条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.8093976566391731,
+    "s_other": 0.9954700034206281,
+    "best_other_id": "《刑法》第244条"
+  },
+  {
+    "item_id": "《刑法》第276条之一",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9713030591572867,
+    "s_other": 0.8632488763940025,
+    "best_other_id": "《刑法》第272条"
+  },
+  {
+    "item_id": "《刑法》第277条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9652975256500088,
+    "s_other": 0.8526094491958472,
+    "best_other_id": "《刑法》第238条"
+  },
+  {
+    "item_id": "《刑法》第278条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.877779938838934,
+    "s_other": 0.8691721249880875,
+    "best_other_id": "《刑法》第298条"
+  },
+  {
+    "item_id": "《刑法》第279条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.7690763201531595,
+    "s_other": 0.9655954910040678,
+    "best_other_id": "《刑法》第290条"
+  },
+  {
+    "item_id": "《刑法》第27条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 1.0000000000000002,
+    "s_other": 0.7778106842835143,
+    "best_other_id": "《刑法》第67条"
+  },
+  {
+    "item_id": "《刑法》第280条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9569667088836006,
+    "s_other": 0.8982861295044038,
+    "best_other_id": "《刑法》第375条"
+  },
+  {
+    "item_id": "《刑法》第280条之一",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.8331315470303255,
+    "s_other": 1.0000000000000002,
+    "best_other_id": "《刑法》第284条之一"
+  },
+  {
+    "item_id": "《刑法》第280条之二",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.772213512684012,
+    "s_other": 0.8928124308062829,
+    "best_other_id": "《刑法》第305条"
+  },
+  {
+    "item_id": "《刑法》第281条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.7163561275270537,
+    "s_other": 0.8766395096935042,
+    "best_other_id": "《刑法》第286条"
+  },
+  {
+    "item_id": "《刑法》第282条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.902376600775928,
+    "s_other": 0.8669116764247643,
+    "best_other_id": "《刑法》第111条"
+  },
+  {
+    "item_id": "《刑法》第283条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.8901956344633251,
+    "s_other": 0.9424957000279499,
+    "best_other_id": "《刑法》第350条"
+  },
+  {
+    "item_id": "《刑法》第284条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9999999999999998,
+    "s_other": 0.7803458634292864,
+    "best_other_id": "《刑法》第124条"
+  },
+  {
+    "item_id": "《刑法》第284条之一",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9769210958139375,
+    "s_other": 0.863002025889441,
+    "best_other_id": "《刑法》第253条之一"
+  },
+  {
+    "item_id": "《刑法》第285条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9912530285923286,
+    "s_other": 0.9254011505083869,
+    "best_other_id": "《刑法》第253条之一"
+  },
+  {
+    "item_id": "《刑法》第286条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9848736658886053,
+    "s_other": 0.9130167646075056,
+    "best_other_id": "《刑法》第285条"
+  },
+  {
+    "item_id": "《刑法》第286条之一",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9752010542500491,
+    "s_other": 0.9268794631018743,
+    "best_other_id": "《刑法》第287条之二"
+  },
+  {
+    "item_id": "《刑法》第287条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.7687348047983079,
+    "s_other": 0.8759452231110354,
+    "best_other_id": "《刑法》第285条"
+  },
+  {
+    "item_id": "《刑法》第287条之一",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9763143262024391,
+    "s_other": 0.9116451216114838,
+    "best_other_id": "《刑法》第253条之一"
+  },
+  {
+    "item_id": "《刑法》第287条之二",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 1.0,
+    "s_other": 0.9408660075699278,
+    "best_other_id": "《刑法》第286条之一"
+  },
+  {
+    "item_id": "《刑法》第288条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.8751469175804867,
+    "s_other": 0.9718409540407967,
+    "best_other_id": "《刑法》第180条"
+  },
+  {
+    "item_id": "《刑法》第289条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9822587250934582,
+    "s_other": 0.8243327085886446,
+    "best_other_id": "《刑法》第238条"
+  },
+  {
+    "item_id": "《刑法》第28条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.5573646932350941,
+    "s_other": 0.9611924388622133,
+    "best_other_id": "《刑法》第26条"
+  },
+  {
+    "item_id": "《刑法》第290条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9655954910040678,
+    "s_other": 0.9389505903325714,
+    "best_other_id": "《刑法》第371条"
+  },
+  {
+    "item_id": "《刑法》第291条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.7435797765560126,
+    "s_other": 0.9541306945370586,
+    "best_other_id": "《刑法》第291条之一"
+  },
+  {
+    "item_id": "《刑法》第291条之一",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9584679560605905,
+    "s_other": 0.8701802116027186,
+    "best_other_id": "《刑法》第114条"
+  },
+  {
+    "item_id": "《刑法》第291条之二",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.715058504593588,
+    "s_other": 0.9434654791115624,
+    "best_other_id": "《刑法》第290条"
+  },
+  {
+    "item_id": "《刑法》第292条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 1.0000000000000002,
+    "s_other": 0.8870110361449364,
+    "best_other_id": "《刑法》第315条"
+  },
+  {
+    "item_id": "《刑法》第293条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9894570637721928,
+    "s_other": 0.8865134263848935,
+    "best_other_id": "《刑法》第290条"
+  },
+  {
+    "item_id": "《刑法》第293条之一",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.745004252654887,
+    "s_other": 0.8661207578702756,
+    "best_other_id": "《刑法》第291条之一"
+  },
+  {
+    "item_id": "《刑法》第294条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9925183020994568,
+    "s_other": 0.9014325220816677,
+    "best_other_id": "《刑法》第290条"
+  },
+  {
+    "item_id": "《刑法》第295条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9675757001503595,
+    "s_other": 0.8783694015029985,
+    "best_other_id": "《刑法》第426条"
+  },
+  {
+    "item_id": "《刑法》第296条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.8077851912114968,
+    "s_other": 0.9655954910040678,
+    "best_other_id": "《刑法》第290条"
+  },
+  {
+    "item_id": "《刑法》第297条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.7486163422585533,
+    "s_other": 0.9233808448436674,
+    "best_other_id": "《刑法》第369条"
+  },
+  {
+    "item_id": "《刑法》第298条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.865269922780308,
+    "s_other": 0.9655954910040678,
+    "best_other_id": "《刑法》第290条"
+  },
+  {
+    "item_id": "《刑法》第299条",
+    "class": "Err.",
+    "empty_output": false,
+    "s_target": 0.5305805519387784,
+    "s_other": 0.790028531887516,
+    "best_other_id": "《刑法》第101条"
+  },
+  {
+    "item_id": "《刑法》第299条之一",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.6549503982921577,
+    "s_other": 0.9028249353444446,
+    "best_other_id": "《刑法》第291条之一"
+  },
+  {
+    "item_id": "《刑法》第29条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9842651586437887,
+    "s_other": 0.8138159690916835,
+    "best_other_id": "《刑法》第17条"
+  },
+  {
+    "item_id": "《刑法》第2条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9999999999999998,
+    "s_other": 0.8784592779844336,
+    "best_other_id": "《刑法》第13条"
+  },
+  {
+    "item_id": "《刑法》第300条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9284901201629033,
+    "s_other": 0.8807202169425293,
+    "best_other_id": "《刑法》第120条之四"
+  },
+  {
+    "item_id": "《刑法》第301条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.8747894981661302,
+    "s_other": 0.8282497965560415,
+    "best_other_id": "《刑法》第358条"
+  },
+  {
+    "item_id": "《刑法》第302条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.646812226363738,
+    "s_other": 0.9745632679735724,
+    "best_other_id": "《刑法》第133条"
+  },
+  {
+    "item_id": "《刑法》第303条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9418813459297265,
+    "s_other": 0.8429948788339088,
+    "best_other_id": "《刑法》第363条"
+  },
+  {
+    "item_id": "《刑法》第304条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.6761195627447915,
+    "s_other": 0.9972542921766407,
+    "best_other_id": "《刑法》第133条"
+  },
+  {
+    "item_id": "《刑法》第305条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9914867685134268,
+    "s_other": 0.8915765893436298,
+    "best_other_id": "《刑法》第306条"
+  },
+  {
+    "item_id": "《刑法》第306条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9519754859401985,
+    "s_other": 0.9053410442182254,
+    "best_other_id": "《刑法》第307条"
+  },
+  {
+    "item_id": "《刑法》第307条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 1.0,
+    "s_other": 0.881766773976588,
+    "best_other_id": "《刑法》第247条"
+  },
+  {
+    "item_id": "《刑法》第307条之一",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.8500093011832652,
+    "s_other": 1.0,
+    "best_other_id": "《刑法》第307条"
+  },
+  {
+    "item_id": "《刑法》第308条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.6514567676938616,
+    "s_other": 0.9227222332787659,
+    "best_other_id": "《刑法》第308条之一"
+  },
+  {
+    "item_id": "《刑法》第308条之一",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9858113478880537,
+    "s_other": 0.9276820046441838,
+    "best_other_id": "《刑法》第253条之一"
+  },
+  {
+    "item_id": "《刑法》第309条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9287716216511399,
+    "s_other": 0.9072521542992341,
+    "best_other_id": "《刑法》第290条"
+  },
+  {
+    "item_id": "《刑法》第30条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 1.0000000000000004,
+    "s_other": 0.7714124643674518,
+    "best_other_id": "《刑法》第168条"
+  },
+  {
+    "item_id": "《刑法》第310条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.94800011560485,
+    "s_other": 0.8449178301670615,
+    "best_other_id": "《刑法》第349条"
+  },
+  {
+    "item_id": "《刑法》第311条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.7394892267342441,
+    "s_other": 0.8813027734057785,
+    "best_other_id": "《刑法》第195条"
+  },
+  {
+    "item_id": "《刑法》第312条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.8912060460543301,
+    "s_other": 0.8676981427463154,
+    "best_other_id": "《刑法》第191条"
+  },
+  {
+    "item_id": "《刑法》第313条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.8633477612482783,
+    "s_other": 0.8331811387706708,
+    "best_other_id": "《刑法》第399条之一"
+  },
+  {
+    "item_id": "《刑法》第314条",
+    "class": "Err.",
+    "empty_output": false,
+    "s_target": 0.8231338328924664,
+    "s_other": 0.8489503901418995,
+    "best_other_id": "《刑法》第266条"
+  },
+  {
+    "item_id": "《刑法》第315条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.6915475296760256,
+    "s_other": 0.9353849210736424,
+    "best_other_id": "《刑法》第65条"
+  },
+  {
+    "item_id": "《刑法》第316条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.879831681832304,
+    "s_other": 0.8925731236944977,
+    "best_other_id": "《刑法》第400条"
+  },
+  {
+    "item_id": "《刑法》第317条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.7486706902828645,
+    "s_other": 0.96926884728908,
+    "best_other_id": "《刑法》第277条"
+  },
+  {
+    "item_id": "《刑法》第318条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 1.0000000000000002,
+    "s_other": 0.9188233351446451,
+    "best_other_id": "《刑法》第321条"
+  },
+  {
+    "item_id": "《刑法》第319条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.8748904834722204,
+    "s_other": 0.9865423678173038,
+    "best_other_id": "《刑法》第152条"
+  },
+  {
+    "item_id": "《刑法》第31条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9999999999999999,
+    "s_other": 0.9043375307185278,
+    "best_other_id": "《刑法》第150条"
+  },
+  {
+    "item_id": "《刑法》第320条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.685960553141586,
+    "s_other": 0.9999999999999998,
+    "best_other_id": "《刑法》第332条"
+  },
+  {
+    "item_id": "《刑法》第321条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.98296137006803,
+    "s_other": 0.9221139702559404,
+    "best_other_id": "《刑法》第318条"
+  },
+  {
+    "item_id": "《刑法》第322条",
+    "class": "Err.",
+    "empty_output": false,
+    "s_target": 0.8444297208350308,
+    "s_other": 0.8042171485327513,
+    "best_other_id": "《刑法》第344条之一"
+  },
+  {
+    "item_id": "《刑法》第323条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.7394509299419123,
+    "s_other": 0.9284476004821824,
+    "best_other_id": "《刑法》第119条"
+  },
+  {
+    "item_id": "《刑法》第324条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9618688602428966,
+    "s_other": 0.8869024662020031,
+    "best_other_id": "《刑法》第328条"
+  },
+  {
+    "item_id": "《刑法》第325条",
+    "class": "Err.",
+    "empty_output": false,
+    "s_target": 0.6819453220384573,
+    "s_other": 0.8251432839643172,
+    "best_other_id": "《刑法》第210条"
+  },
+  {
+    "item_id": "《刑法》第326条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.6537511448844382,
+    "s_other": 0.9816184180470209,
+    "best_other_id": "《刑法》第52条"
+  },
+  {
+    "item_id": "《刑法》第327条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.7941823458886094,
+    "s_other": 0.9046503211773353,
+    "best_other_id": "《刑法》第390条之一"
+  },
+  {
+    "item_id": "《刑法》第328条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9914588065782255,
+    "s_other": 0.8886330407108154,
+    "best_other_id": "《刑法》第324条"
+  },
+  {
+    "item_id": "《刑法》第329条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.8832027116106149,
+    "s_other": 0.8855257397260907,
+    "best_other_id": "《刑法》第324条"
+  },
+  {
+    "item_id": "《刑法》第32条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 1.0,
+    "s_other": 0.7548483073136134,
+    "best_other_id": "《刑法》第34条"
+  },
+  {
+    "item_id": "《刑法》第330条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.7911314371477276,
+    "s_other": 0.9300506258458263,
+    "best_other_id": "《刑法》第318条"
+  },
+  {
+    "item_id": "《刑法》第331条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9395342756196047,
+    "s_other": 0.8867045235773938,
+    "best_other_id": "《刑法》第330条"
+  },
+  {
+    "item_id": "《刑法》第332条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9999999999999998,
+    "s_other": 0.9695734858075995,
+    "best_other_id": "《刑法》第337条"
+  },
+  {
+    "item_id": "《刑法》第333条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9227863649741699,
+    "s_other": 0.9184041042077038,
+    "best_other_id": "《刑法》第334条"
+  },
+  {
+    "item_id": "《刑法》第334条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.7931307959736654,
+    "s_other": 0.9999999999999999,
+    "best_other_id": "《刑法》第234条"
+  },
+  {
+    "item_id": "《刑法》第334条之一",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9898866653391086,
+    "s_other": 0.8904512797617332,
+    "best_other_id": "《刑法》第344条"
+  },
+  {
+    "item_id": "《刑法》第335条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.870913424385921,
+    "s_other": 0.9874986665977246,
+    "best_other_id": "《刑法》第336条"
+  },
+  {
+    "item_id": "《刑法》第336条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9891475388127623,
+    "s_other": 0.8708853225861591,
+    "best_other_id": "《刑法》第335条"
+  },
+  {
+    "item_id": "《刑法》第336条之一",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.861173035553289,
+    "s_other": 0.8351495648201617,
+    "best_other_id": "《刑法》第285条"
+  },
+  {
+    "item_id": "《刑法》第337条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.8186292186043843,
+    "s_other": 0.9454659387806852,
+    "best_other_id": "《刑法》第436条"
+  },
+  {
+    "item_id": "《刑法》第338条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9119461231737798,
+    "s_other": 0.8997363054383309,
+    "best_other_id": "《刑法》第136条"
+  },
+  {
+    "item_id": "《刑法》第339条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9027967146580975,
+    "s_other": 0.9971741222063009,
+    "best_other_id": "《刑法》第338条"
+  },
+  {
+    "item_id": "《刑法》第33条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.5967765862869606,
+    "s_other": 0.8508951724680139,
+    "best_other_id": "《刑法》第3条"
+  },
+  {
+    "item_id": "《刑法》第340条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.971871865880018,
+    "s_other": 0.8039619518372696,
+    "best_other_id": "《刑法》第341条"
+  },
+  {
+    "item_id": "《刑法》第341条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9717032144997687,
+    "s_other": 0.8669519105936685,
+    "best_other_id": "《刑法》第344条"
+  },
+  {
+    "item_id": "《刑法》第342条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9614502592871622,
+    "s_other": 0.8200707937592243,
+    "best_other_id": "《刑法》第410条"
+  },
+  {
+    "item_id": "《刑法》第342条之一",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.7401825922326524,
+    "s_other": 0.9583541437807634,
+    "best_other_id": "《刑法》第344条之一"
+  },
+  {
+    "item_id": "《刑法》第343条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.8602522609174342,
+    "s_other": 0.9140809087000479,
+    "best_other_id": "《刑法》第344条"
+  },
+  {
+    "item_id": "《刑法》第344条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.8718350560727293,
+    "s_other": 0.8720144023866088,
+    "best_other_id": "《刑法》第345条"
+  },
+  {
+    "item_id": "《刑法》第344条之一",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9999999999999998,
+    "s_other": 0.8571602932981718,
+    "best_other_id": "《刑法》第334条之一"
+  },
+  {
+    "item_id": "《刑法》第345条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9729916989883292,
+    "s_other": 0.9016379582523801,
+    "best_other_id": "《刑法》第344条"
+  },
+  {
+    "item_id": "《刑法》第346条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 1.0,
+    "s_other": 0.9672187484393006,
+    "best_other_id": "《刑法》第366条"
+  },
+  {
+    "item_id": "《刑法》第347条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 1.0,
+    "s_other": 0.9137528261166017,
+    "best_other_id": "《刑法》第355条"
+  },
+  {
+    "item_id": "《刑法》第348条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9750508364405139,
+    "s_other": 0.917902354475464,
+    "best_other_id": "《刑法》第347条"
+  },
+  {
+    "item_id": "《刑法》第349条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9847103547586666,
+    "s_other": 0.8948644203139271,
+    "best_other_id": "《刑法》第347条"
+  },
+  {
+    "item_id": "《刑法》第34条",
+    "class": "Err.",
+    "empty_output": false,
+    "s_target": 0.4281260538752442,
+    "s_other": 0.6914643002669107,
+    "best_other_id": "《刑法》第306条"
+  },
+  {
+    "item_id": "《刑法》第350条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.8526645924770229,
+    "s_other": 0.9781921551723799,
+    "best_other_id": "《刑法》第351条"
+  },
+  {
+    "item_id": "《刑法》第351条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 1.0,
+    "s_other": 0.8767857053940231,
+    "best_other_id": "《刑法》第352条"
+  },
+  {
+    "item_id": "《刑法》第352条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9565097968681536,
+    "s_other": 0.8790173221787583,
+    "best_other_id": "《刑法》第351条"
+  },
+  {
+    "item_id": "《刑法》第353条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.981303100081566,
+    "s_other": 0.8637391211894855,
+    "best_other_id": "《刑法》第262条之二"
+  },
+  {
+    "item_id": "《刑法》第354条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 1.0000000000000002,
+    "s_other": 0.835749832426957,
+    "best_other_id": "《刑法》第353条"
+  },
+  {
+    "item_id": "《刑法》第355条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9022838683034342,
+    "s_other": 0.9299084587748833,
+    "best_other_id": "《刑法》第283条"
+  },
+  {
+    "item_id": "《刑法》第355条之一",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.7220584498234578,
+    "s_other": 0.9660932677817036,
+    "best_other_id": "《刑法》第350条"
+  },
+  {
+    "item_id": "《刑法》第356条",
+    "class": "Err.",
+    "empty_output": false,
+    "s_target": 0.7103165822343549,
+    "s_other": 0.793859330740831,
+    "best_other_id": "《刑法》第307条之一"
+  },
+  {
+    "item_id": "《刑法》第357条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9368847799562078,
+    "s_other": 0.8169482424512001,
+    "best_other_id": "《刑法》第355条"
+  },
+  {
+    "item_id": "《刑法》第358条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9605052018345848,
+    "s_other": 0.8789042704658008,
+    "best_other_id": "《刑法》第359条"
+  },
+  {
+    "item_id": "《刑法》第359条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9608221414354545,
+    "s_other": 0.8242094752548121,
+    "best_other_id": "《刑法》第353条"
+  },
+  {
+    "item_id": "《刑法》第35条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 1.0000000000000002,
+    "s_other": 0.7459133937670953,
+    "best_other_id": "《刑法》第10条"
+  },
+  {
+    "item_id": "《刑法》第360条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.701153168611212,
+    "s_other": 0.9790898599958486,
+    "best_other_id": "《刑法》第364条"
+  },
+  {
+    "item_id": "《刑法》第361条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.7094873612135824,
+    "s_other": 0.9333644741142177,
+    "best_other_id": "《刑法》第236条之一"
+  },
+  {
+    "item_id": "《刑法》第362条",
+    "class": "Err.",
+    "empty_output": false,
+    "s_target": 0.6789661424035548,
+    "s_other": 0.8442998417997528,
+    "best_other_id": "《刑法》第379条"
+  },
+  {
+    "item_id": "《刑法》第363条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9332334596614529,
+    "s_other": 0.9461868392979319,
+    "best_other_id": "《刑法》第364条"
+  },
+  {
+    "item_id": "《刑法》第364条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.977861733666777,
+    "s_other": 0.9178021200685822,
+    "best_other_id": "《刑法》第363条"
+  },
+  {
+    "item_id": "《刑法》第365条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.7977142516552672,
+    "s_other": 0.8889173546567906,
+    "best_other_id": "《刑法》第364条"
+  },
+  {
+    "item_id": "《刑法》第366条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.980198188152689,
+    "s_other": 0.9537438635550567,
+    "best_other_id": "《刑法》第346条"
+  },
+  {
+    "item_id": "《刑法》第367条",
+    "class": "Err.",
+    "empty_output": false,
+    "s_target": 0.789295648626877,
+    "s_other": 0.8285547320091036,
+    "best_other_id": "《刑法》第357条"
+  },
+  {
+    "item_id": "《刑法》第368条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.7741795619886517,
+    "s_other": 0.8931665719117594,
+    "best_other_id": "《刑法》第401条"
+  },
+  {
+    "item_id": "《刑法》第369条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.8667542836252937,
+    "s_other": 0.9066230721780739,
+    "best_other_id": "《刑法》第280条"
+  },
+  {
+    "item_id": "《刑法》第36条",
+    "class": "Err.",
+    "empty_output": false,
+    "s_target": 0.7303914205946394,
+    "s_other": 0.7720755785312097,
+    "best_other_id": "《刑法》第246条"
+  },
+  {
+    "item_id": "《刑法》第370条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.7649959003582645,
+    "s_other": 0.864544002669428,
+    "best_other_id": "《刑法》第245条"
+  },
+  {
+    "item_id": "《刑法》第371条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.8201280144149619,
+    "s_other": 0.8790686240588509,
+    "best_other_id": "《刑法》第245条"
+  },
+  {
+    "item_id": "《刑法》第372条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.8258204602785848,
+    "s_other": 0.9569667088836006,
+    "best_other_id": "《刑法》第280条"
+  },
+  {
+    "item_id": "《刑法》第373条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.5806875153677724,
+    "s_other": 0.9695010710642283,
+    "best_other_id": "《刑法》第346条"
+  },
+  {
+    "item_id": "《刑法》第374条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.8258616201590816,
+    "s_other": 0.9272411992571984,
+    "best_other_id": "《刑法》第398条"
+  },
+  {
+    "item_id": "《刑法》第375条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9031500810681956,
+    "s_other": 0.9419429728016993,
+    "best_other_id": "《刑法》第281条"
+  },
+  {
+    "item_id": "《刑法》第376条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.8626804971594249,
+    "s_other": 0.8215693597569617,
+    "best_other_id": "《刑法》第381条"
+  },
+  {
+    "item_id": "《刑法》第377条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.8695452128856681,
+    "s_other": 0.9172097219829903,
+    "best_other_id": "《刑法》第432条"
+  },
+  {
+    "item_id": "《刑法》第378条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.8147491208577322,
+    "s_other": 0.893471630028166,
+    "best_other_id": "《刑法》第108条"
+  },
+  {
+    "item_id": "《刑法》第379条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.671996335143933,
+    "s_other": 0.9337540119488772,
+    "best_other_id": "《刑法》第432条"
+  },
+  {
+    "item_id": "《刑法》第37条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 1.0000000000000002,
+    "s_other": 0.819865429182989,
+    "best_other_id": "《刑法》第63条"
+  },
+  {
+    "item_id": "《刑法》第37条之一",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9925037726372348,
+    "s_other": 0.8741419149509259,
+    "best_other_id": "《刑法》第38条"
+  },
+  {
+    "item_id": "《刑法》第380条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.580727641892056,
+    "s_other": 0.9661661966011786,
+    "best_other_id": "《刑法》第388条"
+  },
+  {
+    "item_id": "《刑法》第381条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.7071581241672256,
+    "s_other": 0.9266127729347259,
+    "best_other_id": "《刑法》第375条"
+  },
+  {
+    "item_id": "《刑法》第382条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9678554977547612,
+    "s_other": 0.844731386242003,
+    "best_other_id": "《刑法》第385条"
+  },
+  {
+    "item_id": "《刑法》第383条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9931794908799526,
+    "s_other": 0.9257608162540139,
+    "best_other_id": "《刑法》第390条"
+  },
+  {
+    "item_id": "《刑法》第384条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9826871317537412,
+    "s_other": 0.9148021453842726,
+    "best_other_id": "《刑法》第272条"
+  },
+  {
+    "item_id": "《刑法》第385条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9979332577294555,
+    "s_other": 0.9044111626589577,
+    "best_other_id": "《刑法》第388条"
+  },
+  {
+    "item_id": "《刑法》第386条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 1.0000000000000002,
+    "s_other": 0.8264262661143401,
+    "best_other_id": "《刑法》第393条"
+  },
+  {
+    "item_id": "《刑法》第387条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9401070940713618,
+    "s_other": 0.9479308695724373,
+    "best_other_id": "《刑法》第393条"
+  },
+  {
+    "item_id": "《刑法》第388条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.7964545091501363,
+    "s_other": 0.9999999999999996,
+    "best_other_id": "《刑法》第389条"
+  },
+  {
+    "item_id": "《刑法》第388条之一",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9817131314720903,
+    "s_other": 0.9232782536938355,
+    "best_other_id": "《刑法》第163条"
+  },
+  {
+    "item_id": "《刑法》第389条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9932234553232551,
+    "s_other": 0.8733527427038782,
+    "best_other_id": "《刑法》第184条"
+  },
+  {
+    "item_id": "《刑法》第38条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9841950141537601,
+    "s_other": 0.8655733752321919,
+    "best_other_id": "《刑法》第37条之一"
+  },
+  {
+    "item_id": "《刑法》第390条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9857512043875043,
+    "s_other": 0.9222769362566112,
+    "best_other_id": "《刑法》第383条"
+  },
+  {
+    "item_id": "《刑法》第390条之一",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.8724923864484043,
+    "s_other": 0.8748102125232524,
+    "best_other_id": "《刑法》第388条之一"
+  },
+  {
+    "item_id": "《刑法》第391条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.6904777407207395,
+    "s_other": 1.0,
+    "best_other_id": "《刑法》第111条"
+  },
+  {
+    "item_id": "《刑法》第392条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9309852197710613,
+    "s_other": 0.815011594800552,
+    "best_other_id": "《刑法》第164条"
+  },
+  {
+    "item_id": "《刑法》第393条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9756079637940551,
+    "s_other": 0.9438205308293215,
+    "best_other_id": "《刑法》第391条"
+  },
+  {
+    "item_id": "《刑法》第394条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.7614913099395126,
+    "s_other": 0.8992735665871989,
+    "best_other_id": "《刑法》第395条"
+  },
+  {
+    "item_id": "《刑法》第395条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9625587150386973,
+    "s_other": 0.8686351446742739,
+    "best_other_id": "《刑法》第396条"
+  },
+  {
+    "item_id": "《刑法》第396条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9859504352639443,
+    "s_other": 0.9257931478995249,
+    "best_other_id": "《刑法》第271条"
+  },
+  {
+    "item_id": "《刑法》第397条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 1.0000000000000002,
+    "s_other": 0.9043207734972675,
+    "best_other_id": "《刑法》第402条"
+  },
+  {
+    "item_id": "《刑法》第398条",
+    "class": "Err.",
+    "empty_output": false,
+    "s_target": 0.791307828214088,
+    "s_other": 0.7428763934698985,
+    "best_other_id": "《刑法》第308条之一"
+  },
+  {
+    "item_id": "《刑法》第399条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9914025294554949,
+    "s_other": 0.9312138570599888,
+    "best_other_id": "《刑法》第400条"
+  },
+  {
+    "item_id": "《刑法》第399条之一",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.7819131957503634,
+    "s_other": 0.9810658448039377,
+    "best_other_id": "《刑法》第308条之一"
+  },
+  {
+    "item_id": "《刑法》第39条",
+    "class": "Err.",
+    "empty_output": false,
+    "s_target": 0.7590266566783599,
+    "s_other": 0.8079333938167279,
+    "best_other_id": "《刑法》第58条"
+  },
+  {
+    "item_id": "《刑法》第3条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9999999999999998,
+    "s_other": 0.825275044656733,
+    "best_other_id": "《刑法》第61条"
+  },
+  {
+    "item_id": "《刑法》第400条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.7293625422035738,
+    "s_other": 0.9317882139244442,
+    "best_other_id": "《刑法》第410条"
+  },
+  {
+    "item_id": "《刑法》第401条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.8047217159100627,
+    "s_other": 0.9550818778854568,
+    "best_other_id": "《刑法》第411条"
+  },
+  {
+    "item_id": "《刑法》第402条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.889700667473861,
+    "s_other": 0.9789195110641211,
+    "best_other_id": "《刑法》第401条"
+  },
+  {
+    "item_id": "《刑法》第403条",
+    "class": "Err.",
+    "empty_output": false,
+    "s_target": 0.7945483126365365,
+    "s_other": 0.8444817832473797,
+    "best_other_id": "《刑法》第400条"
+  },
+  {
+    "item_id": "《刑法》第404条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.7298560818179716,
+    "s_other": 0.8683499983622105,
+    "best_other_id": "《刑法》第427条"
+  },
+  {
+    "item_id": "《刑法》第405条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.7149803310667243,
+    "s_other": 0.9125764684327378,
+    "best_other_id": "《刑法》第411条"
+  },
+  {
+    "item_id": "《刑法》第406条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9802914663397101,
+    "s_other": 0.9531033238718938,
+    "best_other_id": "《刑法》第167条"
+  },
+  {
+    "item_id": "《刑法》第407条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.7626528100945443,
+    "s_other": 0.9855041346003384,
+    "best_other_id": "《刑法》第410条"
+  },
+  {
+    "item_id": "《刑法》第408条",
+    "class": "Err.",
+    "empty_output": false,
+    "s_target": 0.7875484593966375,
+    "s_other": 0.8269007676535635,
+    "best_other_id": "《刑法》第383条"
+  },
+  {
+    "item_id": "《刑法》第408条之一",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.7955087016581178,
+    "s_other": 0.9755107389884186,
+    "best_other_id": "《刑法》第408条"
+  },
+  {
+    "item_id": "《刑法》第409条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.7280423237027656,
+    "s_other": 0.955321243625938,
+    "best_other_id": "《刑法》第407条"
+  },
+  {
+    "item_id": "《刑法》第40条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.7616315726317779,
+    "s_other": 0.9580114440653202,
+    "best_other_id": "《刑法》第38条"
+  },
+  {
+    "item_id": "《刑法》第410条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.8681626021600896,
+    "s_other": 0.8813604015702305,
+    "best_other_id": "《刑法》第342条"
+  },
+  {
+    "item_id": "《刑法》第411条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.7633714251438068,
+    "s_other": 0.8587996228221644,
+    "best_other_id": "《刑法》第322条"
+  },
+  {
+    "item_id": "《刑法》第412条",
+    "class": "Err.",
+    "empty_output": false,
+    "s_target": 0.7251957871203226,
+    "s_other": 0.810922946717247,
+    "best_other_id": "《刑法》第157条"
+  },
+  {
+    "item_id": "《刑法》第413条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.7630874722729784,
+    "s_other": 0.8747472607517421,
+    "best_other_id": "《刑法》第411条"
+  },
+  {
+    "item_id": "《刑法》第414条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.7268064017810232,
+    "s_other": 0.955508967333069,
+    "best_other_id": "《刑法》第331条"
+  },
+  {
+    "item_id": "《刑法》第415条",
+    "class": "Err.",
+    "empty_output": false,
+    "s_target": 0.6992042190878426,
+    "s_other": 0.8158381310478902,
+    "best_other_id": "《刑法》第400条"
+  },
+  {
+    "item_id": "《刑法》第416条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.6691834154779797,
+    "s_other": 0.8916434447623777,
+    "best_other_id": "《刑法》第376条"
+  },
+  {
+    "item_id": "《刑法》第417条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.7911934319987246,
+    "s_other": 0.9529756164936358,
+    "best_other_id": "《刑法》第204条"
+  },
+  {
+    "item_id": "《刑法》第418条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.6243158184289944,
+    "s_other": 0.9452301899074622,
+    "best_other_id": "《刑法》第380条"
+  },
+  {
+    "item_id": "《刑法》第419条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.7830952440559001,
+    "s_other": 0.8633798188449803,
+    "best_other_id": "《刑法》第370条"
+  },
+  {
+    "item_id": "《刑法》第41条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.6897631797656322,
+    "s_other": 0.9137385962672686,
+    "best_other_id": "《刑法》第53条"
+  },
+  {
+    "item_id": "《刑法》第420条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.6084288869296093,
+    "s_other": 0.9160646707234918,
+    "best_other_id": "《刑法》第398条"
+  },
+  {
+    "item_id": "《刑法》第421条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.7581597213076932,
+    "s_other": 0.9085599644893866,
+    "best_other_id": "《刑法》第288条"
+  },
+  {
+    "item_id": "《刑法》第422条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.6806203590111883,
+    "s_other": 0.9571778717643399,
+    "best_other_id": "《刑法》第404条"
+  },
+  {
+    "item_id": "《刑法》第423条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.7564621114235028,
+    "s_other": 0.8824458274481237,
+    "best_other_id": "《刑法》第375条"
+  },
+  {
+    "item_id": "《刑法》第424条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.5967819114155621,
+    "s_other": 0.8857940830236354,
+    "best_other_id": "《刑法》第301条"
+  },
+  {
+    "item_id": "《刑法》第425条",
+    "class": "Err.",
+    "empty_output": false,
+    "s_target": 0.6440354656458606,
+    "s_other": 0.7947335595530154,
+    "best_other_id": "《刑法》第120条之五"
+  },
+  {
+    "item_id": "《刑法》第426条",
+    "class": "Err.",
+    "empty_output": false,
+    "s_target": 0.7778231598404198,
+    "s_other": 0.846729197015805,
+    "best_other_id": "《刑法》第370条"
+  },
+  {
+    "item_id": "《刑法》第427条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.7743972930028732,
+    "s_other": 0.9590034706827935,
+    "best_other_id": "《刑法》第401条"
+  },
+  {
+    "item_id": "《刑法》第428条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.8114065494152305,
+    "s_other": 0.894440111030105,
+    "best_other_id": "《刑法》第377条"
+  },
+  {
+    "item_id": "《刑法》第429条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.7023190920085348,
+    "s_other": 0.9664435545786902,
+    "best_other_id": "《刑法》第377条"
+  },
+  {
+    "item_id": "《刑法》第42条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 1.0000000000000002,
+    "s_other": 0.8317822207923332,
+    "best_other_id": "《刑法》第45条"
+  },
+  {
+    "item_id": "《刑法》第430条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.7523090044010964,
+    "s_other": 0.886127493029222,
+    "best_other_id": "《刑法》第424条"
+  },
+  {
+    "item_id": "《刑法》第431条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.8007840778160401,
+    "s_other": 0.9574407539940653,
+    "best_other_id": "《刑法》第371条"
+  },
+  {
+    "item_id": "《刑法》第432条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9235526782160066,
+    "s_other": 0.9181882583501206,
+    "best_other_id": "《刑法》第398条"
+  },
+  {
+    "item_id": "《刑法》第433条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.8409419008319354,
+    "s_other": 0.9776862680530016,
+    "best_other_id": "《刑法》第112条"
+  },
+  {
+    "item_id": "《刑法》第434条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.7857235697612771,
+    "s_other": 0.917684640354672,
+    "best_other_id": "《刑法》第432条"
+  },
+  {
+    "item_id": "《刑法》第435条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.7458614801133024,
+    "s_other": 0.9137276032271533,
+    "best_other_id": "《刑法》第398条"
+  },
+  {
+    "item_id": "《刑法》第436条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.8670640433138221,
+    "s_other": 0.9469683851227078,
+    "best_other_id": "《刑法》第421条"
+  },
+  {
+    "item_id": "《刑法》第437条",
+    "class": "Err.",
+    "empty_output": false,
+    "s_target": 0.7541425174142624,
+    "s_other": 0.8000550536325125,
+    "best_other_id": "《刑法》第158条"
+  },
+  {
+    "item_id": "《刑法》第438条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.7782137631757082,
+    "s_other": 0.9218399306301206,
+    "best_other_id": "《刑法》第109条"
+  },
+  {
+    "item_id": "《刑法》第439条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.8589843174135381,
+    "s_other": 0.9295337497375076,
+    "best_other_id": "《刑法》第280条"
+  },
+  {
+    "item_id": "《刑法》第43条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.6458469323280248,
+    "s_other": 0.9681231322065762,
+    "best_other_id": "《刑法》第41条"
+  },
+  {
+    "item_id": "《刑法》第440条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.7007755135388922,
+    "s_other": 0.8515026983335167,
+    "best_other_id": "《刑法》第120条之二"
+  },
+  {
+    "item_id": "《刑法》第441条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.6279122603221224,
+    "s_other": 0.875598813964729,
+    "best_other_id": "《刑法》第261条"
+  },
+  {
+    "item_id": "《刑法》第442条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.4864246787354037,
+    "s_other": 0.9524237725525482,
+    "best_other_id": "《刑法》第12条"
+  },
+  {
+    "item_id": "《刑法》第443条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.865132624120545,
+    "s_other": 0.9665212668799463,
+    "best_other_id": "《刑法》第248条"
+  },
+  {
+    "item_id": "《刑法》第444条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.6430553025833919,
+    "s_other": 0.9201430737037398,
+    "best_other_id": "《刑法》第398条"
+  },
+  {
+    "item_id": "《刑法》第445条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.7970428401738251,
+    "s_other": 0.8943925960277636,
+    "best_other_id": "《刑法》第434条"
+  },
+  {
+    "item_id": "《刑法》第446条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.8049732398539317,
+    "s_other": 1.0000000000000002,
+    "best_other_id": "《刑法》第421条"
+  },
+  {
+    "item_id": "《刑法》第447条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.64375872597379,
+    "s_other": 0.8902136747887653,
+    "best_other_id": "《刑法》第356条"
+  },
+  {
+    "item_id": "《刑法》第448条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.6582115903644383,
+    "s_other": 1.0,
+    "best_other_id": "《刑法》第232条"
+  },
+  {
+    "item_id": "《刑法》第449条",
+    "class": "Err.",
+    "empty_output": false,
+    "s_target": 0.5701355589541152,
+    "s_other": 0.7787924477518549,
+    "best_other_id": "《刑法》第89条"
+  },
+  {
+    "item_id": "《刑法》第44条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.5881048982805119,
+    "s_other": 0.9581055919684792,
+    "best_other_id": "《刑法》第24条"
+  },
+  {
+    "item_id": "《刑法》第450条",
+    "class": "Err.",
+    "empty_output": false,
+    "s_target": 0.46645169285182086,
+    "s_other": 0.7592416511005042,
+    "best_other_id": "《刑法》第11条"
+  },
+  {
+    "item_id": "《刑法》第451条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.61010340606405,
+    "s_other": 0.9649354611014309,
+    "best_other_id": "《刑法》第96条"
+  },
+  {
+    "item_id": "《刑法》第452条",
+    "class": "Err.",
+    "empty_output": false,
+    "s_target": 0.6270127656995899,
+    "s_other": 0.6984743083659835,
+    "best_other_id": "《刑法》第7条"
+  },
+  {
+    "item_id": "《刑法》第45条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9560075805076533,
+    "s_other": 0.781631502917995,
+    "best_other_id": "《刑法》第55条"
+  },
+  {
+    "item_id": "《刑法》第46条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.6436622542892761,
+    "s_other": 0.9353849210736424,
+    "best_other_id": "《刑法》第65条"
+  },
+  {
+    "item_id": "《刑法》第47条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 1.0000000000000002,
+    "s_other": 0.9771383237354555,
+    "best_other_id": "《刑法》第44条"
+  },
+  {
+    "item_id": "《刑法》第48条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9901166958288937,
+    "s_other": 0.9047018057136426,
+    "best_other_id": "《刑法》第50条"
+  },
+  {
+    "item_id": "《刑法》第49条",
+    "class": "Err.",
+    "empty_output": false,
+    "s_target": 0.5646159123157665,
+    "s_other": 0.8073556226388783,
+    "best_other_id": "《刑法》第300条"
+  },
+  {
+    "item_id": "《刑法》第4条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.965664469872527,
+    "s_other": 0.6897260787242263,
+    "best_other_id": "《刑法》第13条"
+  },
+  {
+    "item_id": "《刑法》第50条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9896203044437666,
+    "s_other": 0.9188407217808499,
+    "best_other_id": "《刑法》第78条"
+  },
+  {
+    "item_id": "《刑法》第51条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.684000867892603,
+    "s_other": 0.9836178138198852,
+    "best_other_id": "《刑法》第63条"
+  },
+  {
+    "item_id": "《刑法》第52条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9258408059031423,
+    "s_other": 0.7832683376161811,
+    "best_other_id": "《刑法》第61条"
+  },
+  {
+    "item_id": "《刑法》第53条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9751690072411225,
+    "s_other": 0.817263236738525,
+    "best_other_id": "《刑法》第201条"
+  },
+  {
+    "item_id": "《刑法》第54条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9498193042644829,
+    "s_other": 0.7442666974787189,
+    "best_other_id": "《刑法》第58条"
+  },
+  {
+    "item_id": "《刑法》第55条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.888604731267312,
+    "s_other": 0.8949374452268077,
+    "best_other_id": "《刑法》第56条"
+  },
+  {
+    "item_id": "《刑法》第56条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9414146464145055,
+    "s_other": 0.7637947912930009,
+    "best_other_id": "《刑法》第58条"
+  },
+  {
+    "item_id": "《刑法》第57条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9548167689765704,
+    "s_other": 0.8524141198265647,
+    "best_other_id": "《刑法》第50条"
+  },
+  {
+    "item_id": "《刑法》第58条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.8581593973603314,
+    "s_other": 0.9529976308666832,
+    "best_other_id": "《刑法》第50条"
+  },
+  {
+    "item_id": "《刑法》第59条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9583209628563218,
+    "s_other": 0.8106031470006683,
+    "best_other_id": "《刑法》第64条"
+  },
+  {
+    "item_id": "《刑法》第5条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9999999999999998,
+    "s_other": 0.8570859274251362,
+    "best_other_id": "《刑法》第61条"
+  },
+  {
+    "item_id": "《刑法》第60条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9057318413491531,
+    "s_other": 0.8313379740164857,
+    "best_other_id": "《刑法》第64条"
+  },
+  {
+    "item_id": "《刑法》第61条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 1.0,
+    "s_other": 0.8570859274251362,
+    "best_other_id": "《刑法》第5条"
+  },
+  {
+    "item_id": "《刑法》第62条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9516332910489049,
+    "s_other": 0.8464240529375416,
+    "best_other_id": "《刑法》第63条"
+  },
+  {
+    "item_id": "《刑法》第63条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9680402297058576,
+    "s_other": 0.8724960213069832,
+    "best_other_id": "《刑法》第78条"
+  },
+  {
+    "item_id": "《刑法》第64条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9999999999999994,
+    "s_other": 0.817446558047185,
+    "best_other_id": "《刑法》第59条"
+  },
+  {
+    "item_id": "《刑法》第65条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9916055202400467,
+    "s_other": 0.8734567801918308,
+    "best_other_id": "《刑法》第81条"
+  },
+  {
+    "item_id": "《刑法》第66条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.5929640104058483,
+    "s_other": 1.0,
+    "best_other_id": "《刑法》第93条"
+  },
+  {
+    "item_id": "《刑法》第67条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9901607012211295,
+    "s_other": 0.8489917918531039,
+    "best_other_id": "《刑法》第78条"
+  },
+  {
+    "item_id": "《刑法》第68条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 1.0,
+    "s_other": 0.8333445776636417,
+    "best_other_id": "《刑法》第67条"
+  },
+  {
+    "item_id": "《刑法》第69条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9640632307587514,
+    "s_other": 0.8679027489662107,
+    "best_other_id": "《刑法》第78条"
+  },
+  {
+    "item_id": "《刑法》第6条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9754209678268875,
+    "s_other": 0.7803857343299463,
+    "best_other_id": "《刑法》第9条"
+  },
+  {
+    "item_id": "《刑法》第70条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9468471634469269,
+    "s_other": 0.9045889371917367,
+    "best_other_id": "《刑法》第71条"
+  },
+  {
+    "item_id": "《刑法》第71条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9852328619760305,
+    "s_other": 0.9308370211102636,
+    "best_other_id": "《刑法》第70条"
+  },
+  {
+    "item_id": "《刑法》第72条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.902185038239893,
+    "s_other": 0.8529351069733178,
+    "best_other_id": "《刑法》第50条"
+  },
+  {
+    "item_id": "《刑法》第73条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9878268731563827,
+    "s_other": 0.8388955847038613,
+    "best_other_id": "《刑法》第51条"
+  },
+  {
+    "item_id": "《刑法》第74条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.6126777269782895,
+    "s_other": 0.9483873336883879,
+    "best_other_id": "《刑法》第45条"
+  },
+  {
+    "item_id": "《刑法》第75条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.6875498253321518,
+    "s_other": 0.9353849210736424,
+    "best_other_id": "《刑法》第65条"
+  },
+  {
+    "item_id": "《刑法》第76条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.8149997397527947,
+    "s_other": 0.9943051705584689,
+    "best_other_id": "《刑法》第78条"
+  },
+  {
+    "item_id": "《刑法》第77条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9999999999999998,
+    "s_other": 0.8913015456709266,
+    "best_other_id": "《刑法》第86条"
+  },
+  {
+    "item_id": "《刑法》第78条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.8576437030190132,
+    "s_other": 0.8687517702717082,
+    "best_other_id": "《刑法》第57条"
+  },
+  {
+    "item_id": "《刑法》第79条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.7407634172537779,
+    "s_other": 1.0,
+    "best_other_id": "《刑法》第61条"
+  },
+  {
+    "item_id": "《刑法》第7条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 1.0000000000000002,
+    "s_other": 0.8768855924925593,
+    "best_other_id": "《刑法》第8条"
+  },
+  {
+    "item_id": "《刑法》第80条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.5693482974907262,
+    "s_other": 0.9918500032515992,
+    "best_other_id": "《刑法》第100条"
+  },
+  {
+    "item_id": "《刑法》第81条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9927855686021713,
+    "s_other": 0.8831246261946869,
+    "best_other_id": "《刑法》第72条"
+  },
+  {
+    "item_id": "《刑法》第82条",
+    "class": "Err.",
+    "empty_output": false,
+    "s_target": 0.5590141132176658,
+    "s_other": 0.7508306704857919,
+    "best_other_id": "《刑法》第45条"
+  },
+  {
+    "item_id": "《刑法》第83条",
+    "class": "Err.",
+    "empty_output": false,
+    "s_target": 0.5604285653564036,
+    "s_other": 0.8094150654550254,
+    "best_other_id": "《刑法》第306条"
+  },
+  {
+    "item_id": "《刑法》第84条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.6832202895589569,
+    "s_other": 0.9775625725888097,
+    "best_other_id": "《刑法》第70条"
+  },
+  {
+    "item_id": "《刑法》第85条",
+    "class": "Err.",
+    "empty_output": false,
+    "s_target": 0.7068271442370662,
+    "s_other": 0.782018140258671,
+    "best_other_id": "《刑法》第58条"
+  },
+  {
+    "item_id": "《刑法》第86条",
+    "class": "Err.",
+    "empty_output": false,
+    "s_target": 0.6998718098496519,
+    "s_other": 0.7357560797404153,
+    "best_other_id": "《刑法》第311条"
+  },
+  {
+    "item_id": "《刑法》第87条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9741204204187197,
+    "s_other": 0.8431350079860279,
+    "best_other_id": "《刑法》第69条"
+  },
+  {
+    "item_id": "《刑法》第88条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9672610734141984,
+    "s_other": 0.7764473514905165,
+    "best_other_id": "《刑法》第87条"
+  },
+  {
+    "item_id": "《刑法》第89条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.7991302805128568,
+    "s_other": 0.8514891663477002,
+    "best_other_id": "《刑法》第88条"
+  },
+  {
+    "item_id": "《刑法》第8条",
+    "class": "Err.",
+    "empty_output": false,
+    "s_target": 0.6243397114315994,
+    "s_other": 0.7919731501123755,
+    "best_other_id": "《刑法》第3条"
+  },
+  {
+    "item_id": "《刑法》第90条",
+    "class": "Err.",
+    "empty_output": false,
+    "s_target": 0.615178234621376,
+    "s_other": 0.7225726031723727,
+    "best_other_id": "《刑法》第61条"
+  },
+  {
+    "item_id": "《刑法》第91条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.975420671016454,
+    "s_other": 0.8780702903858538,
+    "best_other_id": "《刑法》第92条"
+  },
+  {
+    "item_id": "《刑法》第92条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.5577314406292071,
+    "s_other": 0.8908174125099726,
+    "best_other_id": "《刑法》第11条"
+  },
+  {
+    "item_id": "《刑法》第93条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9668486584440797,
+    "s_other": 0.8156877385730628,
+    "best_other_id": "《刑法》第271条"
+  },
+  {
+    "item_id": "《刑法》第94条",
+    "class": "Eff.",
+    "empty_output": false,
+    "s_target": 0.9498488599327268,
+    "s_other": 0.6848159669656848,
+    "best_other_id": "《刑法》第308条之一"
+  },
+  {
+    "item_id": "《刑法》第95条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.5193469008106115,
+    "s_other": 0.9099847304985373,
+    "best_other_id": "《刑法》第67条"
+  },
+  {
+    "item_id": "《刑法》第96条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.5575570910815454,
+    "s_other": 0.8549448730106295,
+    "best_other_id": "《刑法》第97条"
+  },
+  {
+    "item_id": "《刑法》第97条",
+    "class": "Err.",
+    "empty_output": false,
+    "s_target": 0.4466330737666371,
+    "s_other": 0.6550723056183564,
+    "best_other_id": "《刑法》第9条"
+  },
+  {
+    "item_id": "《刑法》第98条",
+    "class": "Dup.",
+    "empty_output": false,
+    "s_target": 0.5435662844173234,
+    "s_other": 0.9677286427815397,
+    "best_other_id": "《刑法》第91条"
+  },
+  {
+    "item_id": "《刑法》第99条",
+    "class": "Err.",
+    "empty_output": false,
+    "s_target": 0.8196067276422986,
+    "s_other": 0.598262149606883,
+    "best_other_id": "《刑法》第220条"
+  },
+  {
+    "item_id": "《刑法》第9条",
+    "class": "Err.",
+    "empty_output": false,
+    "s_target": 0.7257155100854492,
+    "s_other": 0.7571220096323268,
+    "best_other_id": "《刑法》第4条"
+  }
+]

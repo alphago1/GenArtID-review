@@ -1,0 +1,213 @@
+{
+  "schema": "genartid-selection/1",
+  "domain": "civil",
+  "selected_run_id": "ckpt-1575",
+  "selected_global_step": 1575,
+  "dev_macro_recall_at_5": 0.3182234432234432,
+  "base_run_id": "base",
+  "base_dev_macro_recall_at_5": 0.23992673992673993,
+  "candidates": [
+    {
+      "run_id": "ckpt-40",
+      "global_step": 40,
+      "dev_recall_at_5": 0.25686813186813184
+    },
+    {
+      "run_id": "ckpt-80",
+      "global_step": 80,
+      "dev_recall_at_5": 0.28296703296703296
+    },
+    {
+      "run_id": "ckpt-120",
+      "global_step": 120,
+      "dev_recall_at_5": 0.2696886446886447
+    },
+    {
+      "run_id": "ckpt-160",
+      "global_step": 160,
+      "dev_recall_at_5": 0.28205128205128205
+    },
+    {
+      "run_id": "ckpt-200",
+      "global_step": 200,
+      "dev_recall_at_5": 0.2847985347985348
+    },
+    {
+      "run_id": "ckpt-240",
+      "global_step": 240,
+      "dev_recall_at_5": 0.29853479853479853
+    },
+    {
+      "run_id": "ckpt-280",
+      "global_step": 280,
+      "dev_recall_at_5": 0.28205128205128205
+    },
+    {
+      "run_id": "ckpt-320",
+      "global_step": 320,
+      "dev_recall_at_5": 0.2774725274725275
+    },
+    {
+      "run_id": "ckpt-360",
+      "global_step": 360,
+      "dev_recall_at_5": 0.27564102564102566
+    },
+    {
+      "run_id": "ckpt-400",
+      "global_step": 400,
+      "dev_recall_at_5": 0.2967032967032967
+    },
+    {
+      "run_id": "ckpt-440",
+      "global_step": 440,
+      "dev_recall_at_5": 0.3021978021978022
+    },
+    {
+      "run_id": "ckpt-480",
+      "global_step": 480,
+      "dev_recall_at_5": 0.2957875457875458
+    },
+    {
+      "run_id": "ckpt-520",
+      "global_step": 520,
+      "dev_recall_at_5": 0.3076923076923077
+    },
+    {
+      "run_id": "ckpt-560",
+      "global_step": 560,
+      "dev_recall_at_5": 0.28525641025641024
+    },
+    {
+      "run_id": "ckpt-600",
+      "global_step": 600,
+      "dev_recall_at_5": 0.2907509157509158
+    },
+    {
+      "run_id": "ckpt-640",
+      "global_step": 640,
+      "dev_recall_at_5": 0.2944139194139194
+    },
+    {
+      "run_id": "ckpt-680",
+      "global_step": 680,
+      "dev_recall_at_5": 0.298992673992674
+    },
+    {
+      "run_id": "ckpt-720",
+      "global_step": 720,
+      "dev_recall_at_5": 0.3031135531135531
+    },
+    {
+      "run_id": "ckpt-760",
+      "global_step": 760,
+      "dev_recall_at_5": 0.2980769230769231
+    },
+    {
+      "run_id": "ckpt-800",
+      "global_step": 800,
+      "dev_recall_at_5": 0.30631868131868134
+    },
+    {
+      "run_id": "ckpt-840",
+      "global_step": 840,
+      "dev_recall_at_5": 0.31776556776556775
+    },
+    {
+      "run_id": "ckpt-880",
+      "global_step": 880,
+      "dev_recall_at_5": 0.30631868131868134
+    },
+    {
+      "run_id": "ckpt-920",
+      "global_step": 920,
+      "dev_recall_at_5": 0.31043956043956045
+    },
+    {
+      "run_id": "ckpt-960",
+      "global_step": 960,
+      "dev_recall_at_5": 0.29304029304029305
+    },
+    {
+      "run_id": "ckpt-1000",
+      "global_step": 1000,
+      "dev_recall_at_5": 0.2976190476190476
+    },
+    {
+      "run_id": "ckpt-1040",
+      "global_step": 1040,
+      "dev_recall_at_5": 0.2948717948717949
+    },
+    {
+      "run_id": "ckpt-1080",
+      "global_step": 1080,
+      "dev_recall_at_5": 0.31684981684981683
+    },
+    {
+      "run_id": "ckpt-1120",
+      "global_step": 1120,
+      "dev_recall_at_5": 0.3163919413919414
+    },
+    {
+      "run_id": "ckpt-1160",
+      "global_step": 1160,
+      "dev_recall_at_5": 0.3058608058608059
+    },
+    {
+      "run_id": "ckpt-1200",
+      "global_step": 1200,
+      "dev_recall_at_5": 0.31135531135531136
+    },
+    {
+      "run_id": "ckpt-1240",
+      "global_step": 1240,
+      "dev_recall_at_5": 0.3090659340659341
+    },
+    {
+      "run_id": "ckpt-1280",
+      "global_step": 1280,
+      "dev_recall_at_5": 0.309981684981685
+    },
+    {
+      "run_id": "ckpt-1320",
+      "global_step": 1320,
+      "dev_recall_at_5": 0.30815018315018317
+    },
+    {
+      "run_id": "ckpt-1360",
+      "global_step": 1360,
+      "dev_recall_at_5": 0.30723443223443225
+    },
+    {
+      "run_id": "ckpt-1400",
+      "global_step": 1400,
+      "dev_recall_at_5": 0.3017399267399267
+    },
+    {
+      "run_id": "ckpt-1440",
+      "global_step": 1440,
+      "dev_recall_at_5": 0.30723443223443225
+    },
+    {
+      "run_id": "ckpt-1480",
+      "global_step": 1480,
+      "dev_recall_at_5": 0.31547619047619047
+    },
+    {
+      "run_id": "ckpt-1520",
+      "global_step": 1520,
+      "dev_recall_at_5": 0.31227106227106227
+    },
+    {
+      "run_id": "ckpt-1560",
+      "global_step": 1560,
+      "dev_recall_at_5": 0.31227106227106227
+    },
+    {
+      "run_id": "ckpt-1575",
+      "global_step": 1575,
+      "dev_recall_at_5": 0.3182234432234432
+    }
+  ],
+  "split_manifest_hash": "56b45aff7d4a42af17a3a9f681a65defe9db721e3bab07709bebbaeb2cab1630",
+  "protocol_fingerprint": "5374348800b2908328e84c6c2b9cc317865c0a1e014c96b339cab091bb3152be"
+}

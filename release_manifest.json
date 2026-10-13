@@ -1,0 +1,567 @@
+{
+  "schema": "genartid-review-release/2",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 137,
+      "sha256": "ce8e237fc3ac32740baf658948de5b28b96bbc7455ba9f43ca5d8806092658d3"
+    },
+    {
+      "path": "ablation_matrix.json",
+      "bytes": 10296,
+      "sha256": "fc300f2530b4a8928b26ae0abebe7c1a88b07bb11f7e6e18f73c1559ad9ad495"
+    },
+    {
+      "path": "audit_results.py",
+      "bytes": 3803,
+      "sha256": "4ba502f6110709a60c087d9c78759ee036aa415de5bc8a63f598a570163fcb2c"
+    },
+    {
+      "path": "base_ft_eval_profile.json",
+      "bytes": 6002,
+      "sha256": "adc667d821624fbea80407c58e0ed1ca94925d891a49d029668963d93d5fc671"
+    },
+    {
+      "path": "checkpoints/civil_seed20260910_step600/adapter_config.json",
+      "bytes": 1138,
+      "sha256": "57154a7aa7e0be3a91fb4a2e800918ee482f46ea379fc8afe92b0d9cdf298ea3"
+    },
+    {
+      "path": "checkpoints/civil_seed20260911_step1575/adapter_config.json",
+      "bytes": 1138,
+      "sha256": "57154a7aa7e0be3a91fb4a2e800918ee482f46ea379fc8afe92b0d9cdf298ea3"
+    },
+    {
+      "path": "checkpoints/civil_seed20260912_step520/adapter_config.json",
+      "bytes": 1138,
+      "sha256": "4b30f8b26a9f09b3f5a7332a524c6480b9f6dd9f4856365b44d8d463f979e96e"
+    },
+    {
+      "path": "checkpoints/criminal_law_seed20260910_step40/adapter_config.json",
+      "bytes": 1138,
+      "sha256": "121326cd21ff387edb53055af759bf58559bca0533329beede1ca9ef651a0684"
+    },
+    {
+      "path": "checkpoints/criminal_law_seed20260911_step220/adapter_config.json",
+      "bytes": 1138,
+      "sha256": "7b7ac1d956311f605bf2d9f1e9419183e7ef9c4d9ba723e3ba3047da1e4fabc1"
+    },
+    {
+      "path": "checkpoints/criminal_law_seed20260912_step40/adapter_config.json",
+      "bytes": 1138,
+      "sha256": "162cdc87b3eb1417a02071e7e4eb1929edb214c8cc64c9476b6ad9f73461de7c"
+    },
+    {
+      "path": "checkpoints/legacy/civil_archive_step280/adapter_config.json",
+      "bytes": 1044,
+      "sha256": "b7f456374f27ddbb4e88bdb53a7cdc9626a8671650c2bd6ffbad0d23c4abb53a"
+    },
+    {
+      "path": "checkpoints/legacy/cpl_archive_step180/adapter_config.json",
+      "bytes": 1044,
+      "sha256": "a8fad1aba64f6bbdcc65e0368bccda7dcdad0eeefa2a6c92a6a86db14ab4ad59"
+    },
+    {
+      "path": "checkpoints/legacy/manifest.json",
+      "bytes": 1669,
+      "sha256": "8ed129d72c6a93bac2cbf9ab2650fd57931f7514ca932fc32a722ded38265fd4"
+    },
+    {
+      "path": "checkpoints/manifest.json",
+      "bytes": 9336,
+      "sha256": "a4ca60dd09b4f125d65672e153f40b0fd02343378c7f0aebbe211bfa73766194"
+    },
+    {
+      "path": "f_train_sft.py",
+      "bytes": 13500,
+      "sha256": "07f117da26b7c7d72057a3283d4cef268cd8b51f63886c860bbe8dc07a128d80"
+    },
+    {
+      "path": "fig3_points.json",
+      "bytes": 4037,
+      "sha256": "56c9caf7db66c780e21d610521fc86885ceeb104349b44fcb6019a650eb5ab28"
+    },
+    {
+      "path": "g_generate_predictions.py",
+      "bytes": 13591,
+      "sha256": "ade42e3e28dc2cbba4c46869ee9c76cbc51603a8c2abf150049b4ae060fce0c6"
+    },
+    {
+      "path": "ga_balanced_split.py",
+      "bytes": 8898,
+      "sha256": "48298afefae3d015d4d390b127bb293a53b068af6d884eff38bcce0956919fc9"
+    },
+    {
+      "path": "ga_build_sft.py",
+      "bytes": 13922,
+      "sha256": "7887d5a8b1a60e1ce7dc00c3b2a9a2e7d9e87665c7b3751520d97bb6ae80ccc5"
+    },
+    {
+      "path": "ga_corpus.py",
+      "bytes": 6504,
+      "sha256": "9ec1d72561c0aed9412211ae535ceeab1be10e7d82e4fdbc4205b60bec5493e8"
+    },
+    {
+      "path": "ga_identifiers.py",
+      "bytes": 6614,
+      "sha256": "a9ba7ea3e9ab0d91871155bd31e38f713c6abb162cf444ebce0c5125ce7856c6"
+    },
+    {
+      "path": "ga_local_memory_exec.py",
+      "bytes": 30303,
+      "sha256": "8c0a2a0c54811a54c8d1143f6edc344f8cdd4b4218ef318d14baeda1008b134f"
+    },
+    {
+      "path": "ga_memory_recall_probe.py",
+      "bytes": 30120,
+      "sha256": "3dc128ce0251ec1de82996a7aedd0ab20d37d633a0e382fee4086827809f5bce"
+    },
+    {
+      "path": "ga_parsing.py",
+      "bytes": 7898,
+      "sha256": "3226e059814983b5885a72adf0c087fbe332f78e36ac95d2e09aed38f66bed3d"
+    },
+    {
+      "path": "ga_pipeline.py",
+      "bytes": 17567,
+      "sha256": "eb7226851fcb47fc9cec19698fbfe6d2bee860e58d5ed98ab0fbd1b34433b129"
+    },
+    {
+      "path": "ga_profile.py",
+      "bytes": 5244,
+      "sha256": "9a06753830b5dca65ee9c20b88781b5488b736aaa30920c5ff8a0c5e6f3ce9a4"
+    },
+    {
+      "path": "ga_scoring.py",
+      "bytes": 6750,
+      "sha256": "8294416ad16f56737016fc835e68072d41c73fc0a16c48ffb8acb290f7ba8fd3"
+    },
+    {
+      "path": "ga_select.py",
+      "bytes": 14792,
+      "sha256": "1b1449f983be792c8ba36b1fce62902ed4c9071be55f1ef543d0bc1d95e600b6"
+    },
+    {
+      "path": "ga_split.py",
+      "bytes": 7143,
+      "sha256": "05c9938630bf4cf847fc7d3aca1a25359574a8704c198500786192a655f4195c"
+    },
+    {
+      "path": "h_dev_select.py",
+      "bytes": 8871,
+      "sha256": "c5c4590c77d1b712989d055663cd65bcc8ef230b272d70f900316ba53b263baa"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1078,
+      "sha256": "c3fba2e2d7cc1eef7e3dbe03f8181f46bad36c641646a96b67a1bbefc87c8b28"
+    },
+    {
+      "path": "plot_fig3.py",
+      "bytes": 2284,
+      "sha256": "1f7430d403ac74f5e9cc625a0fa4d423b6192deeccc3d9cb41f352c2e266abb0"
+    },
+    {
+      "path": "provenance.json",
+      "bytes": 4007,
+      "sha256": "97f02820c03961657c09a9707271f48963488217e09c3363d3dc5270778a10bc"
+    },
+    {
+      "path": "README.md",
+      "bytes": 8834,
+      "sha256": "80813aade7033cdc6d244df236bec8db42946eea1e24d1b81ebe695272790632"
+    },
+    {
+      "path": "REPRODUCIBILITY.md",
+      "bytes": 6452,
+      "sha256": "e293add8ff9106f0707e991d2cedcf546f4e3bb42dc9d6fba4d8ae75b8c93b0a"
+    },
+    {
+      "path": "requirements-model.txt",
+      "bytes": 112,
+      "sha256": "d28fe81343b1c06b61a9df3ebb427655dfe347c474fabfd0b6101c9f30ad07cf"
+    },
+    {
+      "path": "requirements-paper.lock.txt",
+      "bytes": 1483,
+      "sha256": "f05fe12ac5288e8542bf9e68ef525c8469736422b8faf44b000af6e4f39a149f"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 16,
+      "sha256": "be962eeeecd348b8916cfba280d12d5aea2fe8fd2b01df6f4a2aa8af748d6c46"
+    },
+    {
+      "path": "research_protocol.json",
+      "bytes": 2421,
+      "sha256": "19eb368d17ffba67ee902773943b5718aca6d5a7dea3ce4147c807b55158467f"
+    },
+    {
+      "path": "results/knowledge_injection.json",
+      "bytes": 9819,
+      "sha256": "dfae728e6c5d9aaeb27eb26df927ed8fce26ecf79ea5c4933a70312d7bff7574"
+    },
+    {
+      "path": "results/memory_recall_runs.json",
+      "bytes": 9435,
+      "sha256": "48ec5655a1f7aeaf6a98847e45299bc8f8fd69e2053af24b72044ee4518d0ff9"
+    },
+    {
+      "path": "results/paper_tables/binding_diagnostics.csv",
+      "bytes": 214,
+      "sha256": "d0ca1a9b873b4aa2b4a14ea9d489009de6d8fbbad26bbf871a455c1e6aa17828"
+    },
+    {
+      "path": "results/paper_tables/content_fidelity_app.csv",
+      "bytes": 92,
+      "sha256": "7210b932619fe9c01f4cb57924f29bd21a4f7bf878643df9368637b24085c3f5"
+    },
+    {
+      "path": "results/paper_tables/fidelity_sensitivity.csv",
+      "bytes": 51,
+      "sha256": "85d83e7a558db528d074277b8f9696dd7b71ff96e0e9abb23637d062ce41739a"
+    },
+    {
+      "path": "results/paper_tables/fine_tuned_embedding.csv",
+      "bytes": 249,
+      "sha256": "fdafcffcc1d6e23303ae8fc04d8cb5779b8f747a52827eef1ce645cb42ca2515"
+    },
+    {
+      "path": "results/paper_tables/glm_seed_results.csv",
+      "bytes": 519,
+      "sha256": "463e2481fe93dbdd520ade78d2264dfca2e01b7f8297131190ae1a2109c7ae9d"
+    },
+    {
+      "path": "results/paper_tables/id_ablation.csv",
+      "bytes": 259,
+      "sha256": "205db7222097df8ff1e1fe0060467e58b54c8ced6a3639abdab9cd79a7bc8ae2"
+    },
+    {
+      "path": "results/paper_tables/ki_hyperparams_app.csv",
+      "bytes": 514,
+      "sha256": "8fb3c2d85a17537561e37ee1dcb83252820025630612267d722b2c4b96929917"
+    },
+    {
+      "path": "results/paper_tables/main.csv",
+      "bytes": 963,
+      "sha256": "e9d57021b96e61decfdb6ca20a86debc4188246fb4f84182ec8b127d2d459db7"
+    },
+    {
+      "path": "results/paper_tables/memory_recall_unified.csv",
+      "bytes": 1173,
+      "sha256": "19452d640e3e0be5ca8feac67e06149dcb6bd28caea3825b46cf1b2f63a06cc3"
+    },
+    {
+      "path": "results/paper_tables/training_effectiveness.csv",
+      "bytes": 186,
+      "sha256": "1ddb2e603635c8976e4a3e931199ad49563d23620adb43df4633ed1c19d1e0de"
+    },
+    {
+      "path": "results/paper_tables.json",
+      "bytes": 13793,
+      "sha256": "ee4d732b3dee3ffb557b0dd06f0b908e3b99a1629f8e4caa8092c70c1761fbb0"
+    },
+    {
+      "path": "results/per_article/command_r7b_civil.json",
+      "bytes": 284427,
+      "sha256": "224aa3143c4e9fcebf6bf1f5e7e410728db6309d685c273bac2974b705d559be"
+    },
+    {
+      "path": "results/per_article/command_r7b_criminal_law.json",
+      "bytes": 112057,
+      "sha256": "097a480e5a48a40876f8d6df1a251c918acbde3eeeeb987894cdcb796a17767d"
+    },
+    {
+      "path": "results/per_article/deepseek_r1_0528_qwen3_8b_civil.json",
+      "bytes": 285710,
+      "sha256": "1805c9819563d0d9ba7bdf1d4d53e25e960116bf91d7bb779062b618869daf5d"
+    },
+    {
+      "path": "results/per_article/deepseek_r1_0528_qwen3_8b_criminal_law.json",
+      "bytes": 111852,
+      "sha256": "55b0e9dbc823a237f2ec550247e82214eceab4e04c078302d8c472975202c870"
+    },
+    {
+      "path": "results/per_article/glm0414_base_civil.json",
+      "bytes": 285231,
+      "sha256": "b8a377aa3797b7e7ae6dd1c615f7acd1d81354d781db15bdadd670f2f1b23196"
+    },
+    {
+      "path": "results/per_article/glm0414_base_criminal_law.json",
+      "bytes": 111751,
+      "sha256": "afb8f76809019eb9243a09f0714104377a9a4989055b764c4e658c54d293ae83"
+    },
+    {
+      "path": "results/per_article/glm0414_seed20260910_civil.json",
+      "bytes": 279934,
+      "sha256": "f66a9c143e68af096fdb5f71c4eaf326153512a66e5afebabc4b6ecf14e325e3"
+    },
+    {
+      "path": "results/per_article/glm0414_seed20260910_criminal_law.json",
+      "bytes": 111422,
+      "sha256": "d5feabf193f393970bce022332d9f57b255797c0bf46e2bef3b2dea6cf3c0434"
+    },
+    {
+      "path": "results/per_article/glm0414_seed20260911_civil.json",
+      "bytes": 279425,
+      "sha256": "1116b4e4d4450e8c07ff08315535c2884164849e46325ed48a0d9100305dd83e"
+    },
+    {
+      "path": "results/per_article/glm0414_seed20260911_criminal_law.json",
+      "bytes": 109547,
+      "sha256": "c52fc6a841884a61de12cd87c435bb0376c19c88cbf521b8f31af11d2af800fb"
+    },
+    {
+      "path": "results/per_article/glm0414_seed20260912_civil.json",
+      "bytes": 279621,
+      "sha256": "5bc2ca5f42fb4a9c425ceabd4a7974d2c705733b435e457111ef120788a99b05"
+    },
+    {
+      "path": "results/per_article/glm0414_seed20260912_criminal_law.json",
+      "bytes": 111504,
+      "sha256": "14a819703837f2d777dfab09efb62fa3031056fe29a0b196b20674d9be2a6ace"
+    },
+    {
+      "path": "results/per_article/glm_z1_9b_0414_civil.json",
+      "bytes": 285351,
+      "sha256": "383777f7d20783f8ca8060bf15052c988efb1578c0ba55e18fce8f5b4f29abe8"
+    },
+    {
+      "path": "results/per_article/glm_z1_9b_0414_criminal_law.json",
+      "bytes": 111348,
+      "sha256": "09b91abfe84286c31219151965e9c69b2a3e18dde16f34c204909657389448a0"
+    },
+    {
+      "path": "results/per_article/ling_mini_2_civil.json",
+      "bytes": 285666,
+      "sha256": "ec3fee54fe896c7edb6f0ba35f65f45ed5fbc88f645b5932120fee85ae9dcc7b"
+    },
+    {
+      "path": "results/per_article/ling_mini_2_criminal_law.json",
+      "bytes": 111749,
+      "sha256": "143c338651c46433755e12622c935ce49457ff38670474f6bb66e8a75277c9a6"
+    },
+    {
+      "path": "results/per_article/qwen25_7b_instruct_civil.json",
+      "bytes": 283961,
+      "sha256": "609e49738959cd4959d9669ddd9a50cddb98e6159cffa52df7b255e63b1d457a"
+    },
+    {
+      "path": "results/per_article/qwen25_7b_instruct_criminal_law.json",
+      "bytes": 111366,
+      "sha256": "92751d2b407d041516e720c92fc795c89c9b457564f371ee32556f19a30c6566"
+    },
+    {
+      "path": "results/per_article/qwen3_8b_civil.json",
+      "bytes": 285328,
+      "sha256": "ba2a00ebe0cab50570f45dec07175c85cb490e83c0090eae97515a34aaaa08fa"
+    },
+    {
+      "path": "results/per_article/qwen3_8b_criminal_law.json",
+      "bytes": 111685,
+      "sha256": "4971d698568fd015019a833a4921b5f7fa1416fe2c00df1e876fcb88b4d24c49"
+    },
+    {
+      "path": "results/per_question/command_r7b_civil.json",
+      "bytes": 80200,
+      "sha256": "9f380b7526027076e0e28f8182edac88cc5c5f05d3a30a287f779aa326d16975"
+    },
+    {
+      "path": "results/per_question/command_r7b_criminal_law.json",
+      "bytes": 18392,
+      "sha256": "3a7e1519f7a7178c79c4c7212a846170ad33871dcc66b8c7a8a77ca1eba9b738"
+    },
+    {
+      "path": "results/per_question/deepseek_r1_0528_qwen3_8b_civil.json",
+      "bytes": 79019,
+      "sha256": "d733ff8735d9272eff65109768e07f987bb71bd1e48c3b76af870e9959e9e6ee"
+    },
+    {
+      "path": "results/per_question/deepseek_r1_0528_qwen3_8b_criminal_law.json",
+      "bytes": 17992,
+      "sha256": "774031bbcbf19bfaf6e6d394c2dc7215124964b11ea22c7860f3195bb478a8de"
+    },
+    {
+      "path": "results/per_question/glm0414_base_civil.json",
+      "bytes": 80551,
+      "sha256": "dbf3b4974e7b1e1013c9e038bf1d0be250f4dd37e505dd1bc098205e29873cad"
+    },
+    {
+      "path": "results/per_question/glm0414_base_criminal_law.json",
+      "bytes": 19134,
+      "sha256": "78d22c2bfa682e15532cb05eed71d08bb707aca2f792d23020807974b333550b"
+    },
+    {
+      "path": "results/per_question/glm0414_seed20260910_civil.json",
+      "bytes": 79869,
+      "sha256": "49b9ddd0364a362aa361c1627bed1d6b738915bcca2c41a406ff13ea7a9945f1"
+    },
+    {
+      "path": "results/per_question/glm0414_seed20260910_criminal_law.json",
+      "bytes": 18669,
+      "sha256": "c72d6b6db2c5880f889cdf7a85ac15ae8befb300ca616b838a113681164e530f"
+    },
+    {
+      "path": "results/per_question/glm0414_seed20260911_civil.json",
+      "bytes": 80947,
+      "sha256": "c1c48e1c1fdf74e91df4e1eb3995c792f94e1f82e173023c87ff865ca540b905"
+    },
+    {
+      "path": "results/per_question/glm0414_seed20260911_criminal_law.json",
+      "bytes": 18643,
+      "sha256": "1979059955c1ec0656896c34db840e74b6318dd867db491a1e5da4c9e62f6f57"
+    },
+    {
+      "path": "results/per_question/glm0414_seed20260912_civil.json",
+      "bytes": 79506,
+      "sha256": "689e7615e965433ed73d04e225dadc86993bf1d77adda07e9d3a70944eba94ec"
+    },
+    {
+      "path": "results/per_question/glm0414_seed20260912_criminal_law.json",
+      "bytes": 18364,
+      "sha256": "ccc34d91899271de9c790ce5c7a3a86edbdf27891f32859c1f7ba10c6e7d3071"
+    },
+    {
+      "path": "results/per_question/glm_z1_9b_0414_civil.json",
+      "bytes": 76614,
+      "sha256": "e6fddbf2747f1b13505996a430c0c78d15c357442def11b4471d4ad7dc9d7e2a"
+    },
+    {
+      "path": "results/per_question/glm_z1_9b_0414_criminal_law.json",
+      "bytes": 16171,
+      "sha256": "d8ae3e46663c77f2d37a97fb75590a3de33a0dbd96df4f37a432800ca24dd3c2"
+    },
+    {
+      "path": "results/per_question/ling_mini_2_civil.json",
+      "bytes": 83984,
+      "sha256": "d3fce841a961e4129a905f897c517778118f34f63ab7b049fd67c844bac2c325"
+    },
+    {
+      "path": "results/per_question/ling_mini_2_criminal_law.json",
+      "bytes": 20230,
+      "sha256": "35ba0ac2c0beb01bba5d4e71af121b99c9162a17014b63a184834323e503e285"
+    },
+    {
+      "path": "results/per_question/qwen25_7b_instruct_civil.json",
+      "bytes": 81133,
+      "sha256": "8df77491964d51dca619ce2dd9fffbaf2e5f7c05a74675608bf1150b30e19b7a"
+    },
+    {
+      "path": "results/per_question/qwen25_7b_instruct_criminal_law.json",
+      "bytes": 18465,
+      "sha256": "f6a61dc4c82296ca764c2d65d8b24109be795a8af79e182498f2a932a9488ac6"
+    },
+    {
+      "path": "results/per_question/qwen3_8b_civil.json",
+      "bytes": 80082,
+      "sha256": "fa4bbe89561a343b2d8f729022a183dd679aa3a8b77d964127443726541c67ab"
+    },
+    {
+      "path": "results/per_question/qwen3_8b_criminal_law.json",
+      "bytes": 18962,
+      "sha256": "cdf9136b53de68e1af88805f17d848977fa5e390926d51db2582ecefad689dff"
+    },
+    {
+      "path": "results/source_hashes.json",
+      "bytes": 13405,
+      "sha256": "7872d9dae49141c27e925dccfaf404c697ff04a0d213d4e50102ad72bec2b916"
+    },
+    {
+      "path": "results/table1_glm0414_api.json",
+      "bytes": 2146,
+      "sha256": "196982e8991e1761e83bc26ff845d6c513a237cbac4a313af7acafc2674320f0"
+    },
+    {
+      "path": "review_cli.py",
+      "bytes": 9394,
+      "sha256": "3411b4272731d0b742c21d40b6f43f20a9a42fda572c031385cae569ac280ece"
+    },
+    {
+      "path": "run_test_eval.py",
+      "bytes": 5064,
+      "sha256": "f0133ba41592319ab7aa78e5b6e927604433a5c85e57ec5c55989679fde23e22"
+    },
+    {
+      "path": "scorer_identity.json",
+      "bytes": 1841,
+      "sha256": "b4a3d16c07d89d596dde41ce1b67e9a7edc226717c4026cd4a2e52ffb5d618c5"
+    },
+    {
+      "path": "selection/civil_seed20260910.json",
+      "bytes": 5152,
+      "sha256": "c721f3afdb1e1310946eff249c711f26869a7cc6bedd7ecdc3229f4f6162b4fa"
+    },
+    {
+      "path": "selection/civil_seed20260911.json",
+      "bytes": 5159,
+      "sha256": "e3d5cad370f9f80268744626f8e42c29d40844f7fd6b6695d53f7e2293add7cb"
+    },
+    {
+      "path": "selection/civil_seed20260912.json",
+      "bytes": 5153,
+      "sha256": "7226daf4a6698227b8dc7ce90b01028e190ddf39c766c4bac9d3f963a611cf0f"
+    },
+    {
+      "path": "selection/criminal_law_seed20260910.json",
+      "bytes": 4164,
+      "sha256": "1532b2547c2d949fafbac631857f9e8ec5881096fcec900b10ed73e91cb621d1"
+    },
+    {
+      "path": "selection/criminal_law_seed20260911.json",
+      "bytes": 4166,
+      "sha256": "8e18c5e3e94c90decf67110e70a1b2a77c49de215c162f4926446a87d3d5b19d"
+    },
+    {
+      "path": "selection/criminal_law_seed20260912.json",
+      "bytes": 4124,
+      "sha256": "a0f228772a424e2925b9ba8cd7c48164ceaa5d5881737f37adda0bc499e8c48c"
+    },
+    {
+      "path": "splits/civil.json",
+      "bytes": 5448,
+      "sha256": "dad643545828d8aec359843da179ce9005d7da4d7623938b27331a59fff5dee5"
+    },
+    {
+      "path": "splits/criminal_law.json",
+      "bytes": 2177,
+      "sha256": "b9f21e0a2f50faf34dd39c37cb225f6db5be08f22710f00e837c3919d54c8190"
+    },
+    {
+      "path": "test_review_core.py",
+      "bytes": 2301,
+      "sha256": "c1a771efc1ca2a0b07a4857b15441dfbb1ae6930f1f3501f0f3e9f92a2e185d5"
+    },
+    {
+      "path": "training/civil_seed20260910.json",
+      "bytes": 1351,
+      "sha256": "8980c3ff7a77b4884037e30ba77a3f490d7b0e068ce6aedff895b856ec8dde7c"
+    },
+    {
+      "path": "training/civil_seed20260911.json",
+      "bytes": 1351,
+      "sha256": "96ce147e6f3be47f5ca6bc89173d8869cfd394c11003c8cbb3e159a947a15b88"
+    },
+    {
+      "path": "training/civil_seed20260912.json",
+      "bytes": 1351,
+      "sha256": "7317d68ae996d11e0fbcab1748999c6eccdff58d3e72fae62a73d7df983f64b7"
+    },
+    {
+      "path": "training/criminal_law_seed20260910.json",
+      "bytes": 1258,
+      "sha256": "95c2c69a0505ecc4bb118fac7f35b0f421b37165930c4fa00ce6def66895d32a"
+    },
+    {
+      "path": "training/criminal_law_seed20260911.json",
+      "bytes": 1258,
+      "sha256": "6819cfa9fc2b0d764cd1969164186fe5a0379062f1157be90faff56cfe6f870a"
+    },
+    {
+      "path": "training/criminal_law_seed20260912.json",
+      "bytes": 1258,
+      "sha256": "3e37632ccf2cf5d0e9be01d2e0331098549ac35e958177288168436617b71c01"
+    }
+  ],
+  "weights": "six selected GLM adapter weights not recovered; legacy metadata only",
+  "results_runs": 20
+}

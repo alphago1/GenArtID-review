@@ -1,0 +1,173 @@
+{
+  "schema": "genartid-selection/1",
+  "domain": "criminal_law",
+  "selected_run_id": "ckpt-220",
+  "selected_global_step": 220,
+  "dev_macro_recall_at_5": 0.5909090909090909,
+  "base_run_id": "base",
+  "base_dev_macro_recall_at_5": 0.5037878787878788,
+  "candidates": [
+    {
+      "run_id": "ckpt-20",
+      "global_step": 20,
+      "dev_recall_at_5": 0.5568181818181818
+    },
+    {
+      "run_id": "ckpt-40",
+      "global_step": 40,
+      "dev_recall_at_5": 0.5681818181818182
+    },
+    {
+      "run_id": "ckpt-60",
+      "global_step": 60,
+      "dev_recall_at_5": 0.5265151515151515
+    },
+    {
+      "run_id": "ckpt-80",
+      "global_step": 80,
+      "dev_recall_at_5": 0.5568181818181818
+    },
+    {
+      "run_id": "ckpt-100",
+      "global_step": 100,
+      "dev_recall_at_5": 0.5568181818181818
+    },
+    {
+      "run_id": "ckpt-120",
+      "global_step": 120,
+      "dev_recall_at_5": 0.5681818181818182
+    },
+    {
+      "run_id": "ckpt-140",
+      "global_step": 140,
+      "dev_recall_at_5": 0.5454545454545454
+    },
+    {
+      "run_id": "ckpt-160",
+      "global_step": 160,
+      "dev_recall_at_5": 0.5340909090909091
+    },
+    {
+      "run_id": "ckpt-180",
+      "global_step": 180,
+      "dev_recall_at_5": 0.5227272727272727
+    },
+    {
+      "run_id": "ckpt-200",
+      "global_step": 200,
+      "dev_recall_at_5": 0.5340909090909091
+    },
+    {
+      "run_id": "ckpt-220",
+      "global_step": 220,
+      "dev_recall_at_5": 0.5909090909090909
+    },
+    {
+      "run_id": "ckpt-240",
+      "global_step": 240,
+      "dev_recall_at_5": 0.5681818181818182
+    },
+    {
+      "run_id": "ckpt-260",
+      "global_step": 260,
+      "dev_recall_at_5": 0.5681818181818182
+    },
+    {
+      "run_id": "ckpt-280",
+      "global_step": 280,
+      "dev_recall_at_5": 0.5492424242424242
+    },
+    {
+      "run_id": "ckpt-300",
+      "global_step": 300,
+      "dev_recall_at_5": 0.5454545454545454
+    },
+    {
+      "run_id": "ckpt-320",
+      "global_step": 320,
+      "dev_recall_at_5": 0.5454545454545454
+    },
+    {
+      "run_id": "ckpt-340",
+      "global_step": 340,
+      "dev_recall_at_5": 0.5606060606060606
+    },
+    {
+      "run_id": "ckpt-360",
+      "global_step": 360,
+      "dev_recall_at_5": 0.5454545454545454
+    },
+    {
+      "run_id": "ckpt-380",
+      "global_step": 380,
+      "dev_recall_at_5": 0.5227272727272727
+    },
+    {
+      "run_id": "ckpt-400",
+      "global_step": 400,
+      "dev_recall_at_5": 0.5
+    },
+    {
+      "run_id": "ckpt-420",
+      "global_step": 420,
+      "dev_recall_at_5": 0.5227272727272727
+    },
+    {
+      "run_id": "ckpt-440",
+      "global_step": 440,
+      "dev_recall_at_5": 0.5227272727272727
+    },
+    {
+      "run_id": "ckpt-460",
+      "global_step": 460,
+      "dev_recall_at_5": 0.5454545454545454
+    },
+    {
+      "run_id": "ckpt-480",
+      "global_step": 480,
+      "dev_recall_at_5": 0.5454545454545454
+    },
+    {
+      "run_id": "ckpt-500",
+      "global_step": 500,
+      "dev_recall_at_5": 0.5454545454545454
+    },
+    {
+      "run_id": "ckpt-520",
+      "global_step": 520,
+      "dev_recall_at_5": 0.5227272727272727
+    },
+    {
+      "run_id": "ckpt-540",
+      "global_step": 540,
+      "dev_recall_at_5": 0.5454545454545454
+    },
+    {
+      "run_id": "ckpt-560",
+      "global_step": 560,
+      "dev_recall_at_5": 0.5454545454545454
+    },
+    {
+      "run_id": "ckpt-580",
+      "global_step": 580,
+      "dev_recall_at_5": 0.5454545454545454
+    },
+    {
+      "run_id": "ckpt-600",
+      "global_step": 600,
+      "dev_recall_at_5": 0.5227272727272727
+    },
+    {
+      "run_id": "ckpt-620",
+      "global_step": 620,
+      "dev_recall_at_5": 0.5454545454545454
+    },
+    {
+      "run_id": "ckpt-635",
+      "global_step": 635,
+      "dev_recall_at_5": 0.5454545454545454
+    }
+  ],
+  "split_manifest_hash": "bf8aef69e0a1b93a4e3a6c99704cbb628b201f7db82ae29e5e6dc96c420e7343",
+  "protocol_fingerprint": "5374348800b2908328e84c6c2b9cc317865c0a1e014c96b339cab091bb3152be"
+}

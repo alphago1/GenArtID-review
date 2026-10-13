@@ -1,0 +1,791 @@
+[
+  {
+    "item_id": "1001",
+    "gold_ids": [
+      "《刑法》第270条"
+    ],
+    "predicted_ids": [
+      "《民法典》第351条",
+      "《民法典》第352条",
+      "《民法典》第353条",
+      "《民法典》第354条",
+      "《刑法》第270条"
+    ],
+    "parse_status": "ok",
+    "correct_count": 1,
+    "gold_count": 1,
+    "R@5_exact": "1",
+    "P@5_fixed": 0.2
+  },
+  {
+    "item_id": "157",
+    "gold_ids": [
+      "《刑法》第303条",
+      "《刑法》第303条"
+    ],
+    "predicted_ids": [
+      "《刑法》第303条",
+      "《刑法》第266条",
+      "《民法典》第179条",
+      "《反不正当竞争法》第2条",
+      "《消费者权益保护法》第4条"
+    ],
+    "parse_status": "ok",
+    "correct_count": 1,
+    "gold_count": 1,
+    "R@5_exact": "1",
+    "P@5_fixed": 0.2
+  },
+  {
+    "item_id": "16",
+    "gold_ids": [
+      "《刑法》第266条"
+    ],
+    "predicted_ids": [
+      "《刑法》第67条",
+      "《刑法》第192条",
+      "《刑法》第194条",
+      "《刑法》第196条",
+      "《合同法》第122条"
+    ],
+    "parse_status": "ok",
+    "correct_count": 0,
+    "gold_count": 1,
+    "R@5_exact": "0",
+    "P@5_fixed": 0.0
+  },
+  {
+    "item_id": "173",
+    "gold_ids": [
+      "《刑法》第234条",
+      "《治安管理处罚法》第43条",
+      "《民法典》第1165条"
+    ],
+    "predicted_ids": [
+      "《刑法》第234条",
+      "《治安管理处罚法》第43条",
+      "《反家庭暴力法》第2条",
+      "《反家庭暴力法》第34条",
+      "《治安管理处罚法》第91条"
+    ],
+    "parse_status": "ok",
+    "correct_count": 2,
+    "gold_count": 3,
+    "R@5_exact": "2/3",
+    "P@5_fixed": 0.4
+  },
+  {
+    "item_id": "199",
+    "gold_ids": [
+      "《中华人民共和国刑法》",
+      "《中华人民共和国治安管理处罚法》"
+    ],
+    "predicted_ids": [
+      "《民法典》第1042条",
+      "《民法典》第1043条",
+      "《民法典》第1047条",
+      "《民法典》第1049条",
+      "《民法典》第1052条"
+    ],
+    "parse_status": "ok",
+    "correct_count": 0,
+    "gold_count": 2,
+    "R@5_exact": "0",
+    "P@5_fixed": 0.0
+  },
+  {
+    "item_id": "235",
+    "gold_ids": [
+      "《刑法》第286条"
+    ],
+    "predicted_ids": [
+      "《网络安全法》第1条",
+      "《网络安全法》第2条",
+      "《网络安全法》第3条",
+      "《网络安全法》第4条",
+      "《网络安全法》第5条"
+    ],
+    "parse_status": "ok",
+    "correct_count": 0,
+    "gold_count": 1,
+    "R@5_exact": "0",
+    "P@5_fixed": 0.0
+  },
+  {
+    "item_id": "268",
+    "gold_ids": [
+      "《刑法》第196条"
+    ],
+    "predicted_ids": [
+      "《刑法》第196条",
+      "《治安管理处罚法》第49条",
+      "《公安机关办理刑事案件程序规定》第175条",
+      "《最高人民法院、最高人民检察院关于办理信用卡诈骗刑事案件具体应用法律若干问题的解释》第1条",
+      "《消费者权益保护法》第55条"
+    ],
+    "parse_status": "ok",
+    "correct_count": 1,
+    "gold_count": 1,
+    "R@5_exact": "1",
+    "P@5_fixed": 0.2
+  },
+  {
+    "item_id": "28",
+    "gold_ids": [
+      "《刑法》第266条"
+    ],
+    "predicted_ids": [
+      "《刑法》第266条",
+      "《刑法》第263条",
+      "《刑法》第262条",
+      "《刑法》第263条之一",
+      "《刑法》第264条"
+    ],
+    "parse_status": "ok",
+    "correct_count": 1,
+    "gold_count": 1,
+    "R@5_exact": "1",
+    "P@5_fixed": 0.2
+  },
+  {
+    "item_id": "292",
+    "gold_ids": [
+      "《刑法》第232条"
+    ],
+    "predicted_ids": [
+      "《刑法》第232条",
+      "《刑法》第67条",
+      "《刑法》第69条",
+      "《刑法》第57条",
+      "《刑法》第56条"
+    ],
+    "parse_status": "ok",
+    "correct_count": 1,
+    "gold_count": 1,
+    "R@5_exact": "1",
+    "P@5_fixed": 0.2
+  },
+  {
+    "item_id": "298",
+    "gold_ids": [
+      "《刑法》第196条"
+    ],
+    "predicted_ids": [
+      "《刑法》第196条",
+      "《民法典》第177条",
+      "《民法典》第180条",
+      "《刑法》第264条",
+      "《刑法》第270条"
+    ],
+    "parse_status": "ok",
+    "correct_count": 1,
+    "gold_count": 1,
+    "R@5_exact": "1",
+    "P@5_fixed": 0.2
+  },
+  {
+    "item_id": "300",
+    "gold_ids": [
+      "《刑法》第196条"
+    ],
+    "predicted_ids": [
+      "《刑法》第196条",
+      "《民法典》第179条",
+      "《刑法》第264条",
+      "《刑法》第270条",
+      "《刑法》第271条"
+    ],
+    "parse_status": "ok",
+    "correct_count": 1,
+    "gold_count": 1,
+    "R@5_exact": "1",
+    "P@5_fixed": 0.2
+  },
+  {
+    "item_id": "321",
+    "gold_ids": [
+      "《刑法》第20条"
+    ],
+    "predicted_ids": [
+      "《刑法》第20条",
+      "《刑法》第17条"
+    ],
+    "parse_status": "ok",
+    "correct_count": 1,
+    "gold_count": 1,
+    "R@5_exact": "1",
+    "P@5_fixed": 0.2
+  },
+  {
+    "item_id": "334",
+    "gold_ids": [
+      "《刑法》第225条"
+    ],
+    "predicted_ids": [
+      "《刑法》第225条",
+      "《反洗钱法》第3条",
+      "《反洗钱法》第6条",
+      "《反洗钱法》第32条",
+      "《中国人民银行法》第4条"
+    ],
+    "parse_status": "ok",
+    "correct_count": 1,
+    "gold_count": 1,
+    "R@5_exact": "1",
+    "P@5_fixed": 0.2
+  },
+  {
+    "item_id": "356",
+    "gold_ids": [
+      "《刑法》第234条"
+    ],
+    "predicted_ids": [
+      "《刑法》第234条",
+      "《刑法》第47条",
+      "《刑法》第17条",
+      "《刑法》第234条之一"
+    ],
+    "parse_status": "ok",
+    "correct_count": 1,
+    "gold_count": 1,
+    "R@5_exact": "1",
+    "P@5_fixed": 0.2
+  },
+  {
+    "item_id": "370",
+    "gold_ids": [
+      "《刑法》第266条",
+      "《刑法》第274条"
+    ],
+    "predicted_ids": [
+      "《刑法》第274条",
+      "《刑法》第276条",
+      "《刑法》第277条",
+      "《刑法》第278条",
+      "《刑法》第279条"
+    ],
+    "parse_status": "ok",
+    "correct_count": 1,
+    "gold_count": 2,
+    "R@5_exact": "1/2",
+    "P@5_fixed": 0.2
+  },
+  {
+    "item_id": "372",
+    "gold_ids": [
+      "《刑法》第234条"
+    ],
+    "predicted_ids": [
+      "《刑法》第234条",
+      "《刑法》第234条之一",
+      "《刑法》第41条",
+      "《刑法》第42条"
+    ],
+    "parse_status": "ok",
+    "correct_count": 1,
+    "gold_count": 1,
+    "R@5_exact": "1",
+    "P@5_fixed": 0.2
+  },
+  {
+    "item_id": "379",
+    "gold_ids": [
+      "《刑法》第66条"
+    ],
+    "predicted_ids": [
+      "《刑法》第65条",
+      "《刑法》第66条",
+      "《刑法》第64条",
+      "《刑法》第62条",
+      "《刑法》第61条"
+    ],
+    "parse_status": "ok",
+    "correct_count": 1,
+    "gold_count": 1,
+    "R@5_exact": "1",
+    "P@5_fixed": 0.2
+  },
+  {
+    "item_id": "395",
+    "gold_ids": [
+      "《刑法》第264条"
+    ],
+    "predicted_ids": [
+      "《刑法》第264条",
+      "《刑法》第17条",
+      "《刑法》第36条",
+      "《刑法》第39条",
+      "《刑法》第42条"
+    ],
+    "parse_status": "ok",
+    "correct_count": 1,
+    "gold_count": 1,
+    "R@5_exact": "1",
+    "P@5_fixed": 0.2
+  },
+  {
+    "item_id": "436",
+    "gold_ids": [
+      "《刑法》第67条"
+    ],
+    "predicted_ids": [
+      "《刑法》第162条",
+      "《刑法》第67条",
+      "《会计法》第42条",
+      "《会计法》第43条",
+      "《公司法》第201条"
+    ],
+    "parse_status": "ok",
+    "correct_count": 1,
+    "gold_count": 1,
+    "R@5_exact": "1",
+    "P@5_fixed": 0.2
+  },
+  {
+    "item_id": "448",
+    "gold_ids": [
+      "《刑法》第266条"
+    ],
+    "predicted_ids": [
+      "《刑法》第266条",
+      "《刑法》第263条",
+      "《刑法》第262条",
+      "《刑法》第263条之一",
+      "《刑法》第264条"
+    ],
+    "parse_status": "ok",
+    "correct_count": 1,
+    "gold_count": 1,
+    "R@5_exact": "1",
+    "P@5_fixed": 0.2
+  },
+  {
+    "item_id": "46",
+    "gold_ids": [
+      "《刑法》第234条"
+    ],
+    "predicted_ids": [
+      "《刑法》第234条",
+      "《刑法》第234条之一",
+      "《刑法》第277条",
+      "《刑法》第43条",
+      "《民法典》第1179条"
+    ],
+    "parse_status": "ok",
+    "correct_count": 1,
+    "gold_count": 1,
+    "R@5_exact": "1",
+    "P@5_fixed": 0.2
+  },
+  {
+    "item_id": "491",
+    "gold_ids": [
+      "《刑法》第17条",
+      "《治安管理处罚法》第43条"
+    ],
+    "predicted_ids": [
+      "《刑法》第234条",
+      "《刑法》第17条",
+      "《治安管理处罚法》第43条",
+      "《预防未成年人犯罪法》第28条",
+      "《未成年人保护法》第62条"
+    ],
+    "parse_status": "ok",
+    "correct_count": 2,
+    "gold_count": 2,
+    "R@5_exact": "1",
+    "P@5_fixed": 0.4
+  },
+  {
+    "item_id": "498",
+    "gold_ids": [
+      "《刑法》第234条"
+    ],
+    "predicted_ids": [
+      "《刑法》第234条",
+      "《人体损伤程度鉴定标准》第1条",
+      "《人体损伤程度鉴定标准》第2条"
+    ],
+    "parse_status": "partial",
+    "correct_count": 1,
+    "gold_count": 1,
+    "R@5_exact": "1",
+    "P@5_fixed": 0.2
+  },
+  {
+    "item_id": "517",
+    "gold_ids": [
+      "《刑法》第205条"
+    ],
+    "predicted_ids": [
+      "《发票管理办法》第22条",
+      "《发票管理办法》第31条",
+      "《发票管理办法》第71条",
+      "《税收征收管理法》第62条",
+      "《税收征收管理法》第63条"
+    ],
+    "parse_status": "ok",
+    "correct_count": 0,
+    "gold_count": 1,
+    "R@5_exact": "0",
+    "P@5_fixed": 0.0
+  },
+  {
+    "item_id": "563",
+    "gold_ids": [
+      "《刑法》第266条"
+    ],
+    "predicted_ids": [
+      "《民法典》第122条",
+      "《民法典》第179条",
+      "《民法典》第186条",
+      "《最高人民法院关于审理网络借贷案件适用法律若干问题的规定》第24条",
+      "《最高人民法院关于审理民间借贷案件适用法律若干问题的规定》第25条"
+    ],
+    "parse_status": "ok",
+    "correct_count": 0,
+    "gold_count": 1,
+    "R@5_exact": "0",
+    "P@5_fixed": 0.0
+  },
+  {
+    "item_id": "608",
+    "gold_ids": [
+      "《刑法》第266条"
+    ],
+    "predicted_ids": [
+      "《刑法》第266条",
+      "《刑法》第27条",
+      "《刑法》第67条",
+      "《刑法》第64条",
+      "《刑法》第65条"
+    ],
+    "parse_status": "ok",
+    "correct_count": 1,
+    "gold_count": 1,
+    "R@5_exact": "1",
+    "P@5_fixed": 0.2
+  },
+  {
+    "item_id": "664",
+    "gold_ids": [
+      "《刑法》第106条"
+    ],
+    "predicted_ids": [
+      "《刑法》第270条",
+      "《刑法》第67条",
+      "《刑事诉讼法》第77条",
+      "《刑事诉讼法》第79条",
+      "《刑事诉讼法》第76条"
+    ],
+    "parse_status": "ok",
+    "correct_count": 0,
+    "gold_count": 1,
+    "R@5_exact": "0",
+    "P@5_fixed": 0.0
+  },
+  {
+    "item_id": "665",
+    "gold_ids": [
+      "《刑法》第106条"
+    ],
+    "predicted_ids": [
+      "《刑法》第270条",
+      "《刑法》第67条",
+      "《刑事诉讼法》第77条",
+      "《刑事诉讼法》第79条",
+      "《刑事诉讼法》第76条"
+    ],
+    "parse_status": "ok",
+    "correct_count": 0,
+    "gold_count": 1,
+    "R@5_exact": "0",
+    "P@5_fixed": 0.0
+  },
+  {
+    "item_id": "671",
+    "gold_ids": [
+      "《刑法》第266条"
+    ],
+    "predicted_ids": [
+      "《民法典》第148条",
+      "《民法典》第149条",
+      "《民法典》第150条",
+      "《刑法》第266条",
+      "《消费者权益保护法》第55条"
+    ],
+    "parse_status": "ok",
+    "correct_count": 1,
+    "gold_count": 1,
+    "R@5_exact": "1",
+    "P@5_fixed": 0.2
+  },
+  {
+    "item_id": "688",
+    "gold_ids": [
+      "《刑法》第64条"
+    ],
+    "predicted_ids": [
+      "《刑法》第270条",
+      "《民法典》第354条",
+      "《刑法》第271条",
+      "《刑法》第272条",
+      "《刑事诉讼法》第270条"
+    ],
+    "parse_status": "ok",
+    "correct_count": 0,
+    "gold_count": 1,
+    "R@5_exact": "0",
+    "P@5_fixed": 0.0
+  },
+  {
+    "item_id": "691",
+    "gold_ids": [
+      "《刑法》第312条"
+    ],
+    "predicted_ids": [
+      "《刑法》第312条",
+      "《民法典》第122条",
+      "《民法典》第171条",
+      "《行政处罚法》第3条",
+      "《民法典》第170条"
+    ],
+    "parse_status": "ok",
+    "correct_count": 1,
+    "gold_count": 1,
+    "R@5_exact": "1",
+    "P@5_fixed": 0.2
+  },
+  {
+    "item_id": "759",
+    "gold_ids": [
+      "《刑法》第266条"
+    ],
+    "predicted_ids": [
+      "《刑法》第266条",
+      "《刑法》第192条",
+      "《刑法》第193条",
+      "《刑法》第194条",
+      "《刑法》第225条"
+    ],
+    "parse_status": "ok",
+    "correct_count": 1,
+    "gold_count": 1,
+    "R@5_exact": "1",
+    "P@5_fixed": 0.2
+  },
+  {
+    "item_id": "770",
+    "gold_ids": [
+      "《刑法》第253条之一"
+    ],
+    "predicted_ids": [
+      "《税收征收管理法》第62条",
+      "《税收征收管理法》第63条",
+      "《税收征收管理法》第64条",
+      "《刑法》第201条",
+      "《刑法》第205条"
+    ],
+    "parse_status": "ok",
+    "correct_count": 0,
+    "gold_count": 1,
+    "R@5_exact": "0",
+    "P@5_fixed": 0.0
+  },
+  {
+    "item_id": "788",
+    "gold_ids": [
+      "《刑法》第264条"
+    ],
+    "predicted_ids": [
+      "《刑法》第264条",
+      "《刑法》第25条",
+      "《刑法》第69条",
+      "《刑法》第70条",
+      "《刑法》第310条"
+    ],
+    "parse_status": "ok",
+    "correct_count": 1,
+    "gold_count": 1,
+    "R@5_exact": "1",
+    "P@5_fixed": 0.2
+  },
+  {
+    "item_id": "806",
+    "gold_ids": [
+      "《刑法》第125条"
+    ],
+    "predicted_ids": [
+      "《刑法》第128条",
+      "《刑法》第151条",
+      "《刑法》第152条",
+      "《刑法》第156条",
+      "《刑法》第184条"
+    ],
+    "parse_status": "ok",
+    "correct_count": 0,
+    "gold_count": 1,
+    "R@5_exact": "0",
+    "P@5_fixed": 0.0
+  },
+  {
+    "item_id": "818",
+    "gold_ids": [
+      "《刑法》第133条之一"
+    ],
+    "predicted_ids": [
+      "《道路交通安全法》第91条",
+      "《刑法》第133条之一",
+      "《道路交通安全法》第89条"
+    ],
+    "parse_status": "partial",
+    "correct_count": 1,
+    "gold_count": 1,
+    "R@5_exact": "1",
+    "P@5_fixed": 0.2
+  },
+  {
+    "item_id": "847",
+    "gold_ids": [
+      "《刑法》第345条"
+    ],
+    "predicted_ids": [
+      "《刑法》第345条",
+      "《刑法》第264条",
+      "《刑法》第270条",
+      "《刑法》第263条"
+    ],
+    "parse_status": "ok",
+    "correct_count": 1,
+    "gold_count": 1,
+    "R@5_exact": "1",
+    "P@5_fixed": 0.2
+  },
+  {
+    "item_id": "880",
+    "gold_ids": [
+      "《刑法》第196条"
+    ],
+    "predicted_ids": [
+      "《刑法》第196条",
+      "《刑法》第197条",
+      "《刑法》第198条",
+      "《刑法》第199条",
+      "《刑法》第200条"
+    ],
+    "parse_status": "ok",
+    "correct_count": 1,
+    "gold_count": 1,
+    "R@5_exact": "1",
+    "P@5_fixed": 0.2
+  },
+  {
+    "item_id": "887",
+    "gold_ids": [
+      "《刑法》第196条"
+    ],
+    "predicted_ids": [
+      "《民法典》第577条",
+      "《刑法》第196条",
+      "《民法典》第587条",
+      "《刑法》第196条之一",
+      "《民法典》第585条"
+    ],
+    "parse_status": "ok",
+    "correct_count": 1,
+    "gold_count": 1,
+    "R@5_exact": "1",
+    "P@5_fixed": 0.2
+  },
+  {
+    "item_id": "898",
+    "gold_ids": [
+      "《刑法》第264条"
+    ],
+    "predicted_ids": [
+      "《刑法》第264条",
+      "《刑法》第263条",
+      "《刑法》第262条",
+      "《刑法》第265条",
+      "《治安管理处罚法》第42条"
+    ],
+    "parse_status": "ok",
+    "correct_count": 1,
+    "gold_count": 1,
+    "R@5_exact": "1",
+    "P@5_fixed": 0.2
+  },
+  {
+    "item_id": "949",
+    "gold_ids": [
+      "《刑法》第266条"
+    ],
+    "predicted_ids": [
+      "《刑法》第196条",
+      "《民法典》第577条",
+      "《民法典》第585条",
+      "《民法典》第587条",
+      "《商业银行法》第74条"
+    ],
+    "parse_status": "ok",
+    "correct_count": 0,
+    "gold_count": 1,
+    "R@5_exact": "0",
+    "P@5_fixed": 0.0
+  },
+  {
+    "item_id": "965",
+    "gold_ids": [
+      "《刑法》第303条"
+    ],
+    "predicted_ids": [
+      "《民法典》第148条",
+      "《民法典》第149条",
+      "《民法典》第150条",
+      "《民法典》第151条",
+      "《消费者权益保护法》第53条"
+    ],
+    "parse_status": "ok",
+    "correct_count": 0,
+    "gold_count": 1,
+    "R@5_exact": "0",
+    "P@5_fixed": 0.0
+  },
+  {
+    "item_id": "969",
+    "gold_ids": [
+      "《刑法》第194条",
+      "《刑法》第177条"
+    ],
+    "predicted_ids": [
+      "《刑法》第197条",
+      "《票据法》第1条",
+      "《票据法》第95条",
+      "《票据法》第103条",
+      "《刑法》第172条"
+    ],
+    "parse_status": "ok",
+    "correct_count": 0,
+    "gold_count": 2,
+    "R@5_exact": "0",
+    "P@5_fixed": 0.0
+  },
+  {
+    "item_id": "987",
+    "gold_ids": [
+      "《刑法》第303条"
+    ],
+    "predicted_ids": [
+      "《刑法》第303条",
+      "《治安管理处罚法》第71条",
+      "《刑法》第307条",
+      "《刑法》第277条",
+      "《宪法》第33条"
+    ],
+    "parse_status": "ok",
+    "correct_count": 1,
+    "gold_count": 1,
+    "R@5_exact": "1",
+    "P@5_fixed": 0.2
+  }
+]

@@ -1,0 +1,5 @@
+Method,Hit@1,Hit@3,Hit@5,R@5,MRR
+Qwen3-Embedding (zero-shot),0.127,0.280,0.360,0.332,0.237
+Qwen3-Embedding (QLoRA),0.180,0.328,0.423,0.377,0.291
+GenArtID (Qwen3-8B),0.254,0.376,0.407,0.367,0.315
+GenArtID (GPT-5.5),0.122,0.381,0.677,0.607,0.293

@@ -1,0 +1,3 @@
+Model,Correct,Partial,Wrong
+DeepSeek V4 Flash,90.6%,7.5%,1.9%
+Qwen3-8B,40.1%,47.3%,12.5%

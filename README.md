@@ -14,7 +14,9 @@ GenArtID predicts statutory article identifiers from a question, parses the orig
 - `fig3_points.json`, `plot_fig3.py`: the ten displayed, measured Fig.3 points and a standalone plotting entry.
 - `test_review_core.py`: CPU fixtures, clearly separate from experimental data.
 
-This package covers the core method, not every external baseline implementation. Raw evaluation cases/gold, API responses, model weights, checkpoints, and private execution records are not distributed here. Use the original datasets under their own licenses: [LexRAG](https://github.com/CSHaitao/LexRAG) and [LawBench](https://github.com/open-compass/LawBench). Model weights and the optional encoder remain subject to their respective licenses.
+This package covers the core method, not every external baseline implementation. `results/` includes measured per-question statute IDs and gold IDs, per-article memory classifications/similarities, 20 paired M/R runs, three-seed knowledge-injection results, and the printed values of ten manuscript tables. Raw case/question text, raw API payloads, base/encoder weights, and private execution records are not distributed here. Obtain the original datasets under their own terms: [LexRAG](https://github.com/CSHaitao/LexRAG) and [LawBench](https://github.com/open-compass/LawBench). ID-level scored labels in this release do not grant a license to redistribute the complete upstream datasets.
+
+`checkpoints/manifest.json` identifies the six development-selected GLM adapters required for the paper. Their weights are **not yet available** in this release; publishing configuration alone is not a complete checkpoint release. `checkpoints/legacy/` records the hashes and metadata of two historical adapters recovered separately; their tensors are not published as current-paper artifacts. They are not substitutes for the selected GLM adapters. See [REPRODUCIBILITY.md](REPRODUCIBILITY.md) for exact coverage and remaining gaps.
 
 ## Quick CPU check
 
@@ -23,6 +25,7 @@ Requires Python 3.10+. The core CPU preparation/tests use the standard library.
 ```bash
 python -m unittest discover -s . -p test_review_core.py -v
 python review_cli.py --help
+python audit_results.py
 ```
 
 Plot the published coordinates without models, API calls or evaluation data:
@@ -57,10 +60,10 @@ With dependencies and local model/tokenizer files supplied, audit token boundari
 
 ```bash
 pip install -r requirements-model.txt
-python f_train_sft.py --domain civil --ratio 1f_1r --seed 20260910 --target-modules glm4-fused --tokenizer /local/GLM-4-9B-0414 --dry-run
+python f_train_sft.py --domain civil --ratio 1f_1r --seed 20260910 --target-modules qvo --tokenizer /local/GLM-4-9B-0414 --dry-run
 ```
 
-The guarded GPU entry supports QLoRA rank 32, alpha 64 and GLM fused attention targets. Do not treat this CPU check as a GPU training result. Checkpoint choice is by development Recall@5, ties to the earliest step; matched Base and selected FT are then evaluated on the same fixed test membership. Generating every checkpoint's test curve for selection is not permitted by the protocol.
+The historical paper recipe uses QLoRA rank 32, alpha 64 and q_proj/v_proj/o_proj targets. Do not treat this CPU check as a GPU training result. Checkpoint choice is by development Recall@5, ties to the earliest step; matched Base and selected FT are then evaluated on the same fixed test membership. Generating every checkpoint's test curve for selection is not permitted by the protocol.
 
 ## Retrieval, binding and evaluation
 

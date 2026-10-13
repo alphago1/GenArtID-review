@@ -1,0 +1,30 @@
+{
+  "models": [
+    {
+      "domain": "civil",
+      "archive_step_label": 280,
+      "archive_file": "bestincivilcheckpoint.tar.gz",
+      "archive_sha256": "5969a320b34ba6f83569b501d32b940554e6439060987d463024f5e4db16103c",
+      "weight_bytes": 49574480,
+      "weight_sha256": "331a5d1541380d9769b686702f67a4b9ff44801407e7609f77962d08eb02d6ce",
+      "tensor_count": 216,
+      "base_model_identity": "Qwen family; exact snapshot not independently recovered",
+      "scope": "historical archive, not one of the six development-selected GLM-4-9B-0414 adapters; no corresponding current-paper result claim",
+      "adapter_config_adaptation": "local server path replaced with an explicit unresolved base-model placeholder",
+      "weight_release_status": "RECOVERED_LOCALLY; NOT_PUBLISHED_AS_CURRENT_PAPER_CHECKPOINT"
+    },
+    {
+      "domain": "cpl",
+      "archive_step_label": 180,
+      "archive_file": "bestincplcheckpoint.tar.gz",
+      "archive_sha256": "c055ca9a4845d3ee4f815fd8f8cab452b93729c3e05dbe084977af638795bfbb",
+      "weight_bytes": 49574480,
+      "weight_sha256": "45a7ef916514c69e391a69c0326ce00baa0a003bf21d7316ef71800494a81f0c",
+      "tensor_count": 216,
+      "base_model_identity": "Qwen family; exact snapshot not independently recovered",
+      "scope": "historical archive, not one of the six development-selected GLM-4-9B-0414 adapters; no corresponding current-paper result claim",
+      "adapter_config_adaptation": "local server path replaced with an explicit unresolved base-model placeholder",
+      "weight_release_status": "RECOVERED_LOCALLY; NOT_PUBLISHED_AS_CURRENT_PAPER_CHECKPOINT"
+    }
+  ]
+}

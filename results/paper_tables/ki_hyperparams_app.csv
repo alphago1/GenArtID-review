@@ -1,0 +1,13 @@
+Parameter,Value
+Base model,GLM-4-9B-0414
+Quantization,"4-bit NF4, double quantization"
+LoRA rank / alpha / dropout,32 / 64 / 0.05
+Target modules,"q_proj, v_proj, o_proj"
+Learning rate,1\times10^{-4}
+Batch size / gradient accumulation,2 / 8
+Training budget (Civil / Criminal),"1,575 / 635 optimizer steps"
+Checkpoint interval (Civil / Criminal),40 / 20 steps
+Max sequence length,"1,024 tokens"
+Scheduler / warmup ratio,cosine / 0.03
+Optimizer / precision,AdamW (8-bit) / bfloat16
+GPU,1 NVIDIA RTX 5090

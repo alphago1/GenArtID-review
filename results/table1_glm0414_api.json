@@ -1,0 +1,83 @@
+{
+  "ts": "2026-10-10T11:32:45.755+00:00",
+  "protocol_version": "table1_glm0414_api_v1",
+  "experiment_model": "THUDM/GLM-4-9B-0414",
+  "denominators": {
+    "lexrag": 954,
+    "lawbench": 439
+  },
+  "domains": {
+    "lexrag": {
+      "generated_n": 1013,
+      "evaluated_n": 954,
+      "scores_unrounded": {
+        "Hit@1": 0.18029350104821804,
+        "Hit@3": 0.2672955974842767,
+        "Hit@5": 0.3039832285115304,
+        "MRR": 0.22762054507337526,
+        "R@5": 0.27475541579315166,
+        "P@5_fixed": 0.06457023060796646
+      },
+      "scores_4decimal": {
+        "Hit@1": "0.1803",
+        "Hit@3": "0.2673",
+        "Hit@5": "0.3040",
+        "MRR": "0.2276",
+        "R@5": "0.2748",
+        "P@5_fixed": "0.0646"
+      },
+      "hit_counts": {
+        "Hit@1": 172,
+        "Hit@3": 255,
+        "Hit@5": 290
+      },
+      "diagnostics": {
+        "empty_content": 0,
+        "finish_reason_length": 0,
+        "json_ok": 1013,
+        "parsed_5": 1002,
+        "parsed_0": 0,
+        "raw_slots_over5": 0,
+        "gold_unbound_questions": 13,
+        "usage_missing": 0,
+        "model_mismatch": 0
+      }
+    },
+    "lawbench": {
+      "generated_n": 439,
+      "evaluated_n": 439,
+      "scores_unrounded": {
+        "Hit@1": 0.20501138952164008,
+        "Hit@3": 0.32574031890660593,
+        "Hit@5": 0.36446469248291574,
+        "MRR": 0.2690964312832195,
+        "R@5": 0.26536500705065624,
+        "P@5_fixed": 0.08929384965831436
+      },
+      "scores_4decimal": {
+        "Hit@1": "0.2050",
+        "Hit@3": "0.3257",
+        "Hit@5": "0.3645",
+        "MRR": "0.2691",
+        "R@5": "0.2654",
+        "P@5_fixed": "0.0893"
+      },
+      "hit_counts": {
+        "Hit@1": 90,
+        "Hit@3": 143,
+        "Hit@5": 160
+      },
+      "diagnostics": {
+        "empty_content": 0,
+        "finish_reason_length": 0,
+        "json_ok": 439,
+        "parsed_5": 438,
+        "parsed_0": 0,
+        "raw_slots_over5": 0,
+        "gold_unbound_questions": 0,
+        "usage_missing": 0,
+        "model_mismatch": 0
+      }
+    }
+  }
+}

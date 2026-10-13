@@ -9,3 +9,4 @@ models/
 *.safetensors
 *.pt
 *.bin
+!checkpoints/legacy/*/adapter_model.safetensors

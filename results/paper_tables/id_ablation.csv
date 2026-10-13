@@ -1,0 +1,5 @@
+Model,Mode,P@5,R@5,F1@5,Corr.,Part.,Wrong
+DeepSeek,ID-Only,0.1171,0.5004,0.1860,--,--,--
+DeepSeek,ID+Content,0.1148,0.4842,0.1816,0.906,0.075,0.019
+Qwen3-8B,ID-Only,0.0830,0.3516,0.1316,--,--,--
+Qwen3-8B,ID+Content,0.0824,0.3513,0.1308,0.401,0.473,0.125
