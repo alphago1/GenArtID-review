@@ -11,7 +11,17 @@ ROOT=Path(__file__).resolve().parent
 def load(path):return json.loads((ROOT/path).read_text(encoding='utf-8'))
 
 def main():
-    summary=load('results/memory_recall_runs.json');assert len(summary['runs'])==20
+    summary=load('results/memory_recall_runs.json')
+    points=load('fig3_points.json')['points']
+    expected_runs=set()
+    for point in points:
+        keys=[f'glm0414_seed{seed}' for seed in [20260910,20260911,20260912]] if point['model_run_key']=='glm0414_ssl' else [point['model_run_key']]
+        expected_runs.update((key,point['domain']) for key in keys)
+    assert len(summary['runs'])==14
+    assert {(r['run_key'],r['domain']) for r in summary['runs']}==expected_runs
+    expected_files={f'{key}_{domain}.json' for key,domain in expected_runs}
+    for folder in ['per_question','per_article']:
+        assert {p.name for p in (ROOT/'results'/folder).glob('*.json')}==expected_files
     questions=articles=0
     for run in summary['runs']:
         name=run['run_key']+'_'+run['domain']
@@ -45,7 +55,7 @@ def main():
         assert not set(split['dev_ids'])&set(split['test_ids'])
         rows=load('results/per_question/glm0414_seed'+str(adapter['seed'])+'_'+adapter['domain']+'.json')
         assert {x['item_id'] for x in rows}=={str(x) for x in split['test_ids']}
-    for point in load('fig3_points.json')['points']:
+    for point in points:
         key=point['model_run_key'];domain=point['domain']
         candidates=[r for r in summary['runs'] if r['domain']==domain and (r['run_key']==key or key=='glm0414_ssl_mean' and r['run_key'].startswith('glm0414_seed'))]
         if not candidates:
@@ -59,7 +69,7 @@ def main():
         for entry in load('release_manifest.json')['files']:
             p=ROOT/entry['path']
             assert p.stat().st_size==entry['bytes'] and hashlib.sha256(p.read_bytes()).hexdigest()==entry['sha256']
-    print(json.dumps({'status':'PASS','paired_M_R_runs':20,'retrieval_rows':questions,'memory_rows':articles,
+    print(json.dumps({'status':'PASS','paired_M_R_runs':len(summary['runs']),'retrieval_rows':questions,'memory_rows':articles,
         'dev_selection_records':6,'figure_points':10,'model_weights_loaded':False}))
 
 if __name__=='__main__':main()

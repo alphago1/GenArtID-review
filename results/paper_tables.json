@@ -407,24 +407,6 @@
         ],
         [
           "Civil",
-          "Ling-mini-2.0",
-          "0.1968",
-          "0.5087",
-          "0.2944",
-          "0.1968",
-          "0.3093"
-        ],
-        [
-          "Civil",
-          "Qwen3-8B (post-trained)",
-          "0.1929",
-          "0.6008",
-          "0.2063",
-          "0.1929",
-          "0.3787"
-        ],
-        [
-          "Civil",
           "Qwen2.5-7B-Instruct",
           "0.2984",
           "0.5397",
@@ -440,15 +422,6 @@
           "0.3429",
           "0.0167",
           "0.2685"
-        ],
-        [
-          "Civil",
-          "DeepSeek-R1-Qwen3-8B^\\dagger",
-          "0.1675",
-          "0.6627",
-          "0.1698",
-          "0.1675",
-          "0.2426"
         ],
         [
           "Civil",
@@ -479,24 +452,6 @@
         ],
         [
           "Criminal Law",
-          "Ling-mini-2.0",
-          "0.4713",
-          "0.3545",
-          "0.1743",
-          "0.4713",
-          "0.6591"
-        ],
-        [
-          "Criminal Law",
-          "Qwen3-8B (post-trained)",
-          "0.4079",
-          "0.4733",
-          "0.1188",
-          "0.4079",
-          "0.6402"
-        ],
-        [
-          "Criminal Law",
           "Qwen2.5-7B-Instruct",
           "0.6099",
           "0.2990",
@@ -515,15 +470,6 @@
         ],
         [
           "Criminal Law",
-          "DeepSeek-R1-Qwen3-8B^\\dagger",
-          "0.4119",
-          "0.4832",
-          "0.1050",
-          "0.4119",
-          "0.7879"
-        ],
-        [
-          "Criminal Law",
           "Command R7B (12-2024)",
           "0.0515",
           "0.6178",
@@ -532,7 +478,8 @@
           "0.4621"
         ]
       ],
-      "precision": "printed manuscript precision; not an independent raw-data audit"
+      "precision": "printed manuscript precision; not an independent raw-data audit",
+      "release_scope": "Fig.3 displayed model subset; manuscript appendix unchanged"
     },
     {
       "label": "tab:fidelity_sensitivity",

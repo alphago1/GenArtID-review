@@ -1,14 +1,14 @@
 # Reproduction materials and coverage
 
-Run `python audit_results.py` without downloading models or using an API. It independently recomputes macro Recall@5 and fixed-denominator P@5 from 2,240 released ID-level question records, audits the threshold-based classes of 17,650 article records, verifies all 20 paired M/R runs, checks six development-only selections and fixed split membership, and verifies the ten plotted coordinates and release hashes. Published scores are retrospective.
+Run `python audit_results.py` without downloading models or using an API. It independently recomputes macro Recall@5 and fixed-denominator P@5 from 1,568 released ID-level question records, audits the threshold-based classes of 12,355 article records, verifies 14 paired M/R runs supporting the ten displayed Fig.3 points, checks six development-only selections and fixed split membership, and verifies the plotted coordinates and release hashes. Published scores are retrospective. The audit also rejects extra M/R runs or files outside that displayed-model scope.
 
 ## What is included
 
 - `results/per_question/`: question IDs, ordered parsed predictions, gold statute IDs, parse status, exact recall and fixed P@5. No case text or raw API requests are included. These are scored annotations/results, not SFT training samples.
 - `results/per_article/`: target/other cosine values, classification, empty-output flag and article IDs. These support classification/count checks; encoder recomputation needs original generated recitations, which are not in this release.
-- `results/memory_recall_runs.json`: exact fractions and counts for all measured runs behind the current diagnostic table, including results not selected for display in Fig.3.
+- `results/memory_recall_runs.json`: exact fractions and counts for displayed Fig.3 models. The three individual GLM SSL seeds are retained to reproduce the two plotted means and their standard deviations.
 - `results/knowledge_injection.json`: three-seed metrics, selected steps, paired bootstrap intervals and source hashes.
-- `results/paper_tables/`: ten manuscript tables at their printed precision. These exported values are not a claim that every historical baseline has a released per-question trace.
+- `results/paper_tables/`: ten table exports at manuscript precision. The memory table is a displayed-model subset of the manuscript appendix; the manuscript itself is unchanged. Other tables retain their original experiments. These exported values are not a claim that every historical baseline has a released per-question trace.
 - `selection/`: every candidate's development R@5 and the frozen earliest-step tie rule. No checkpoint is selected by its test score.
 - `splits/`: fixed development/test IDs, counts, split hashes and historical-exposure declaration. Fresh random splitting does not reproduce these runs.
 - `training/`: actual historical seeds, budgets, corpus-only sample counts and source/config hashes.

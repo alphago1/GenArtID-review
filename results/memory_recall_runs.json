@@ -78,44 +78,6 @@
       "threshold": 0.85
     },
     {
-      "run_key": "ling_mini_2",
-      "domain": "civil",
-      "model": "Ling-mini-2.0",
-      "checkpoint": null,
-      "seed": null,
-      "n_questions": 180,
-      "n_articles": 1260,
-      "R@5": 0.30925925925925923,
-      "R@5_exact": "167/540",
-      "M": 0.19682539682539682,
-      "M_exact": "62/315",
-      "counts": {
-        "Eff.": 248,
-        "Dup.": 641,
-        "Err.": 371
-      },
-      "threshold": 0.85
-    },
-    {
-      "run_key": "qwen3_8b",
-      "domain": "civil",
-      "model": "Qwen3-8B (post-trained)",
-      "checkpoint": null,
-      "seed": null,
-      "n_questions": 180,
-      "n_articles": 1260,
-      "R@5": 0.3787037037037037,
-      "R@5_exact": "409/1080",
-      "M": 0.19285714285714287,
-      "M_exact": "27/140",
-      "counts": {
-        "Eff.": 243,
-        "Dup.": 757,
-        "Err.": 260
-      },
-      "threshold": 0.85
-    },
-    {
       "run_key": "qwen25_7b_instruct",
       "domain": "civil",
       "model": "Qwen/Qwen2.5-7B-Instruct",
@@ -150,25 +112,6 @@
         "Eff.": 21,
         "Dup.": 807,
         "Err.": 432
-      },
-      "threshold": 0.85
-    },
-    {
-      "run_key": "deepseek_r1_0528_qwen3_8b",
-      "domain": "civil",
-      "model": "deepseek-ai/DeepSeek-R1-0528-Qwen3-8B",
-      "checkpoint": null,
-      "seed": null,
-      "n_questions": 180,
-      "n_articles": 1260,
-      "R@5": 0.24259259259259258,
-      "R@5_exact": "131/540",
-      "M": 0.16746031746031745,
-      "M_exact": "211/1260",
-      "counts": {
-        "Eff.": 211,
-        "Dup.": 835,
-        "Err.": 214
       },
       "threshold": 0.85
     },
@@ -268,44 +211,6 @@
       "threshold": 0.85
     },
     {
-      "run_key": "ling_mini_2",
-      "domain": "criminal_law",
-      "model": "Ling-mini-2.0",
-      "checkpoint": null,
-      "seed": null,
-      "n_questions": 44,
-      "n_articles": 505,
-      "R@5": 0.6590909090909091,
-      "R@5_exact": "29/44",
-      "M": 0.47128712871287126,
-      "M_exact": "238/505",
-      "counts": {
-        "Eff.": 238,
-        "Dup.": 179,
-        "Err.": 88
-      },
-      "threshold": 0.85
-    },
-    {
-      "run_key": "qwen3_8b",
-      "domain": "criminal_law",
-      "model": "Qwen3-8B (post-trained)",
-      "checkpoint": null,
-      "seed": null,
-      "n_questions": 44,
-      "n_articles": 505,
-      "R@5": 0.6401515151515151,
-      "R@5_exact": "169/264",
-      "M": 0.4079207920792079,
-      "M_exact": "206/505",
-      "counts": {
-        "Eff.": 206,
-        "Dup.": 239,
-        "Err.": 60
-      },
-      "threshold": 0.85
-    },
-    {
       "run_key": "qwen25_7b_instruct",
       "domain": "criminal_law",
       "model": "Qwen/Qwen2.5-7B-Instruct",
@@ -344,25 +249,6 @@
       "threshold": 0.85
     },
     {
-      "run_key": "deepseek_r1_0528_qwen3_8b",
-      "domain": "criminal_law",
-      "model": "deepseek-ai/DeepSeek-R1-0528-Qwen3-8B",
-      "checkpoint": null,
-      "seed": null,
-      "n_questions": 44,
-      "n_articles": 505,
-      "R@5": 0.7878787878787878,
-      "R@5_exact": "26/33",
-      "M": 0.41188118811881186,
-      "M_exact": "208/505",
-      "counts": {
-        "Eff.": 208,
-        "Dup.": 244,
-        "Err.": 53
-      },
-      "threshold": 0.85
-    },
-    {
       "run_key": "command_r7b",
       "domain": "criminal_law",
       "model": "cohere/command-r7b-12-2024",
@@ -381,5 +267,6 @@
       },
       "threshold": 0.85
     }
-  ]
+  ],
+  "release_scope": "Fig.3 displayed models, including individual seeds supporting SSL means"
 }
