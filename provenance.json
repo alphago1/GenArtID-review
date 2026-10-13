@@ -1,0 +1,101 @@
+{
+  "schema": "review-code-provenance/1",
+  "files": [
+    {
+      "file": "ga_identifiers.py",
+      "source_sha256": "a9ba7ea3e9ab0d91871155bd31e38f713c6abb162cf444ebce0c5125ce7856c6",
+      "adaptation": "relative imports flattened with ga_ prefix only"
+    },
+    {
+      "file": "ga_parsing.py",
+      "source_sha256": "70a67bae56200da012f0bf1b486dddb63b43f34be8f10f2d3b0dc8ebad06a822",
+      "adaptation": "relative imports flattened with ga_ prefix only"
+    },
+    {
+      "file": "ga_scoring.py",
+      "source_sha256": "8294416ad16f56737016fc835e68072d41c73fc0a16c48ffb8acb290f7ba8fd3",
+      "adaptation": "relative imports flattened with ga_ prefix only"
+    },
+    {
+      "file": "ga_corpus.py",
+      "source_sha256": "32dd577b91a25cfcc4aa1841c9f5cf07916c6a5f8efb548a6f7206001ff90b5f",
+      "adaptation": "relative imports flattened with ga_ prefix only"
+    },
+    {
+      "file": "ga_build_sft.py",
+      "source_sha256": "1dfde7a6afa4ecd987f6d09640641d33137d156c19fa80b2dd66b6aa4cea3b29",
+      "adaptation": "relative imports flattened with ga_ prefix only"
+    },
+    {
+      "file": "ga_split.py",
+      "source_sha256": "1d6fe9c8fdadfc5ce1b6d25421032567d32fa8675faa8c0d24c6a1fe97480136",
+      "adaptation": "relative imports flattened with ga_ prefix only"
+    },
+    {
+      "file": "ga_balanced_split.py",
+      "source_sha256": "350f5adabf49f14cfaf94a4304a1c9c2f0fc4f22d9cf49fba3fd6b66624ffc39",
+      "adaptation": "relative imports flattened with ga_ prefix only"
+    },
+    {
+      "file": "ga_select.py",
+      "source_sha256": "63a650fe0327e64669663e6e6a9d8884c0996b133785dc09c32eac6a5c29d48c",
+      "adaptation": "relative imports flattened with ga_ prefix only"
+    },
+    {
+      "file": "ga_profile.py",
+      "source_sha256": "9a06753830b5dca65ee9c20b88781b5488b736aaa30920c5ff8a0c5e6f3ce9a4",
+      "adaptation": "relative imports flattened with ga_ prefix only"
+    },
+    {
+      "file": "ga_pipeline.py",
+      "source_sha256": "eb7226851fcb47fc9cec19698fbfe6d2bee860e58d5ed98ab0fbd1b34433b129",
+      "adaptation": "relative imports flattened with ga_ prefix only"
+    },
+    {
+      "file": "ga_memory_recall_probe.py",
+      "source_sha256": "76db7f93154d5c93850789ea6b393c5deac27a55ded28f64bf6f6029b36c6c20",
+      "adaptation": "relative imports flattened with ga_ prefix only"
+    },
+    {
+      "file": "ga_local_memory_exec.py",
+      "source_sha256": "de6a7ca7d22240aded0efb90f79798c0923f9a3d4a22353aa0307f5ed9265468",
+      "adaptation": "relative imports flattened with ga_ prefix only"
+    },
+    {
+      "file": "f_train_sft.py",
+      "source_sha256": "779d3600bba6138ea4c39dee2aac22904471a6b7e2faf273ac0a977c27ee85a0",
+      "adaptation": "flat imports/root configuration paths only"
+    },
+    {
+      "file": "g_generate_predictions.py",
+      "source_sha256": "0cd1838c0244ec451ac519825adc9fbf46bfa89cadcaf750f9b6d3db3b12eac0",
+      "adaptation": "flat imports/root configuration paths only"
+    },
+    {
+      "file": "h_dev_select.py",
+      "source_sha256": "337c40507b9f5d0fe24a619136257cef45b0f21327935fbdeec0e5e936173597",
+      "adaptation": "flat imports/root configuration paths only"
+    },
+    {
+      "file": "run_test_eval.py",
+      "source_sha256": "26f2c37798b874814a3f5b84f8efa7149da531ca401c35b56a348424bb327187",
+      "adaptation": "flat imports/root configuration paths only"
+    },
+    {
+      "file": "base_ft_eval_profile.json",
+      "source_sha256": "1deb4c39b9563985380f933048797d098468c8dcd94a916edf675bc43fd9776f",
+      "adaptation": "none"
+    },
+    {
+      "file": "research_protocol.json",
+      "source_sha256": "19eb368d17ffba67ee902773943b5718aca6d5a7dea3ce4147c807b55158467f",
+      "adaptation": "none"
+    },
+    {
+      "file": "ablation_matrix.json",
+      "source_sha256": "6d3933aa2c31c2835038706a6b8aac70cea4c5da73601ff27dd7e66453b7d7f7",
+      "adaptation": "none"
+    }
+  ],
+  "scope": "minimal core reproduction; data and weights supplied separately; GPU/paid execution not run during packaging"
+}

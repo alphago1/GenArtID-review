@@ -1,0 +1,102 @@
+{
+  "schema": "genartid-baseft-profile/1",
+  "model_family": "glm-4-9b-0414",
+  "comment": "GLM-4-9B-0414 Base/FT evaluation profile. Adapted from configs/base_ft_eval_profile.json: the Qwen-only /no_think prefix and the enable_thinking template flag are REMOVED (the official chat_template.jinja at revision 645b8482494e31b6b752272bf7f7f273ef0f3caf has no thinking branch). Everything evaluation-affecting is explicit; CPU validates structure only.",
+  "parser": {
+    "scoring_parser": "fixed_v2",
+    "historical_parity_parser": "legacy_notebook",
+    "parity_usage": "historical accounting only; never for new selection or reporting"
+  },
+  "prompt": {
+    "system_prompt_verbatim_notebook_top5": "你是一个专业的中国法律检索专家。\n\n你的任务不是作答，而是为后续数据库检索生成候选法条。\n请根据用户案情，输出最相关的5条法条编号，按相关性从高到低排序。\n\n硬性要求：\n1. 必须恰好输出5条；\n2. 每条都必须是《法律名称》第XXX条；\n3. 不要输出解释、分析、理由、序号或其他任何文字；\n4. 即使不确定，也必须给出5条最可能的候选法条；\n5. 优先输出最核心、最直接适用的法条；\n6. 只输出 JSON，不要输出其他内容。\n\n输出格式：\n{\"articles\": [\"《法律名称》第XXX条\", ...]}",
+    "user_template": "案情：\n{question}\n\n请严格输出 JSON。"
+  },
+  "chat_template": {
+    "add_generation_prompt": true,
+    "note": "official chat_template.jinja (sha256 db700f25fa300e53..., revision 645b848) is used verbatim; it has no thinking switch, so no enable_thinking kwarg is passed. Template renders a '[gMASK]<sop>' prefix that the tokenizer also auto-adds; pipeline.strip_template_auto_prefix keeps exactly one copy (B20)."
+  },
+  "decode": {
+    "greedy": {
+      "do_sample": false,
+      "num_beams": 1,
+      "temperature": null,
+      "top_p": null,
+      "top_k": null,
+      "repetition_penalty": 1.0,
+      "max_new_tokens": 256
+    },
+    "sample_explicit": {
+      "do_sample": true,
+      "num_beams": 1,
+      "temperature": 0.6,
+      "top_p": 0.95,
+      "top_k": 20,
+      "repetition_penalty": 1.0,
+      "max_new_tokens": 256,
+      "seeds": [
+        20260910,
+        20260911,
+        20260912
+      ],
+      "seed_policy": "per-question stable seed = sha256(global_seed, sample_id), reset before each query; all pre-registered seeds are reported, no seed cherry-picking"
+    }
+  },
+  "tokens": {
+    "eos": "[151329, 151336, 151338] — the full inference stop set from generation_config.json (see inference_eos_token_ids)",
+    "pad": "151329 <|endoftext|> (generation_config.json pad_token_id; tokenizer pad_token)",
+    "inference_eos_token_ids": [
+      151329,
+      151336,
+      151338
+    ],
+    "inference_eos_source": "generation_config.json eos_token_id at revision 645b8482494e31b6b752272bf7f7f273ef0f3caf; multi-EOS — generation entries MUST pass the whole list, never a single id",
+    "pad_token_id": 151329,
+    "token_id_map": {
+      "151329": "<|endoftext|>",
+      "151330": "[MASK]",
+      "151331": "[gMASK]",
+      "151332": "[sMASK]",
+      "151333": "<sop>",
+      "151334": "<eop>",
+      "151335": "<|system|>",
+      "151336": "<|user|>",
+      "151337": "<|assistant|>",
+      "151338": "<|observation|>"
+    },
+    "train_completion_terminator": "tokenizer.eos_token as resolved at runtime, appended to every training completion by the shared pipeline. MEASURED 2026-10-04 (transformers 5.17.0, pinned snapshot): resolves to '<|user|>' id 151336 — tokenizer_config.json overrides special_tokens_map.json (which says <|endoftext|>). 151336 is a member of the inference stop set, so decode stopping is consistent; re-verified at the B GPU gate.",
+    "prefix_audit_2026_10_04": "with transformers 5.17.0 the GLM-4 tokenizer encode() adds NO automatic [gMASK]<sop> prefix (auto_prefix_ids == []), so the template copy is the only copy and strip_template_auto_prefix is a harmless no-op; B20 duplication does not arise under this stack — kept as insurance",
+    "adapter_only": "load adapter, never merge"
+  },
+  "precision": {
+    "quantization": "4-bit NF4 + double quant",
+    "compute_dtype": "bfloat16",
+    "requirement": "explicit torch.cuda.is_bf16_supported() check; FAIL on unsupported hardware; never silently fall back to fp32/fp16",
+    "historical_defect": "notebooks used bf16=torch.cuda.is_available() which conflates CUDA presence with bf16 support"
+  },
+  "base_ft_must_match": [
+    "system_prompt",
+    "user_template",
+    "chat_template flags",
+    "decode profile (all keys)",
+    "global seed",
+    "max_new_tokens",
+    "eos_token_id",
+    "pad_token_id",
+    "parser version"
+  ],
+  "differences_allowed": [
+    "adapter path (None for Base, directory for FT)"
+  ],
+  "gpu_gates_pending": [
+    "tokenizer/collator labels actually mask the prompt (completion-only supervision) — full-row audit done CPU-side in stage A with the real tokenizer; re-check on GPU",
+    "tokenizer.eos_token resolves as registered above (special_tokens_map vs tokenizer_config conflict); record the resolved id and string",
+    "generation stops on the full eos list [151329, 151336, 151338]; a single-id GenerationConfig is a protocol violation for this profile",
+    "exactly one [gMASK]<sop> prefix in encoded prompts (B20 strip + tokenizer auto-add)",
+    "adapter active and changes logits (on/off first-question check)",
+    "bf16 supported on the rented GPU; 4-bit NF4 loading succeeds",
+    "LoRA target modules q_proj/v_proj/o_proj hit the native Glm4ForCausalLM split projections (expected 160 trainable LoRA param groups: 40 layers x q/v/o x A+B); glm4-fused targets are NOT used",
+    "effective batch size / gradient accumulation as configured",
+    "save/restore path (save_only_model=True prevents exact training resume; runs that need resume must save optimizer/scheduler/rng state)",
+    "8-question smoke run before any full evaluation"
+  ]
+}

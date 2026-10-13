@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.env
+.env.*
+inputs/
+artifacts/
+runs/
+models/
+*.safetensors
+*.pt
+*.bin

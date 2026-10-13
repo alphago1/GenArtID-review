@@ -1,0 +1,154 @@
+{
+  "schema": "genartid-ablation-matrix/1",
+  "status": "frozen_cpu_side_not_executed",
+  "comment": "P3 阶段化消融矩阵。一次只动一个因素；所有阶段共用 research_protocol.json 的冻结 split/选择器/bootstrap 与 base_ft_eval_profile.json 的统一 Base/FT 评测配置。本文件只定义实验，不授权执行；执行需 GPU 门禁（G5）通过。",
+  "shared_controls": {
+    "corpus": "inputs/data 六文件快照（哈希见 artifacts/input_inventory.json）",
+    "data_builder": "src/genartid/build_sft.py（corpus-only，确定性 per-direction article cycling）",
+    "budget_rule": "每域每配方总样本槽 = 4 × 法条数（civil 5040 / cpl 1228），有效 batch 与总优化步数固定为该槽预算对应的同一值",
+    "training_fixed": {
+      "lora_r": 32,
+      "lora_alpha": 64,
+      "lora_dropout": 0.05,
+      "learning_rate": 0.0001,
+      "lr_scheduler": "cosine",
+      "warmup_ratio": 0.03,
+      "bf16_required": "显式 is_bf16_supported() 检查，失败拒绝",
+      "quantization": "4-bit NF4 + double quant",
+      "max_length": "由 token 审计决定（实测语料正文最大字符 civil 386 / cpl 407，含模板后 token 数待本地 tokenizer 审计；历史审计的 315/344 是历史 SFT 数据的 token 上限，不适用于新数据，不得引用为字符数）",
+      "seed_policy": "3 个预注册训练 seed 全部运行全部报告；按固定规则（每 seed 各自 dev 选点）汇报分布，不挑最好 seed 做唯一结果",
+      "per_device_train_batch_size": 2,
+      "gradient_accumulation_steps": 8,
+      "effective_batch": 16,
+      "save_strategy": "steps",
+      "save_steps": {
+        "cpl": 10,
+        "civil": 40,
+        "criminal_law": 20
+      },
+      "training_seeds": [
+        20260910,
+        20260911,
+        20260912
+      ],
+      "max_steps": {
+        "cpl": 385,
+        "civil": 1575,
+        "criminal_law": 635
+      },
+      "max_steps_note": "显式优化步预算（G9 单一来源，pipeline.BUDGET 同值、训练入口用 SFTConfig.max_steps）。385 = ceil(1228/16)=77 batch/epoch × 5；1575 = ceil(5040/16)=315 × 5。不再用 epochs 公式（旧公式算出 383 与本矩阵 385 冲突）。试点时用 trainer_state.global_step 对账。 2026-10-04 刑法域扩展：635 = ceil(2020/16)=127 batch/epoch × 5；save 20 → 32 候选（cpl 式早期密集采样）。",
+      "expected_checkpoints_per_run": {
+        "cpl": 39,
+        "civil": 40
+      },
+      "checkpoint_policy": "保存间隔 cpl=10 / civil=40 步 + 末步（不在间隔网格上时另存）；按唯一 global_step 去重（cpl 候选 10..380 + 385 = 39 个；civil 40..1560 + 1575 = 40 个）；所有比例使用相同候选步集合；save_only_model=True，中断须从头重跑（不支持无损续训）",
+      "output_dir_policy": "训练输出目录已存在即拒绝；恢复须显式指定并核对配置/数据哈希"
+    },
+    "selection": "dev 宏 Recall@5（full_gold_all 视图），并列取更早 global_step（select.py 已冻结并测试）",
+    "test": "S1–S4 全程选择只看 dev；test 仅在最终方案与报告规则冻结后统一评一次（run_test_eval.py 要求冻结 selection artifact + 协议指纹 + split 内容哈希，配置/解码/划分任何改动都会使旧 selection 失效）。多 seed 的预注册对照可一起报告，不是只能评一个模型；任何 test 结果不回流影响 S 阶段内的决策",
+    "domains": "civil 与 cpl 分开训练、分开选点、分开报告；不用一个域的胜出掩盖另一个域的下降"
+  },
+  "stages": [
+    {
+      "stage": "S1_ratio_scan",
+      "research_question": "固定其余条件，F:R 样本比例（1:0/3:1/1:1/1:3/0:1）是否影响案件检索 dev 宏 Recall@5？样本比例 ≠ 监督 token 比例 ≠ 梯度贡献，三者分开记录。",
+      "one_factor": "F:R 比例（数据由同一构建器、同 seed 产出，仅比例不同）",
+      "fixed": [
+        "q/v/o LoRA",
+        "greedy 解码评测",
+        "训练预算（槽/步）",
+        "提示词与评测协议",
+        "法条库"
+      ],
+      "cost_unit": "完整预算 = 5 比例 × 2 域 × 3 训练 seed = 30 次 SFT（cpl ~385 步/次、civil ~1575 步/次）+ ~1,160 个 checkpoint 的 dev 评测（cpl 24 题 / civil 181 题）。首轮先跑 1 次 cpl 1:1 单 seed 试点测吞吐与评测耗时，用实测数据修订本预算后再决定全量；GPU 预算不足时先 cpl（约便宜 4 倍）后 civil",
+      "primary_metric": "dev 宏 Recall@5；附带报告监督 token 数/方向、重复率、非法 ID 率、格式合法率",
+      "success": "存在某比例在 dev 上稳定优于 1:0 或 0:1 端点（跨训练 seed 方向一致）；该信号进入最终冻结后的 test 验证清单，S 阶段内不看 test",
+      "failure": "五比例 dev 曲线在噪声带内不可分 → 记录为无比例效应，进入 S2，不反复扫比例",
+      "cpu_verifiable": [
+        "五比例数据已构建、字节可重建（已通过）",
+        "覆盖率/重复数报告（已通过）",
+        "槽预算整数可分（已通过）"
+      ],
+      "gpu_pending": [
+        "真实训练与逐题输出",
+        "多训练 seed 稳定性",
+        "首轮单次试点实测吞吐后修订总预算"
+      ]
+    },
+    {
+      "stage": "S2_adapter_capacity",
+      "research_question": "在 S1 dev 选出的固定比例上，LoRA 适配位置 q/v/o vs all-linear 是否改变知识注入效果与遗忘？",
+      "one_factor": "target_modules（q/v/o_proj vs all-linear）",
+      "fixed": [
+        "S1 选中比例的数据（冻结）",
+        "其余训练超参",
+        "评测协议"
+      ],
+      "cost_unit": "2 变体 × 2 域 × ≥2 训练 seed",
+      "primary_metric": "dev 宏 Recall@5；同时报告可训练参数量、显存峰值、吞吐（损失效率时的成本记录）",
+      "success": "all-linear 在 dev 上优于 q/v/o 且跨 seed 方向一致；最终 test 冻结后验证方向一致（S 阶段内不看 test）",
+      "failure": "两者不可分或 all-linear 更差 → 保留 q/v/o（历史可比），记录参数量差异",
+      "cpu_verifiable": [
+        "配置差异仅 target_modules 一项（profile 校验逻辑可复用）"
+      ],
+      "gpu_pending": [
+        "可训练参数量实测",
+        "显存/吞吐实测",
+        "训练与评测",
+        "基座能力保持对照（早 checkpoint + Base 已在协议内）"
+      ]
+    },
+    {
+      "stage": "S3_mask_augment",
+      "research_question": "在固定比例的 F/R 之上，用 masked_span_reconstruction 替换（而非追加）固定槽数，是否改善？full_reconstruction 与 span_only 是两个独立实验，分开跑、分开报。",
+      "one_factor": "辅助任务（无 / mask-full / mask-span）+ mask 占比（0.15 / 0.30 为候选值，非论文最优值）",
+      "fixed": [
+        "总槽预算不变（替换固定数量 F 或 R 槽）",
+        "其余训练超参",
+        "评测协议"
+      ],
+      "cost_unit": "每域 5 个对照臂（baseline、mask-full@0.15、mask-full@0.30、mask-span@0.15、mask-span@0.30）× ≥2 seed；先做单域（建议 cpl）",
+      "primary_metric": "dev 宏 Recall@5（闭卷案件检索）；mask 任务自身分数只作机制参考，不冒充 recall",
+      "success": "某 mask 变体 dev 优于等槽 baseline 且方向跨 seed 一致；最终 test 冻结后验证（S 阶段内不看 test）",
+      "failure": "mask 提升填空但不提升检索 → 结论为“学到上下文补全而非可用参数知识”，如实记录",
+      "cpu_verifiable": [
+        "mask 数据可还原且 source 正确（verify_mask_restorable 已通过，0 失败）",
+        "两种 target 产物分离（已通过）",
+        "占位符为普通可见 token 的差异已声明"
+      ],
+      "gpu_pending": [
+        "真实 tokenizer 下占位符分词与 labels 检查",
+        "是否新增特殊 token 的决策（当前原型不新增）",
+        "训练与评测"
+      ]
+    },
+    {
+      "stage": "S4_decode_variant",
+      "research_question": "greedy vs 显式 sampling 对选中模型的影响；解码是独立因素，不与数据/容量混在同一比较。",
+      "one_factor": "解码变体（greedy / sample_explicit），sampling 下固定 ≥3 个预注册 seed 全报",
+      "fixed": [
+        "模型（S2/S3 选出）",
+        "提示词",
+        "top_k/top_p/temperature/repetition_penalty/max_new_tokens（sample_explicit 全显式）"
+      ],
+      "cost_unit": "每模型 2 变体 ×（greedy 1 次 + sampling 3 seed）× 2 域评测；纯推理无训练",
+      "primary_metric": "同一模型两变体的 dev/test 宏 Recall@5 差异 + 逐题 gain/tie/loss",
+      "success": "某变体稳定更优 → 写进部署协议；差异随 seed 波动大 → 报告解码噪声量级",
+      "failure": "差异在 seed 噪声内 → 记录“解码变体在此任务无稳定效应”，默认 greedy（可复现）",
+      "cpu_verifiable": [
+        "两变体配置已冻结且 Base/FT 等值检查通过（profile.py 已测试）"
+      ],
+      "gpu_pending": [
+        "真实生成与逐题输出"
+      ]
+    }
+  ],
+  "ordering_and_gates": [
+    "S1 → S2 → S3 → S4 顺序执行；S2/S3/S4 依赖 S1 的 dev 选择，不跳级。",
+    "S1–S4 的所有选择与对照只使用 dev；test 在最终方案与报告规则冻结后统一评一次，不画 test 曲线、不因 test 结果回头改配方（若发生，该 test 降级为开发证据并声明）。",
+    "每阶段结束写 selection artifact；旧 artifact 在配置/解码/划分变更后自动失效（协议指纹含完整 profile 与 split 内容哈希，防篡改回归测试在 tests/test_select.py）。",
+    "任何阶段出现格式合法率 <90% 或非法 ID 率异常上升，先做行为诊断（B07/格式分解），不直接解释为知识效应。",
+    "组合爆炸禁止：不同时改比例+容量+mask+解码；交互验证仅在单因素有稳定信号后有限进行。",
+    "开卡首日只做 G5 smoke（bf16/4bit/8 题 dev 生成/少步训练/adapter 往返），通过后先跑 S1 试点（cpl 1:1 单 seed），再决定全量预算。"
+  ]
+}
