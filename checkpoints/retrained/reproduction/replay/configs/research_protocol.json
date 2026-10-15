@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "phase": "cpu_preparation",
+  "allow_training": false,
+  "allow_model_inference": false,
+  "allow_remote_mutation": false,
+  "training_data_boundary": "corpus_only_no_real_or_synthetic_cases",
+  "domains": [
+    "civil",
+    "cpl"
+  ],
+  "direction_definition": {
+    "F": "id_to_full_article",
+    "R": "full_article_to_id"
+  },
+  "ratios_F_R": [
+    [
+      1,
+      0
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "data_seed": 20260910,
+  "sample_slots_per_article": 4,
+  "ratio_budget_control": "equal_total_sample_slots_and_future_optimizer_steps",
+  "split": {
+    "seed": 20260910,
+    "dev_fraction": 0.5,
+    "group_key": "normalized_question_text",
+    "status": "create_local_version_unless_existing_frozen_split_supplied",
+    "historically_exposed": true
+  },
+  "selection": {
+    "metric": "macro_recall_at_5",
+    "view": "full_gold_all",
+    "tie_break": "earliest_global_step",
+    "partition": "dev"
+  },
+  "bootstrap": {
+    "seed": 20260911,
+    "resamples": 10000,
+    "unit": "question_group"
+  },
+  "lora_variants": [
+    "q_v_o",
+    "all_linear"
+  ],
+  "decode_variants": {
+    "greedy": {
+      "do_sample": false,
+      "repetition_penalty": 1.0,
+      "max_new_tokens": 256
+    },
+    "sample_explicit": {
+      "do_sample": true,
+      "temperature": 0.6,
+      "top_p": 0.95,
+      "top_k": 20,
+      "repetition_penalty": 1.0,
+      "max_new_tokens": 256,
+      "seeds": [
+        20260910,
+        20260911,
+        20260912
+      ]
+    }
+  },
+  "mask_variants": {
+    "fractions": [
+      0.15,
+      0.3
+    ],
+    "targets": [
+      "full_reconstruction",
+      "span_only"
+    ],
+    "status": "experimental_cpu_prototypes_not_validated_training_recipe"
+  },
+  "token_length_audit": "required_before_any_truncation_decision",
+  "base_ft_protocol_must_match": true,
+  "train_system_prompt": "严格按用户要求输出法条原文或法条编号，不添加解释。",
+  "train_system_prompt_note": "2026-09-10 G7 调整：旧提示词只提'输出法条内容'，与 R 方向（输出编号）存在任务描述张力。这是显式模板变更（不是已证实的性能 bug），变更后需重做 token/labels 审计并冻结指纹；S1 扫描途中不再改提示词。历史 notebook 的旧提示词保留在 reference 与文献审计中，不用于新实验。"
+}

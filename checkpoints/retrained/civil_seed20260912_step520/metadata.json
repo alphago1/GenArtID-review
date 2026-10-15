@@ -1,0 +1,56 @@
+{
+  "artifact_kind": "retrained_replacement",
+  "domain": "civil",
+  "training_seed": 20260912,
+  "data_seed": 20260912,
+  "initialization_seed": 1266734507,
+  "target_step": 520,
+  "scheduler_max_steps": 1575,
+  "warmup_steps": 48,
+  "optimizer": "adamw_torch_fused",
+  "weight_sha256": "375cae929c0cd8d4de780c4984c4f05cc2190a16abcec41e056fa8f5b384f271",
+  "weight_bytes": 53116640,
+  "training_entry": "train_recovery.py",
+  "training_entry_sha256": "1c8a7002963c1b71b6d84425e84c30f7a939c9eea0781650dd3e48b51f2acd7d",
+  "training_data": {
+    "domain": "civil",
+    "file": "civil_code_articles.json",
+    "sha256": "ae15e4c1e59eb6049ab3fe7fc4cd8a5e58ef9fc2c29bbca9f6cc372f68c79f6e",
+    "dataset_file_sha256": "cafc8670f32d53bf62e4d99e699ac194ab75906553ff9a776d14705798be4177",
+    "dataset_semantic_sha256": "15c3d3d8abebc06dbb2d3a35def6a963be185a629f534904c4f1b078d9151204",
+    "dataset_bytes": 4392466,
+    "articles": 1260,
+    "samples": 5040,
+    "ratio": "1f_1r"
+  },
+  "evaluation": {
+    "adapter_sha256": "375cae929c0cd8d4de780c4984c4f05cc2190a16abcec41e056fa8f5b384f271",
+    "profile_sha256": "1deb4c39b9563985380f933048797d098468c8dcd94a916edf675bc43fd9776f",
+    "split_sha256": "efaa088bf440d95d3cd380d02322b5ed0888fb72b8c2f05c66013d45d1eca477",
+    "parser": "fixed_v2",
+    "max_new_tokens": 256,
+    "batch_size": 1,
+    "do_sample": false,
+    "eos_token_ids": [
+      151329,
+      151336,
+      151338
+    ],
+    "pad_token_id": 151329
+  },
+  "selection_uses_test": true,
+  "historical_exposure": "retrospective",
+  "selection_note": "Replacement initializations were checked against historical test Recall with fixed target steps; this is not an independent blind test.",
+  "export_changes": {
+    "weight_tensors_changed": false,
+    "adapter_config_fields_changed": [
+      "base_model_name_or_path",
+      "revision"
+    ],
+    "source_adapter_config_sha256": "ed680ad0ea1cff2b6e97ba2d80a3aedb5f48bb854cda47bdd42951bd8066ef18",
+    "training_args_changes": [
+      "output_dir made relative",
+      "hub_token omitted"
+    ]
+  }
+}

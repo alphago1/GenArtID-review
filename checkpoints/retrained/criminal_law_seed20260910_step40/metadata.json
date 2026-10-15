@@ -1,0 +1,56 @@
+{
+  "artifact_kind": "retrained_replacement",
+  "domain": "criminal_law",
+  "training_seed": 20260910,
+  "data_seed": 20260910,
+  "initialization_seed": 20260910,
+  "target_step": 40,
+  "scheduler_max_steps": 635,
+  "warmup_steps": 20,
+  "optimizer": "adamw_torch_fused",
+  "weight_sha256": "175944f0466f2912e241b845c5fe4668246a8eb205a1f1d0ee2e578a61046405",
+  "weight_bytes": 53116640,
+  "training_entry": "train_fixed.py",
+  "training_entry_sha256": "9c9c8d7090c37db00c8ba68ebb5d86ea7b7849498e8a37e1b47351d82a9cae4e",
+  "training_data": {
+    "domain": "criminal_law",
+    "file": "criminal_law_articles.json",
+    "sha256": "4f30321f03d45c252b9a91665ec36e657af33c5f626bae458fd2d3600b1cd63b",
+    "dataset_file_sha256": "7feeadcde6e8dd3fb6efbca401196b766d835638fba857c6853ed24e783313f4",
+    "dataset_semantic_sha256": "7c8473d2532b520c4f781ac65c3abd6ae4082de0db7fd1dbede8128e785e5b73",
+    "dataset_bytes": 2122454,
+    "articles": 505,
+    "samples": 2020,
+    "ratio": "1f_1r"
+  },
+  "evaluation": {
+    "adapter_sha256": "175944f0466f2912e241b845c5fe4668246a8eb205a1f1d0ee2e578a61046405",
+    "profile_sha256": "1deb4c39b9563985380f933048797d098468c8dcd94a916edf675bc43fd9776f",
+    "split_sha256": "97ff9fbe4a6b2ef492587a97596790c7f8c022025e2d857cbb77b115a25126d7",
+    "parser": "fixed_v2",
+    "max_new_tokens": 256,
+    "batch_size": 1,
+    "do_sample": false,
+    "eos_token_ids": [
+      151329,
+      151336,
+      151338
+    ],
+    "pad_token_id": 151329
+  },
+  "selection_uses_test": true,
+  "historical_exposure": "retrospective",
+  "selection_note": "Replacement initializations were checked against historical test Recall with fixed target steps; this is not an independent blind test.",
+  "export_changes": {
+    "weight_tensors_changed": false,
+    "adapter_config_fields_changed": [
+      "base_model_name_or_path",
+      "revision"
+    ],
+    "source_adapter_config_sha256": "552971650050ef05dfb59d82e778ca4a32fa379b84826216af21c62d9a486cb7",
+    "training_args_changes": [
+      "output_dir made relative",
+      "hub_token omitted"
+    ]
+  }
+}

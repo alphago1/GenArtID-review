@@ -1,0 +1,161 @@
+{
+  "schema": "genartid-raw-diagnostics/1",
+  "points": 10,
+  "historical_exposure": "retrospective",
+  "runs": [
+    {
+      "run_key": "glm0414_seed20260910",
+      "domain": "civil",
+      "raw_recitations": "results/fig3_table7/raw_recitations/glm0414_seed20260910_civil.jsonl",
+      "raw_retrieval": "results/fig3_table7/raw_retrieval/glm0414_seed20260910_civil.jsonl",
+      "n_articles": 1260,
+      "n_questions": 180,
+      "source_recitation_sha256": "e9080d08013e9e74b918e4dbe62c27e3f38671963dc75f14ade63cf841b7eb3e",
+      "source_retrieval_sha256": "af75e46e646b960cbf0ae1afcd9cc96c6d945a2ed7cbbb8f3234ae9df7d64788"
+    },
+    {
+      "run_key": "glm0414_base",
+      "domain": "civil",
+      "raw_recitations": "results/fig3_table7/raw_recitations/glm0414_base_civil.jsonl",
+      "raw_retrieval": "results/fig3_table7/raw_retrieval/glm0414_base_civil.jsonl",
+      "n_articles": 1260,
+      "n_questions": 180,
+      "source_recitation_sha256": "f9ddc0504f0004b8c4952bdba2bf437af8752d217e5a7a82dd0a9c2b8967aa6d",
+      "source_retrieval_sha256": "2ac772399a545c5c70de5ad0a7d94fc9a84451be451eacb818c55eabb84fb351"
+    },
+    {
+      "run_key": "glm0414_seed20260911",
+      "domain": "civil",
+      "raw_recitations": "results/fig3_table7/raw_recitations/glm0414_seed20260911_civil.jsonl",
+      "raw_retrieval": "results/fig3_table7/raw_retrieval/glm0414_seed20260911_civil.jsonl",
+      "n_articles": 1260,
+      "n_questions": 180,
+      "source_recitation_sha256": "7614d285322d93127d2f49aba4c67ab06a88bd0f3620819205cdc2078990fd0f",
+      "source_retrieval_sha256": "9e22d9c4120eb05f861e60a980f0eb7b1d1adb407a6831e193d6e7b5ca532cc0"
+    },
+    {
+      "run_key": "glm0414_seed20260912",
+      "domain": "civil",
+      "raw_recitations": "results/fig3_table7/raw_recitations/glm0414_seed20260912_civil.jsonl",
+      "raw_retrieval": "results/fig3_table7/raw_retrieval/glm0414_seed20260912_civil.jsonl",
+      "n_articles": 1260,
+      "n_questions": 180,
+      "source_recitation_sha256": "ccb1fd819c0a2ca956e16373db97c36666a89ced0487c6d46fcd58778be41b02",
+      "source_retrieval_sha256": "82a12b166005f64743f6aa17dde167a21b318c157a910c21d96f9a8f28ab2d7f"
+    },
+    {
+      "run_key": "qwen25_7b_instruct",
+      "domain": "civil",
+      "raw_recitations": "results/fig3_table7/raw_recitations/qwen25_7b_instruct_civil.jsonl",
+      "raw_retrieval": "results/fig3_table7/raw_retrieval/qwen25_7b_instruct_civil.jsonl",
+      "n_articles": 1260,
+      "n_questions": 180,
+      "source_recitation_sha256": "fbbe4c0b08741c051f427846b9d96336bd1ee6c4867704047d1257b414b65b69",
+      "source_retrieval_sha256": "5c9c6d6985c53158b663d4eca88c1cc558b9d1f8581d97896b40362c2c8912f6"
+    },
+    {
+      "run_key": "glm_z1_9b_0414",
+      "domain": "civil",
+      "raw_recitations": "results/fig3_table7/raw_recitations/glm_z1_9b_0414_civil.jsonl",
+      "raw_retrieval": "results/fig3_table7/raw_retrieval/glm_z1_9b_0414_civil.jsonl",
+      "n_articles": 1260,
+      "n_questions": 180,
+      "source_recitation_sha256": "bd44a652275b9e696317468d53caae9f736dfe1f23e660bf4935c0f372aff066",
+      "source_retrieval_sha256": "7b60a0f92244ba32b597979c3b04ebddf13240e86e8a0472cb537ab99c897e0c"
+    },
+    {
+      "run_key": "command_r7b",
+      "domain": "civil",
+      "raw_recitations": "results/fig3_table7/raw_recitations/command_r7b_civil.jsonl",
+      "raw_retrieval": "results/fig3_table7/raw_retrieval/command_r7b_civil.jsonl",
+      "n_articles": 1260,
+      "n_questions": 180,
+      "source_recitation_sha256": "2eb7f72dfb8aaf3ef136cf0d5ce5ae14e867c2380ac5f1e39d8d635de59ef7c7",
+      "source_retrieval_sha256": "7339f04de8cf158e8c06e49b29a3ad65420cf9e29b79a07ed88239a3850849ac"
+    },
+    {
+      "run_key": "glm0414_seed20260910",
+      "domain": "criminal_law",
+      "raw_recitations": "results/fig3_table7/raw_recitations/glm0414_seed20260910_criminal_law.jsonl",
+      "raw_retrieval": "results/fig3_table7/raw_retrieval/glm0414_seed20260910_criminal_law.jsonl",
+      "n_articles": 505,
+      "n_questions": 44,
+      "source_recitation_sha256": "4db64a23470ca6c2c6fea3760e1f2cd07d7fd53395ba60cda121b9978fc99506",
+      "source_retrieval_sha256": "bb2e5245c1ae2f7c83da85232100ae280da75c20f66324e0555924c5aa86ab18"
+    },
+    {
+      "run_key": "glm0414_base",
+      "domain": "criminal_law",
+      "raw_recitations": "results/fig3_table7/raw_recitations/glm0414_base_criminal_law.jsonl",
+      "raw_retrieval": "results/fig3_table7/raw_retrieval/glm0414_base_criminal_law.jsonl",
+      "n_articles": 505,
+      "n_questions": 44,
+      "source_recitation_sha256": "c562513c3c73855f42a8fc69aa23a658aaff739460d01519be8fdcf2a3f9a756",
+      "source_retrieval_sha256": "1826a2d10cfb81e39769922447e7507bc35d3898cc3fcd22fe413b5c7fadb20e"
+    },
+    {
+      "run_key": "glm0414_seed20260911",
+      "domain": "criminal_law",
+      "raw_recitations": "results/fig3_table7/raw_recitations/glm0414_seed20260911_criminal_law.jsonl",
+      "raw_retrieval": "results/fig3_table7/raw_retrieval/glm0414_seed20260911_criminal_law.jsonl",
+      "n_articles": 505,
+      "n_questions": 44,
+      "source_recitation_sha256": "07e286aaf6852243b1a569a44a388ea2c373603e2f0d5810b37f9155a3e454e8",
+      "source_retrieval_sha256": "c0d570b357dfaf0c0966781c506a5ae2757a54bdd5300a638e6973d967ca7298"
+    },
+    {
+      "run_key": "glm0414_seed20260912",
+      "domain": "criminal_law",
+      "raw_recitations": "results/fig3_table7/raw_recitations/glm0414_seed20260912_criminal_law.jsonl",
+      "raw_retrieval": "results/fig3_table7/raw_retrieval/glm0414_seed20260912_criminal_law.jsonl",
+      "n_articles": 505,
+      "n_questions": 44,
+      "source_recitation_sha256": "4c52512b7a69c5ef72fa44a8d3dbbfff3af0d3ce89f787429827a7517c262d6a",
+      "source_retrieval_sha256": "0e90502986074547fe4b1a20062b3b36c650eb8cbe29c81e74f0ce7590dd51e7"
+    },
+    {
+      "run_key": "qwen25_7b_instruct",
+      "domain": "criminal_law",
+      "raw_recitations": "results/fig3_table7/raw_recitations/qwen25_7b_instruct_criminal_law.jsonl",
+      "raw_retrieval": "results/fig3_table7/raw_retrieval/qwen25_7b_instruct_criminal_law.jsonl",
+      "n_articles": 505,
+      "n_questions": 44,
+      "source_recitation_sha256": "c0e0229053b141fd951f99c1559d00af58b580639b637b1f9ad17abfad976a1e",
+      "source_retrieval_sha256": "9332e574500252c3e33282ad33966f4b25f247a379ba30f62a35a59abd121560"
+    },
+    {
+      "run_key": "glm_z1_9b_0414",
+      "domain": "criminal_law",
+      "raw_recitations": "results/fig3_table7/raw_recitations/glm_z1_9b_0414_criminal_law.jsonl",
+      "raw_retrieval": "results/fig3_table7/raw_retrieval/glm_z1_9b_0414_criminal_law.jsonl",
+      "n_articles": 505,
+      "n_questions": 44,
+      "source_recitation_sha256": "8f77475853c6fcb8507ef18f5f91e46c2747afff2d74a75214257f7c1135fb21",
+      "source_retrieval_sha256": "73d3ca9dd68ec5bb34e38c856149b9bfe0cfbad2960030c3a51ac0b1ff7286eb"
+    },
+    {
+      "run_key": "command_r7b",
+      "domain": "criminal_law",
+      "raw_recitations": "results/fig3_table7/raw_recitations/command_r7b_criminal_law.jsonl",
+      "raw_retrieval": "results/fig3_table7/raw_retrieval/command_r7b_criminal_law.jsonl",
+      "n_articles": 505,
+      "n_questions": 44,
+      "source_recitation_sha256": "e57c75c476b7649c8f1386195b0375f7e7a53f2dda3390e96b71380096e44b37",
+      "source_retrieval_sha256": "7339f04de8cf158e8c06e49b29a3ad65420cf9e29b79a07ed88239a3850849ac"
+    }
+  ],
+  "references": [
+    {
+      "domain": "civil",
+      "path": "results/fig3_table7/reference/civil_code_articles.json",
+      "articles": 1260,
+      "sha256": "ae15e4c1e59eb6049ab3fe7fc4cd8a5e58ef9fc2c29bbca9f6cc372f68c79f6e"
+    },
+    {
+      "domain": "criminal_law",
+      "path": "results/fig3_table7/reference/criminal_law_articles.json",
+      "articles": 505,
+      "sha256": "4f30321f03d45c252b9a91665ec36e657af33c5f626bae458fd2d3600b1cd63b"
+    }
+  ]
+}

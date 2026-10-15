@@ -1,0 +1,117 @@
+{
+  "schema": "genartid-public-dependency-identities/1",
+  "assets": [
+    {
+      "id": "glm",
+      "repo": "zai-org/GLM-4-9B-0414",
+      "revision": "645b8482494e31b6b752272bf7f7f273ef0f3caf",
+      "directory": "models/GLM-4-9B-0414",
+      "files": {
+        ".gitattributes": {
+          "bytes": 1569,
+          "sha256": "d820dd5d09ec74f898a5b4b35ccad5909fbf406ede9dff0468b8050615abf660"
+        },
+        "LICENSE": {
+          "bytes": 1064,
+          "sha256": "d08ac7b31e69ddf9845d56f2705325e69873f87b0b34b4bd53a3185428a784ae"
+        },
+        "README.md": {
+          "bytes": 43961,
+          "sha256": "ee4acfb2911d66b487f5d49373910e08d8f1c776c7adbfab2aebeafbb9350b7f"
+        },
+        "chat_template.jinja": {
+          "bytes": 1015,
+          "sha256": "db700f25fa300e53634c6fc78dee86b7fbd6d27e624edb855b18a4078c83a822"
+        },
+        "config.json": {
+          "bytes": 689,
+          "sha256": "98794d8150da03ca7baec63208584810d01caf43427e376071c00e770f4b4fa7"
+        },
+        "generation_config.json": {
+          "bytes": 160,
+          "sha256": "56ee0be8c595f22a6a80a822096533e10455fcd1e859e0fc36a6e760088147fa"
+        },
+        "model-00001-of-00004.safetensors": {
+          "bytes": 4984283160,
+          "sha256": "f428f8621a3b09c8dc85640d35b147fd52515c4de3eeed71a0bd24fe28a475e8"
+        },
+        "model-00002-of-00004.safetensors": {
+          "bytes": 4895274600,
+          "sha256": "5fe3a4f6c126a8f831df97dcd3436660b5e744f7307b84e8512d4847c369b359"
+        },
+        "model-00003-of-00004.safetensors": {
+          "bytes": 4895274616,
+          "sha256": "9716302a052d79c2750e3c98d34f4c4048871092831fc158cd89286513df83d9"
+        },
+        "model-00004-of-00004.safetensors": {
+          "bytes": 4025786080,
+          "sha256": "d81b5e2c294f5f2aecd6c82ae522f86a4ce25c00d24bab19bb41386ab6874de4"
+        },
+        "model.safetensors.index.json": {
+          "bytes": 43614,
+          "sha256": "76d38dfcac7d59e0250f1fcf03e25061127e6a2d1be7c2b7096c6561b7ffa45a"
+        },
+        "special_tokens_map.json": {
+          "bytes": 601,
+          "sha256": "35a6dd9ff6e2474ba72b180db853851d2a84fce3d12095089285f447c7474541"
+        },
+        "tokenizer.json": {
+          "bytes": 19966496,
+          "sha256": "76ebeac0d8bd7879ead7b43c16b44981f277e47225de2bd7de9ae1a6cc664a8c"
+        },
+        "tokenizer_config.json": {
+          "bytes": 4170,
+          "sha256": "e316474d867ad1f91165a12d90c73b27a7e0f9a1c9293831cca66c792bfe9a36"
+        }
+      }
+    },
+    {
+      "id": "text2vec",
+      "repo": "shibing624/text2vec-base-chinese",
+      "revision": "183bb99aa7af74355fb58d16edf8c13ae7c5433e",
+      "directory": "models/text2vec-base-chinese",
+      "files": {
+        "model.safetensors": {
+          "bytes": 409098104,
+          "sha256": "0c855515479137398ce4ea985628548d4e8ed8c5764656dac966d6a24f39e721"
+        },
+        ".gitattributes": {
+          "bytes": 1229,
+          "sha256": "98ccb431c012ebfe976280fbd45aea4cec7409935868ccecf3954370f96732a1"
+        },
+        "1_Pooling/config.json": {
+          "bytes": 74,
+          "sha256": "3307e674cc85cf6d18376a57f1958961be178e9e51e18e39e214285082e4892a"
+        },
+        "README.md": {
+          "bytes": 13700,
+          "sha256": "a872929117b66405f669cb80dd778e860ae3e3146531a6deb294c5db2e587e33"
+        },
+        "config.json": {
+          "bytes": 856,
+          "sha256": "fdf4d96b74a9e2dc8ae752d74bcfbbf8b3a754b3d97412477f8768ef65a7db36"
+        },
+        "modules.json": {
+          "bytes": 230,
+          "sha256": "0580fad756940809b1bc064ce1e7c1275c8b0dd80869562fe0abeb6f7059cb97"
+        },
+        "sentence_bert_config.json": {
+          "bytes": 54,
+          "sha256": "e1e8e1346dfc366ef83522c735098ecf64b5a1cd26d01f83757585e6a7786335"
+        },
+        "special_tokens_map.json": {
+          "bytes": 112,
+          "sha256": "303df45a03609e4ead04bc3dc1536d0ab19b5358db685b6f3da123d05ec200e3"
+        },
+        "tokenizer_config.json": {
+          "bytes": 319,
+          "sha256": "3da14b28cdfd6bcb24aef5e16a37c868bc6e8428b4180833d5e0ef9cc19931df"
+        },
+        "vocab.txt": {
+          "bytes": 109540,
+          "sha256": "45bbac6b341c319adc98a532532882e91a9cefc0329aa57bac9ae761c27b291c"
+        }
+      }
+    }
+  ]
+}

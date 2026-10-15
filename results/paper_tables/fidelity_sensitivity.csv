@@ -1,1 +1,7 @@
-Model,\begin{tabular}[c]{@{}c@{}}Correct \geq0.80
+model,correct_threshold,partial_threshold,correct_count,total,correct_rate_printed
+DeepSeek V4 Flash,0.8,0.6,4389,4716,93.1%
+DeepSeek V4 Flash,0.85,0.6,4271,4716,90.6%
+DeepSeek V4 Flash,0.9,0.7,3971,4716,84.2%
+Qwen3-8B,0.8,0.6,2401,4442,54.1%
+Qwen3-8B,0.85,0.6,1782,4442,40.1%
+Qwen3-8B,0.9,0.7,1173,4442,26.4%

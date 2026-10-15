@@ -1,0 +1,223 @@
+{
+  "schema": "genartid-table1-evidence/1",
+  "generative_runs": [
+    {
+      "model": "GenArtID (Qwen3-8B)",
+      "dataset": "lexrag",
+      "path": "results/table1_main/qwen3_lexrag.jsonl",
+      "generated": 1013,
+      "evaluated": 954,
+      "printed_ranking": [
+        "0.2484",
+        "0.3616",
+        "0.3910",
+        "0.3056"
+      ],
+      "raw_response_available": true,
+      "source_sha256": "8993991e41688707a7f90bc2af69ab62c3c4cdb8df3afb29b45f2ff501a68b69",
+      "original_record_rule": "first occurrence per ID",
+      "record_key": "record_id",
+      "source_id_field": "item_id (null where absent in the original archive)"
+    },
+    {
+      "model": "GenArtID (GLM-4-9B-0414)",
+      "dataset": "lexrag",
+      "path": "results/table1_main/glm0414_lexrag.jsonl",
+      "generated": 1013,
+      "evaluated": 954,
+      "printed_ranking": [
+        "0.1803",
+        "0.2673",
+        "0.3040",
+        "0.2276"
+      ],
+      "raw_response_available": true,
+      "source_sha256": "4a662eebe2bf56993c5ff1c4352580421a4b2cf8141931a97334b4cb4390eb42",
+      "original_record_rule": "all original records",
+      "record_key": "record_id",
+      "source_id_field": "item_id (null where absent in the original archive)"
+    },
+    {
+      "model": "GenArtID (DeepSeek V4 Flash)",
+      "dataset": "lexrag",
+      "path": "results/table1_main/deepseek_lexrag.jsonl",
+      "generated": 1013,
+      "evaluated": 954,
+      "printed_ranking": [
+        "0.3428",
+        "0.4780",
+        "0.5314",
+        "0.4133"
+      ],
+      "raw_response_available": true,
+      "source_sha256": "b16d83f7c5b761c93645d1370d2793665d814764f966390098e3b0151c64b1ad",
+      "original_record_rule": "all original records",
+      "record_key": "record_id",
+      "source_id_field": "item_id (null where absent in the original archive)"
+    },
+    {
+      "model": "GenArtID (Claude Opus 4.6)",
+      "dataset": "lexrag",
+      "path": "results/table1_main/claude_lexrag.jsonl",
+      "generated": 1013,
+      "evaluated": 954,
+      "printed_ranking": [
+        "0.1195",
+        "0.3407",
+        "0.5870",
+        "0.2664"
+      ],
+      "raw_response_available": false,
+      "source_sha256": "6d7e92ab08d40f2b4fba0ab9db78b0a400ff885ff9d571056418554581841129",
+      "original_record_rule": "all original records",
+      "record_key": "record_id",
+      "source_id_field": "item_id (null where absent in the original archive)"
+    },
+    {
+      "model": "GenArtID (GPT-5.5)",
+      "dataset": "lexrag",
+      "path": "results/table1_main/gpt5_lexrag.jsonl",
+      "generated": 1013,
+      "evaluated": 954,
+      "printed_ranking": [
+        "0.1216",
+        "0.3438",
+        "0.5881",
+        "0.2692"
+      ],
+      "raw_response_available": false,
+      "source_sha256": "64e312b5ce3fdbddc8015c757059e866ff4a21a098e5683666109373b68bf00b",
+      "original_record_rule": "all original records",
+      "record_key": "record_id",
+      "source_id_field": "item_id (null where absent in the original archive)"
+    },
+    {
+      "model": "GenArtID (Qwen3-8B)",
+      "dataset": "lawbench",
+      "path": "results/table1_main/qwen3_lawbench.jsonl",
+      "generated": 439,
+      "evaluated": 439,
+      "printed_ranking": [
+        "0.2779",
+        "0.4100",
+        "0.4510",
+        "0.3456"
+      ],
+      "raw_response_available": true,
+      "source_sha256": "9491d238a59abb5514022f8e10a0855eb9d92b8611474aa272b8fdfc1cd29d56",
+      "original_record_rule": "first occurrence per ID",
+      "record_key": "record_id",
+      "source_id_field": "item_id (null where absent in the original archive)"
+    },
+    {
+      "model": "GenArtID (GLM-4-9B-0414)",
+      "dataset": "lawbench",
+      "path": "results/table1_main/glm0414_lawbench.jsonl",
+      "generated": 439,
+      "evaluated": 439,
+      "printed_ranking": [
+        "0.2050",
+        "0.3257",
+        "0.3645",
+        "0.2691"
+      ],
+      "raw_response_available": true,
+      "source_sha256": "dad410faac06028d020d053154e7c5adf3b30b2e49c068b2b8fc2516d55c9845",
+      "original_record_rule": "all original records",
+      "record_key": "record_id",
+      "source_id_field": "item_id (null where absent in the original archive)"
+    },
+    {
+      "model": "GenArtID (DeepSeek V4 Flash)",
+      "dataset": "lawbench",
+      "path": "results/table1_main/deepseek_lawbench.jsonl",
+      "generated": 439,
+      "evaluated": 439,
+      "printed_ranking": [
+        "0.3349",
+        "0.4806",
+        "0.5444",
+        "0.4112"
+      ],
+      "raw_response_available": true,
+      "source_sha256": "bd90d2555e2f4805d6248730d73dcde9895742d4176ae2653979bbcd7e7fa29c",
+      "original_record_rule": "all original records",
+      "record_key": "record_id",
+      "source_id_field": "item_id (null where absent in the original archive)"
+    },
+    {
+      "model": "GenArtID (Claude Opus 4.6)",
+      "dataset": "lawbench",
+      "path": "results/table1_main/claude_lawbench.jsonl",
+      "generated": 439,
+      "evaluated": 439,
+      "printed_ranking": [
+        "0.1276",
+        "0.3371",
+        "0.5763",
+        "0.2696"
+      ],
+      "raw_response_available": false,
+      "source_sha256": "47f9af737d387f3038970397b9c14251de459501e5d170a1a8adaefa15b05745",
+      "original_record_rule": "all original records",
+      "record_key": "record_id",
+      "source_id_field": "item_id (null where absent in the original archive)"
+    },
+    {
+      "model": "GenArtID (GPT-5.5)",
+      "dataset": "lawbench",
+      "path": "results/table1_main/gpt5_lawbench.jsonl",
+      "generated": 439,
+      "evaluated": 439,
+      "printed_ranking": [
+        "0.1344",
+        "0.3440",
+        "0.5786",
+        "0.2775"
+      ],
+      "raw_response_available": false,
+      "source_sha256": "6e7ee1f2d5b9884ccdf345f8ac340bf0f0eef4c422ee475f56adc2c1f31289dc",
+      "original_record_rule": "all original records",
+      "record_key": "record_id",
+      "source_id_field": "item_id (null where absent in the original archive)"
+    }
+  ],
+  "archived_baseline_runs": [
+    {
+      "model": "RAPTOR (BGE-M3)",
+      "dataset": "lexrag",
+      "path": "results/table1_main/baseline_archives/raptor_lexrag.json",
+      "records": 954
+    },
+    {
+      "model": "LinearRAG (BGE-M3)",
+      "dataset": "lexrag",
+      "path": "results/table1_main/baseline_archives/linearrag_lexrag.json",
+      "records": 954
+    },
+    {
+      "model": "RAPTOR (BGE-M3)",
+      "dataset": "lawbench",
+      "path": "results/table1_main/baseline_archives/raptor_lawbench.json",
+      "records": 439
+    },
+    {
+      "model": "LinearRAG (BGE-M3)",
+      "dataset": "lawbench",
+      "path": "results/table1_main/baseline_archives/linearrag_lawbench.json",
+      "records": 439
+    }
+  ],
+  "aggregate_only_methods": [
+    "BM25",
+    "Hybrid (BM25 + Qwen3-Embedding)",
+    "Embedding Retrieval (Qwen3-Embedding)"
+  ],
+  "ranking_metrics": [
+    "Hit@1",
+    "Hit@3",
+    "Hit@5",
+    "MRR"
+  ],
+  "gold_view": "nonempty_gold_only"
+}

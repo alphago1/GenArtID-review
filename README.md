@@ -14,9 +14,7 @@ GenArtID predicts statutory article identifiers from a question, parses the orig
 - `fig3_points.json`, `plot_fig3.py`: the ten displayed, measured Fig.3 points and a standalone plotting entry.
 - `test_review_core.py`: CPU fixtures, clearly separate from experimental data.
 
-This package covers the core method, not every external baseline implementation. `results/` includes measured per-question statute IDs and gold IDs, per-article memory classifications/similarities, 14 paired M/R runs supporting the ten displayed Fig.3 points, three-seed knowledge-injection results, and ten manuscript-table exports. The memory-table export is restricted to displayed models; other table exports retain their original experiments. Raw case/question text, raw API payloads, base/encoder weights, and private execution records are not distributed here. Obtain the original datasets under their own terms: [LexRAG](https://github.com/CSHaitao/LexRAG) and [LawBench](https://github.com/open-compass/LawBench). ID-level scored labels in this release do not grant a license to redistribute the complete upstream datasets.
-
-`checkpoints/manifest.json` identifies the six development-selected GLM adapters required for the paper. Their weights are **not yet available** in this release; publishing configuration alone is not a complete checkpoint release. `checkpoints/legacy/` records the hashes and metadata of two historical adapters recovered separately; their tensors are not published as current-paper artifacts. They are not substitutes for the selected GLM adapters. See [REPRODUCIBILITY.md](REPRODUCIBILITY.md) for exact coverage and remaining gaps.
+The released outputs for Tables 1/2/3 and Fig.3/Table 7, including original generated statute text, are mapped in [results/README.md](results/README.md). Available adapter archives and loading instructions are in [checkpoints/retrained/](checkpoints/retrained/README.md). See [REPRODUCIBILITY.md](REPRODUCIBILITY.md) for coverage. Dataset and model terms remain separate: [LexRAG](https://github.com/CSHaitao/LexRAG), [LawBench](https://github.com/open-compass/LawBench).
 
 ## Quick CPU check
 
@@ -25,7 +23,7 @@ Requires Python 3.10+. The core CPU preparation/tests use the standard library.
 ```bash
 python -m unittest discover -s . -p test_review_core.py -v
 python review_cli.py --help
-python audit_results.py
+python audit_publication.py
 ```
 
 Plot the published coordinates without models, API calls or evaluation data:

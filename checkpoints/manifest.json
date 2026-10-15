@@ -29,7 +29,8 @@
       "runtime": {
         "torch": "2.8.0+cu128",
         "transformers": "5.17.0"
-      }
+      },
+      "additional_adapter_archive": "retrained/civil_seed20260910_step600.zip"
     },
     {
       "domain": "civil",
@@ -58,7 +59,8 @@
       "runtime": {
         "torch": "2.8.0+cu128",
         "transformers": "5.17.0"
-      }
+      },
+      "additional_adapter_archive": "retrained/civil_seed20260911_step1575.zip"
     },
     {
       "domain": "civil",
@@ -87,7 +89,8 @@
       "runtime": {
         "torch": "2.8.0+cu128",
         "transformers": "5.17.0"
-      }
+      },
+      "additional_adapter_archive": "retrained/civil_seed20260912_step520.zip"
     },
     {
       "domain": "criminal_law",
@@ -116,7 +119,8 @@
       "runtime": {
         "torch": "2.8.0+cu128",
         "transformers": "5.17.0"
-      }
+      },
+      "additional_adapter_archive": "retrained/criminal_law_seed20260910_step40.zip"
     },
     {
       "domain": "criminal_law",
@@ -145,7 +149,8 @@
       "runtime": {
         "torch": "2.8.0+cu128",
         "transformers": "5.17.0"
-      }
+      },
+      "additional_adapter_archive": "retrained/criminal_law_seed20260911_step220.zip"
     },
     {
       "domain": "criminal_law",
@@ -174,7 +179,8 @@
       "runtime": {
         "torch": "2.8.0+cu128",
         "transformers": "5.17.0"
-      }
+      },
+      "additional_adapter_archive": "retrained/criminal_law_seed20260912_step40.zip"
     }
   ],
   "additional_trained_baseline": {

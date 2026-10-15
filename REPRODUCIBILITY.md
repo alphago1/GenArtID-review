@@ -1,49 +1,13 @@
-# Reproduction materials and coverage
+# Reproduction materials
 
-Run `python audit_results.py` without downloading models or using an API. It independently recomputes macro Recall@5 and fixed-denominator P@5 from 1,568 released ID-level question records, audits the threshold-based classes of 12,355 article records, verifies 14 paired M/R runs supporting the ten displayed Fig.3 points, checks six development-only selections and fixed split membership, and verifies the plotted coordinates and release hashes. Published scores are retrospective. The audit also rejects extra M/R runs or files outside that displayed-model scope.
+For the released paper outputs, start with `python audit_publication.py` and `python plot_fig3.py`. These use existing records without API requests, model inference or adapter training. `audit_results.py` checks original numerical evidence and release hashes; `audit_publication.py` additionally verifies Table 1's five generative backends, every Table 2 metric/seed mean/SD, original Table 3 file hashes, and raw-to-scored Fig.3/Table 7 coverage and parsing.
 
-## What is included
+See [results/README.md](results/README.md) for table-to-file mappings and available baseline coverage. Table 3 retains its original archived protocol and data. Its files are not rescored using the Table 1 parser. The fixed membership, source hashes, original development selection, exact fractions and retrospective status are retained.
 
-- `results/per_question/`: question IDs, ordered parsed predictions, gold statute IDs, parse status, exact recall and fixed P@5. No case text or raw API requests are included. These are scored annotations/results, not SFT training samples.
-- `results/per_article/`: target/other cosine values, classification, empty-output flag and article IDs. These support classification/count checks; encoder recomputation needs original generated recitations, which are not in this release.
-- `results/memory_recall_runs.json`: exact fractions and counts for displayed Fig.3 models. The three individual GLM SSL seeds are retained to reproduce the two plotted means and their standard deviations.
-- `results/knowledge_injection.json`: three-seed metrics, selected steps, paired bootstrap intervals and source hashes.
-- `results/paper_tables/`: ten table exports at manuscript precision. The memory table is a displayed-model subset of the manuscript appendix; the manuscript itself is unchanged. Other tables retain their original experiments. These exported values are not a claim that every historical baseline has a released per-question trace.
-- `selection/`: every candidate's development R@5 and the frozen earliest-step tie rule. No checkpoint is selected by its test score.
-- `splits/`: fixed development/test IDs, counts, split hashes and historical-exposure declaration. Fresh random splitting does not reproduce these runs.
-- `training/`: actual historical seeds, budgets, corpus-only sample counts and source/config hashes.
-- `requirements-paper.lock.txt`: pinned versions from the recorded historical environment. This records an environment; it is not a guarantee that a fresh installation will work on every GPU. `requirements-model.txt` is a broader development dependency list.
-- `scorer_identity.json`: encoder revision and individual file hashes; `base_ft_eval_profile.json`: official template handling, decoding, EOS and parser settings; `fig3_points.json`: the ten displayed coordinates.
-- `release_manifest.json`: SHA256 and sizes of the public files. Base weights and encoder weights are supplied separately, under their respective upstream licenses.
+Six downloadable adapter archives, their loading instructions and provenance are in [checkpoints/retrained/](checkpoints/retrained/README.md). Historical selected-step configurations remain in `checkpoints/manifest.json`; the supplied archives have their own identities and metadata. Check all archives on CPU with `python checkpoints/retrained/verify_release.py`. Use `unpack_adapters.py --extract` to obtain the supplied weights for inference; retraining is optional.
 
-## Model artifacts
+The base is `zai-org/GLM-4-9B-0414` at `645b8482494e31b6b752272bf7f7f273ef0f3caf`; the memory scorer is `shibing624/text2vec-base-chinese` at `183bb99aa7af74355fb58d16edf8c13ae7c5433e`. Their exact file sizes/SHA256 and acquisition commands, plus the recorded Python/CUDA/package lock, are in `checkpoints/retrained/reproduction/`. Upstream model weights and full installed environments are not bundled.
 
-The six GLM-4-9B-0414 adapters required by the paper are:
+Raw final-content recitations and matching statute references now allow separate encoder replay. The default audit checks saved scores and classifications, without claiming a fresh GPU/encoder replay. BM25/Hybrid/Embedding per-question traces and the fine-tuned embedding adapter are not supplied; their published aggregates remain in the package. Preserve upstream licenses and use the fixed data snapshots when performing further evaluation.
 
-| Domain | Seed | Selected global step | Weight status |
-|---|---:|---:|---|
-| Civil Code | 20260910 | 600 | Not recovered |
-| Civil Code | 20260911 | 1575 | Not recovered |
-| Civil Code | 20260912 | 520 | Not recovered |
-| Criminal Law | 20260910 | 40 | Not recovered |
-| Criminal Law | 20260911 | 220 | Not recovered |
-| Criminal Law | 20260912 | 40 | Not recovered |
-
-The base snapshot is `zai-org/GLM-4-9B-0414`, revision `645b8482494e31b6b752272bf7f7f273ef0f3caf`. Historical training uses q_proj/v_proj/o_proj, rank 32, alpha 64, dropout 0.05, NF4 double quantization, effective batch 16 and max sequence length 1,024. Use `--target-modules qvo` for this recipe. Training and generation require explicit execution and a suitable GPU; packaging and evidence audit do not train or load models.
-
-Current `checkpoints/<domain>_seed<seed>_step<step>/adapter_config.json` files describe those artifacts but do not contain weight tensors. The original training journals and selected inference records establish that adapters existed then. The prior evidence download deliberately omitted their tensors, and the inspected current machine/data directory does not hold them. Only the original training disk or an additional backup can resolve this gap; retraining cannot recreate the same artifact identity.
-
-Two historical Qwen-family archive adapters were recovered separately: Civil archive step-280 and Criminal Procedure archive step-180. `checkpoints/legacy/` publishes their hashes and metadata, with a base-model placeholder because the exact original base revision is unresolved. Their tensors are preserved locally rather than published as current-paper model artifacts. Original server paths, autogenerated model cards, pickle files and optimizer states are omitted. This release makes no current-paper performance claim about these two weights. Their tensor bytes are unchanged.
-
-The fine-tuned Qwen3-Embedding baseline's weight artifact has also not been located. The numerical comparison is included with its manuscript table, with this limitation explicitly recorded.
-
-## Additional materials needed for a complete replay
-
-1. Recover the six selected GLM adapter tensors and verify hashes against the original checkpoint files; include their model cards and exact base/tokenizer identity. Do not replace them with final-step or smoke weights. Keep optimizer/RNG state only if training continuation is a release objective.
-2. Supply the exact upstream corpus and evaluation questions corresponding to the source hashes and fixed IDs. Record data provenance, extraction rules, exclusions and licenses; cases and gold must never enter corpus-only SFT.
-3. Release or provide the original generated recitation text for full encoder replay, after checking its contents for copied case text or credentials. Keep provider/model/date/precision disclosure, truncation and failure handling with the results.
-4. Include external baseline implementations, prompts/configuration and their scored traces for baselines currently represented only by printed table values. Preserve original historical parser/denominator differences where applicable; never silently relabel them as fixed_v2.
-5. Preserve corpus version/date, amendment article IDs, grouping and duplicate rules, bootstrap seed/resample count, source/config hashes, and model-license attribution. Test membership and retrospective status must remain explicit.
-6. Pin a review release and refresh the anonymous snapshot after every change. Verify that large/binary weights can be downloaded through the anonymous site before saying that the anonymous model release is complete. A direct personal GitHub/Hugging Face link would expose its hosting account during review.
-
-The repository is a partially complete reproduction package while the selected weights and several original external-baseline traces remain unavailable.
+Refreshing an anonymous snapshot and testing its binary downloads is separate from verifying this Git repository.

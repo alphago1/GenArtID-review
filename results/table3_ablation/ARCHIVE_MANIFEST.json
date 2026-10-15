@@ -1,0 +1,54 @@
+{
+  "source_release_commit": "f30d6f1177e40fd76e320ec2458e0958352a1bf7",
+  "mode": "verbatim archived files; historical summary retained",
+  "files": [
+    {
+      "name": "cosine_verification_output.txt",
+      "bytes": 1091,
+      "sha256": "1fefafc2a5639e2650a42b656fc80b20c8bf1bb2b2a84f889fea4338473fd16c",
+      "storage_format": "text"
+    },
+    {
+      "name": "id_content_comparison.json",
+      "bytes": 435,
+      "sha256": "350e713f9f8274ecf8d8a78f1a24d01f7912d16d146862881ae59db21e037e56",
+      "storage_format": "JSON object"
+    },
+    {
+      "name": "id_content_deepseek.json",
+      "bytes": 4557070,
+      "sha256": "8667abcc36449d53136c38f68cf009b322370d1cea83b58d82d1991d6a233b91",
+      "storage_format": "JSON object"
+    },
+    {
+      "name": "id_content_qwen3.json",
+      "bytes": 2904099,
+      "sha256": "ec9b1c8915583fd4bb58892d40a467eb4d782aca835d0fcb4e629fd4571c971a",
+      "storage_format": "JSON object"
+    },
+    {
+      "name": "id_only_deepseek_per_sample.jsonl",
+      "bytes": 748772,
+      "sha256": "b16d83f7c5b761c93645d1370d2793665d814764f966390098e3b0151c64b1ad",
+      "storage_format": "JSON Lines"
+    },
+    {
+      "name": "id_only_deepseek_summary.json",
+      "bytes": 149,
+      "sha256": "d5839ac64dc55e882611d413dd46f627963c6b334428dd3c4613e222372da6b5",
+      "storage_format": "JSON object"
+    },
+    {
+      "name": "id_only_qwen3_per_sample.jsonl",
+      "bytes": 1508290,
+      "sha256": "20cba97be12d0542a2586a393d2e77f8b42acb2e7a73fa1f92f7e32a787f0426",
+      "storage_format": "original mixed JSONL/text, preserved verbatim"
+    },
+    {
+      "name": "id_only_qwen3_summary.json",
+      "bytes": 429,
+      "sha256": "c4aa1a0dce0a458ff3a6333fb668a48880bd2b285f50472638bf9848225538f4",
+      "storage_format": "JSON object"
+    }
+  ]
+}

@@ -139,22 +139,67 @@
       "csv": "paper_tables/training_effectiveness.csv",
       "rows": [
         [
-          "Legal Text",
-          "Model",
-          "P@5\\uparrow",
-          "R@5\\uparrow",
-          "F1@5\\uparrow",
-          "Avg. Rank\\downarrow",
-          "Sample Hit@1\\uparrow",
-          "Sample Hit@3\\uparrow",
-          "Sample Hit@5\\uparrow"
+          "domain",
+          "model",
+          "P@5",
+          "R@5",
+          "R@5_SD",
+          "F1@5",
+          "Avg_Rank",
+          "Hit@1",
+          "Hit@3",
+          "Hit@5"
         ],
         [
-          "Civil Code",
-          "\\begin{tabular}[c]{@{}l@{}}GenArtID"
+          "civil",
+          "GenArtID",
+          "0.0556",
+          "0.2407",
+          "",
+          "0.0886",
+          "1.77",
+          "0.139",
+          "0.256",
+          "0.267"
+        ],
+        [
+          "civil",
+          "GenArtID-SSL",
+          "0.0685",
+          "0.3080",
+          "0.0173",
+          "0.1106",
+          "1.50",
+          "0.231",
+          "0.313",
+          "0.331"
+        ],
+        [
+          "criminal_law",
+          "GenArtID",
+          "0.1136",
+          "0.5038",
+          "",
+          "0.1824",
+          "1.39",
+          "0.364",
+          "0.523",
+          "0.523"
+        ],
+        [
+          "criminal_law",
+          "GenArtID-SSL",
+          "0.1500",
+          "0.6818",
+          "0.0066",
+          "0.2426",
+          "1.29",
+          "0.561",
+          "0.682",
+          "0.705"
         ]
       ],
-      "precision": "printed manuscript precision; not an independent raw-data audit"
+      "precision": "existing manuscript values; complete machine-readable export"
     },
     {
       "label": "tab:id_ablation",
@@ -486,11 +531,63 @@
       "csv": "paper_tables/fidelity_sensitivity.csv",
       "rows": [
         [
-          "Model",
-          "\\begin{tabular}[c]{@{}c@{}}Correct \\geq0.80"
+          "model",
+          "correct_threshold",
+          "partial_threshold",
+          "correct_count",
+          "total",
+          "correct_rate_printed"
+        ],
+        [
+          "DeepSeek V4 Flash",
+          0.8,
+          0.6,
+          4389,
+          4716,
+          "93.1%"
+        ],
+        [
+          "DeepSeek V4 Flash",
+          0.85,
+          0.6,
+          4271,
+          4716,
+          "90.6%"
+        ],
+        [
+          "DeepSeek V4 Flash",
+          0.9,
+          0.7,
+          3971,
+          4716,
+          "84.2%"
+        ],
+        [
+          "Qwen3-8B",
+          0.8,
+          0.6,
+          2401,
+          4442,
+          "54.1%"
+        ],
+        [
+          "Qwen3-8B",
+          0.85,
+          0.6,
+          1782,
+          4442,
+          "40.1%"
+        ],
+        [
+          "Qwen3-8B",
+          0.9,
+          0.7,
+          1173,
+          4442,
+          "26.4%"
         ]
       ],
-      "precision": "printed manuscript precision; not an independent raw-data audit"
+      "precision": "existing manuscript values; complete machine-readable export"
     },
     {
       "label": "tab:fine_tuned_embedding",

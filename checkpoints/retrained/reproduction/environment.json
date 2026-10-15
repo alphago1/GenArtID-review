@@ -1,0 +1,29 @@
+{
+  "platform": "Linux x86_64",
+  "python": "3.12.15",
+  "torch": "2.8.0+cu128",
+  "cuda_build": "12.8",
+  "gpu": "NVIDIA GeForce RTX 5090",
+  "compute_capability": [
+    12,
+    0
+  ],
+  "driver_observed": "580.105.08",
+  "bf16": true,
+  "core_versions": {
+    "torch": "2.8.0",
+    "transformers": "5.17.0",
+    "trl": "1.12.0",
+    "peft": "0.20.0",
+    "bitsandbytes": "0.50.2",
+    "accelerate": "1.15.0",
+    "datasets": "5.0.1",
+    "tokenizers": "0.23.2",
+    "numpy": "2.5.3",
+    "safetensors": "0.8.0"
+  },
+  "installed_distribution_count": 74,
+  "environment_lock": "environment.lock.txt",
+  "wheel_hashes_recorded": false,
+  "driver_included_in_environment_lock": false
+}

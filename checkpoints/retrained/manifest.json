@@ -1,0 +1,258 @@
+{
+  "schema": "genartid-retrained-adapters/1",
+  "artifact_kind": "retrained_replacement",
+  "base_model": {
+    "repo_id": "zai-org/GLM-4-9B-0414",
+    "revision": "645b8482494e31b6b752272bf7f7f273ef0f3caf"
+  },
+  "notice": "NOTICE.txt",
+  "historical_results_replaced": false,
+  "adapters": [
+    {
+      "slot": "civil_seed20260910_step600",
+      "weight": "civil_seed20260910_step600/adapter_model.safetensors",
+      "weight_sha256": "464dc26c82c39905b7ed56653f7f191db87231f2ac977212f7ad48ef4e401cd7",
+      "bytes": 53116640,
+      "archive": "civil_seed20260910_step600.zip",
+      "archive_bytes": 42093670,
+      "archive_sha256": "1986937afa5990b940c337fa1ebbb69cc43bce4c8f0d1481b96a285bec5e8df3",
+      "members": [
+        {
+          "path": "civil_seed20260910_step600/adapter_config.json",
+          "bytes": 1130,
+          "sha256": "635df62983d094cac96c7d37bef2528b801a8616b2a621680b2fecb8a3dfff8c"
+        },
+        {
+          "path": "civil_seed20260910_step600/adapter_model.safetensors",
+          "bytes": 53116640,
+          "sha256": "464dc26c82c39905b7ed56653f7f191db87231f2ac977212f7ad48ef4e401cd7"
+        },
+        {
+          "path": "civil_seed20260910_step600/metadata.json",
+          "bytes": 2060,
+          "sha256": "0fbe75c72dac15c7e897c4382fa79084a42b96a93ce9e3011fa168592e4488af"
+        },
+        {
+          "path": "civil_seed20260910_step600/per_question.json",
+          "bytes": 76195,
+          "sha256": "2de53fe9eba0e982acbe75d25cbb282b0993eca32de564500f2468c8fc6b3b79"
+        },
+        {
+          "path": "civil_seed20260910_step600/training_args.json",
+          "bytes": 3980,
+          "sha256": "7552dbc90a983a788e14d01421b49b041b750f47ab86d5c25016cbab372fa11d"
+        },
+        {
+          "path": "civil_seed20260910_step600/training_state.json",
+          "bytes": 175461,
+          "sha256": "0d7cc1500d3e1e884d251c1fda12c14cb095d306f6c2e4bad144697366aec02c"
+        }
+      ]
+    },
+    {
+      "slot": "civil_seed20260911_step1575",
+      "weight": "civil_seed20260911_step1575/adapter_model.safetensors",
+      "weight_sha256": "72cbc3beb49081e267ef6fbfa53489313afe631a2cf2914fb7f702e82a5eeb8e",
+      "bytes": 53116640,
+      "archive": "civil_seed20260911_step1575.zip",
+      "archive_bytes": 42053872,
+      "archive_sha256": "8d26f45eb0f88730110187dd92c78afd910095c1473e2e08c4fad61f7655d43b",
+      "members": [
+        {
+          "path": "civil_seed20260911_step1575/adapter_config.json",
+          "bytes": 1130,
+          "sha256": "16e2a42d591d6f88e047b9b830377b390910ca81d9b75eef0ed9e785594ff9b0"
+        },
+        {
+          "path": "civil_seed20260911_step1575/adapter_model.safetensors",
+          "bytes": 53116640,
+          "sha256": "72cbc3beb49081e267ef6fbfa53489313afe631a2cf2914fb7f702e82a5eeb8e"
+        },
+        {
+          "path": "civil_seed20260911_step1575/metadata.json",
+          "bytes": 2061,
+          "sha256": "10bebf87024f35221de214a226c852cfd55b332aa25def6685e33317a0de55be"
+        },
+        {
+          "path": "civil_seed20260911_step1575/per_question.json",
+          "bytes": 77337,
+          "sha256": "9bf4e491a1eb847333d7d40f8d8ce371e1397a46e5f45689c51676803b5ee816"
+        },
+        {
+          "path": "civil_seed20260911_step1575/training_args.json",
+          "bytes": 3980,
+          "sha256": "c2412db62f75796fd38bb54b33aa37afb36a9ed516dbfec4810903147153cdb6"
+        },
+        {
+          "path": "civil_seed20260911_step1575/training_state.json",
+          "bytes": 459684,
+          "sha256": "c8a4a56f4dba1cb9c85584387155db6055d0ce3d15cb0027487f386c6ee6df09"
+        }
+      ]
+    },
+    {
+      "slot": "civil_seed20260912_step520",
+      "weight": "civil_seed20260912_step520/adapter_model.safetensors",
+      "weight_sha256": "375cae929c0cd8d4de780c4984c4f05cc2190a16abcec41e056fa8f5b384f271",
+      "bytes": 53116640,
+      "archive": "civil_seed20260912_step520.zip",
+      "archive_bytes": 42104023,
+      "archive_sha256": "1061d140f4e2eab16f1459c7bc944ad1d4e632c16dfbb8eff8ad948ac81e14d8",
+      "members": [
+        {
+          "path": "civil_seed20260912_step520/adapter_config.json",
+          "bytes": 1130,
+          "sha256": "3d2a234506097047803f620d26d3c853a187675f38aafcf215d7e609cd388315"
+        },
+        {
+          "path": "civil_seed20260912_step520/adapter_model.safetensors",
+          "bytes": 53116640,
+          "sha256": "375cae929c0cd8d4de780c4984c4f05cc2190a16abcec41e056fa8f5b384f271"
+        },
+        {
+          "path": "civil_seed20260912_step520/metadata.json",
+          "bytes": 2060,
+          "sha256": "b9897a951de99561c0654447e5d4d4610e1d0dbaf8e81f93e9ddf4c149225e0f"
+        },
+        {
+          "path": "civil_seed20260912_step520/per_question.json",
+          "bytes": 76072,
+          "sha256": "9cf0f364d8b0b53902b0746ab1135556e106f77651f55f112d68cc57aa4a115c"
+        },
+        {
+          "path": "civil_seed20260912_step520/training_args.json",
+          "bytes": 3980,
+          "sha256": "cd6289ce78a30f632210b91da016338d80be85540ae596fc5c4783ba997273bc"
+        },
+        {
+          "path": "civil_seed20260912_step520/training_state.json",
+          "bytes": 152116,
+          "sha256": "d7c367c398a4e002223dfae3cb963fc7ba0a47232e9f5d0dffb56fe8d4902a9e"
+        }
+      ]
+    },
+    {
+      "slot": "criminal_law_seed20260910_step40",
+      "weight": "criminal_law_seed20260910_step40/adapter_model.safetensors",
+      "weight_sha256": "175944f0466f2912e241b845c5fe4668246a8eb205a1f1d0ee2e578a61046405",
+      "bytes": 53116640,
+      "archive": "criminal_law_seed20260910_step40.zip",
+      "archive_bytes": 41828828,
+      "archive_sha256": "93bac4f85f16ca900226ac47fb8006e658dddabf43ba7b7024d6f2f93a5bc287",
+      "members": [
+        {
+          "path": "criminal_law_seed20260910_step40/adapter_config.json",
+          "bytes": 1130,
+          "sha256": "635df62983d094cac96c7d37bef2528b801a8616b2a621680b2fecb8a3dfff8c"
+        },
+        {
+          "path": "criminal_law_seed20260910_step40/adapter_model.safetensors",
+          "bytes": 53116640,
+          "sha256": "175944f0466f2912e241b845c5fe4668246a8eb205a1f1d0ee2e578a61046405"
+        },
+        {
+          "path": "criminal_law_seed20260910_step40/metadata.json",
+          "bytes": 2068,
+          "sha256": "0cd0d54de19adb554e4aba456757b3056cf055ababadf8225e203291ec13966e"
+        },
+        {
+          "path": "criminal_law_seed20260910_step40/per_question.json",
+          "bytes": 17620,
+          "sha256": "76c171aade282961b068c2e4b4156c4e55851410b5d00e05da558e48956bd49b"
+        },
+        {
+          "path": "criminal_law_seed20260910_step40/training_args.json",
+          "bytes": 3979,
+          "sha256": "fd70233947e028bb143c17a7dbdde3dc6cd51663522ad34eeaaa2e10f5800f1a"
+        },
+        {
+          "path": "criminal_law_seed20260910_step40/training_state.json",
+          "bytes": 12118,
+          "sha256": "f329788aafc16416458b6c7093192aaf3f02305b25af8d4869516d28734bb82a"
+        }
+      ]
+    },
+    {
+      "slot": "criminal_law_seed20260911_step220",
+      "weight": "criminal_law_seed20260911_step220/adapter_model.safetensors",
+      "weight_sha256": "7af9a0a708b61b55d5957dbe187849ac24a3435390639ea3b01c834894b1b0bd",
+      "bytes": 53116640,
+      "archive": "criminal_law_seed20260911_step220.zip",
+      "archive_bytes": 42096701,
+      "archive_sha256": "56841debda39ecc321b1deda8d021056f0de6dfce0997d7ea4ac75a5cdba4ab6",
+      "members": [
+        {
+          "path": "criminal_law_seed20260911_step220/adapter_config.json",
+          "bytes": 1130,
+          "sha256": "16e2a42d591d6f88e047b9b830377b390910ca81d9b75eef0ed9e785594ff9b0"
+        },
+        {
+          "path": "criminal_law_seed20260911_step220/adapter_model.safetensors",
+          "bytes": 53116640,
+          "sha256": "7af9a0a708b61b55d5957dbe187849ac24a3435390639ea3b01c834894b1b0bd"
+        },
+        {
+          "path": "criminal_law_seed20260911_step220/metadata.json",
+          "bytes": 2069,
+          "sha256": "80329784186a5731fa2a549c97dede2ca3e7acb9669ddbb0b21656d76534d162"
+        },
+        {
+          "path": "criminal_law_seed20260911_step220/per_question.json",
+          "bytes": 17770,
+          "sha256": "5a43d14129a34c342222668da3e6e69ebae9f544cf8dbbcab3c6f2d55344aa69"
+        },
+        {
+          "path": "criminal_law_seed20260911_step220/training_args.json",
+          "bytes": 3979,
+          "sha256": "59e3c3b4ab74d6155874d51b0b0f5ab0780ae42e5868bfd58da78c74989ef569"
+        },
+        {
+          "path": "criminal_law_seed20260911_step220/training_state.json",
+          "bytes": 64809,
+          "sha256": "a15c123adf907d4c0bc615675c1807fc08b94a250580d5daa3b0ad10c83c7ce8"
+        }
+      ]
+    },
+    {
+      "slot": "criminal_law_seed20260912_step40",
+      "weight": "criminal_law_seed20260912_step40/adapter_model.safetensors",
+      "weight_sha256": "83f14a64923705b7954ea58e4552297920b36f2ca032dbf8b98cc2f71c1d9c28",
+      "bytes": 53116640,
+      "archive": "criminal_law_seed20260912_step40.zip",
+      "archive_bytes": 41823918,
+      "archive_sha256": "0ce1bfb9e2b0ab82e0b025eea7abd602a60ed2b3e30ff8df154415dcf0255f31",
+      "members": [
+        {
+          "path": "criminal_law_seed20260912_step40/adapter_config.json",
+          "bytes": 1130,
+          "sha256": "3d2a234506097047803f620d26d3c853a187675f38aafcf215d7e609cd388315"
+        },
+        {
+          "path": "criminal_law_seed20260912_step40/adapter_model.safetensors",
+          "bytes": 53116640,
+          "sha256": "83f14a64923705b7954ea58e4552297920b36f2ca032dbf8b98cc2f71c1d9c28"
+        },
+        {
+          "path": "criminal_law_seed20260912_step40/metadata.json",
+          "bytes": 2068,
+          "sha256": "ba4c8c8d9dbc9d7f9b29cc533a8e97d1d8b3e2a02b32ce410ed70eb24ae61ffd"
+        },
+        {
+          "path": "criminal_law_seed20260912_step40/per_question.json",
+          "bytes": 17480,
+          "sha256": "47ce8b3bf3425dc7a4242cf215ed3ae150ba18db709e5fe43db6f524add09231"
+        },
+        {
+          "path": "criminal_law_seed20260912_step40/training_args.json",
+          "bytes": 3979,
+          "sha256": "ef0b5710982a46d206440bfffe0eb0e069b5e4fb75a7a7267734ea249b986e28"
+        },
+        {
+          "path": "criminal_law_seed20260912_step40/training_state.json",
+          "bytes": 12121,
+          "sha256": "2d0cd8742ac6fcf09def918b1802c754c29d8d03085911360e8861518100b003"
+        }
+      ]
+    }
+  ]
+}

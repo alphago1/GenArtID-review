@@ -1,2 +1,7 @@
 * text=auto eol=lf
 *.safetensors binary
+*.zip binary
+results/table3_ablation/** -text
+results/fig3_table7/reference/** -text
+results/table1_main/aggregate_archives/** -text
+checkpoints/retrained/** -text

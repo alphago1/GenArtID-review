@@ -1,0 +1,2 @@
+The original adapter checkpoint files are no longer available. The adapters
+released here are newly retrained artifacts, rather than the original checkpoints.

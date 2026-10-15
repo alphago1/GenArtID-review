@@ -1,0 +1,47 @@
+{
+  "historical_metrics": "results/knowledge_injection.json",
+  "raw_outputs": [
+    {
+      "run_key": "glm0414_seed20260910",
+      "domain": "civil",
+      "raw_retrieval": "results/fig3_table7/raw_retrieval/glm0414_seed20260910_civil.jsonl"
+    },
+    {
+      "run_key": "glm0414_base",
+      "domain": "civil",
+      "raw_retrieval": "results/fig3_table7/raw_retrieval/glm0414_base_civil.jsonl"
+    },
+    {
+      "run_key": "glm0414_seed20260911",
+      "domain": "civil",
+      "raw_retrieval": "results/fig3_table7/raw_retrieval/glm0414_seed20260911_civil.jsonl"
+    },
+    {
+      "run_key": "glm0414_seed20260912",
+      "domain": "civil",
+      "raw_retrieval": "results/fig3_table7/raw_retrieval/glm0414_seed20260912_civil.jsonl"
+    },
+    {
+      "run_key": "glm0414_seed20260910",
+      "domain": "criminal_law",
+      "raw_retrieval": "results/fig3_table7/raw_retrieval/glm0414_seed20260910_criminal_law.jsonl"
+    },
+    {
+      "run_key": "glm0414_base",
+      "domain": "criminal_law",
+      "raw_retrieval": "results/fig3_table7/raw_retrieval/glm0414_base_criminal_law.jsonl"
+    },
+    {
+      "run_key": "glm0414_seed20260911",
+      "domain": "criminal_law",
+      "raw_retrieval": "results/fig3_table7/raw_retrieval/glm0414_seed20260911_criminal_law.jsonl"
+    },
+    {
+      "run_key": "glm0414_seed20260912",
+      "domain": "criminal_law",
+      "raw_retrieval": "results/fig3_table7/raw_retrieval/glm0414_seed20260912_criminal_law.jsonl"
+    }
+  ],
+  "seed_selection": "selection/",
+  "note": "Original paper outputs; adapter archives are supplied separately."
+}
