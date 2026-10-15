@@ -42,23 +42,6 @@ Model setup, pinned versions, and environment installation are described in the 
 | [results/](results/README.md) | Experimental outputs, generated statute text, per-question predictions, per-article scores, and reported table summaries. |
 | [checkpoints/](checkpoints/manifest.json) | Checkpoint configurations, downloadable adapter archives, metadata, and dependency records. |
 
-## Adapter checkpoints
-
-Six PEFT adapter archives are provided for **GLM-4-9B-0414**, covering three seeds in each legal domain. Each archive contains weights, configuration, and run metadata; individual ZIP files are approximately 42 MB.
-
-| Seed | Civil Code | Criminal Law |
-| --- | --- | --- |
-| 20260910 | [Step 600](checkpoints/retrained/civil_seed20260910_step600.zip) | [Step 40](checkpoints/retrained/criminal_law_seed20260910_step40.zip) |
-| 20260911 | [Step 1575](checkpoints/retrained/civil_seed20260911_step1575.zip) | [Step 220](checkpoints/retrained/criminal_law_seed20260911_step220.zip) |
-| 20260912 | [Step 520](checkpoints/retrained/civil_seed20260912_step520.zip) | [Step 40](checkpoints/retrained/criminal_law_seed20260912_step40.zip) |
-
-```sh
-python checkpoints/retrained/verify_release.py
-python checkpoints/retrained/unpack_adapters.py --extract
-```
-
-Use the matching base model and tokenizer specified in the [dependency guide](checkpoints/retrained/reproduction/README.md). Checksums, metadata, and [provenance](checkpoints/retrained/NOTICE.txt) are provided with the [adapter files](checkpoints/retrained/README.md).
-
 ## Experimental data and evaluation
 
 The release includes retrieval outputs on LexRAG and LawBench, knowledge-injection results across three seeds, identifier/content ablation outputs, and paired statute-memory and retrieval records. Generated statute text and matching reference articles are included alongside the scored records. The [data guide](results/README.md) maps these files to the paper's experiments and describes the available records; [table exports](results/paper_tables/) preserve the reported summaries.
