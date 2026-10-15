@@ -1,100 +1,87 @@
-# GenArtID review code
+# GenArtID
 
-Minimal core code for **Rethinking Legal Retrieval as Generative Article Identifier Prediction**.
+Code, evaluation data, and adapter checkpoints for **Rethinking Legal Retrieval as Generative Article Identifier Prediction**.
 
-GenArtID predicts statutory article identifiers from a question, parses the original Top-5 window, and binds accepted identifiers to authoritative corpus text. Corpus-only knowledge injection uses identifier-to-text and text-to-identifier samples; cases and gold labels are evaluation inputs only.
+GenArtID retrieves legal provisions by predicting their canonical article identifiers and binding them to authoritative statute text. Its corpus-only knowledge injection associates article identifiers with their content through identifier-to-text and text-to-identifier examples, without using annotated case–article pairs for training.
 
-## Contents and boundaries
+## Paper results and data
 
-- `review_cli.py`: corpus-only SFT preparation, grouped split construction, strict Recall@5 evaluation, ID-to-corpus binding, opt-in API retrieval/recitation, and CPU memory scoring.
-- `ga_*.py`: validated parsing, identifiers, metrics, corpus, SFT, selection, training/generation utilities, and frozen full-text memory encoder logic. The `ga_` prefix supports a small flat layout without shadowing Python standard-library modules.
-- `f_train_sft.py`, `g_generate_predictions.py`, `h_dev_select.py`, `run_test_eval.py`: training, generation, dev-only checkpoint selection, and gated matched Base/FT test evaluation. Only package import/root paths were adapted for this layout.
-- `base_ft_eval_profile.json`, `research_protocol.json`, `ablation_matrix.json`: explicit generation and training settings. Training/inference guards default to disabled; enable them deliberately for a reproduction run after preparing local models and data.
-- `scorer_identity.json`: the pinned Chinese encoder revision and individual file hashes. Weights are not included.
-- `fig3_points.json`, `plot_fig3.py`: the ten displayed, measured Fig.3 points and a standalone plotting entry.
-- `test_review_core.py`: CPU fixtures, clearly separate from experimental data.
+The release includes per-question predictions, generated statute text, scoring records, and the reported table summaries.
 
-The released outputs for Tables 1/2/3 and Fig.3/Table 7, including original generated statute text, are mapped in [results/README.md](results/README.md). Available adapter archives and loading instructions are in [checkpoints/retrained/](checkpoints/retrained/README.md). See [REPRODUCIBILITY.md](REPRODUCIBILITY.md) for coverage. Dataset and model terms remain separate: [LexRAG](https://github.com/CSHaitao/LexRAG), [LawBench](https://github.com/open-compass/LawBench).
+| Paper result | Released materials |
+| --- | --- |
+| **Table 1: retrieval comparison** | [Predictions and index](results/table1_main/index.json) for five generative models on LexRAG and LawBench; [baseline prediction archives](results/table1_main/baseline_archives/) and [baseline aggregates](results/table1_main/aggregate_archives/). |
+| **Table 2: knowledge injection** | [Three-seed results and statistics](results/knowledge_injection.json), [per-question records](results/per_question/), and the [raw-output index](results/table2_knowledge_injection/index.json). |
+| **Table 3: identifier/content ablation** | [Original archived outputs and summaries](results/table3_ablation/), including generated statute content for the ID+Content setting. |
+| **Fig. 3 and Table 7: memory and retrieval** | [Raw outputs and reference statutes](results/fig3_table7/index.json), [per-article scores](results/per_article/), [run summaries](results/memory_recall_runs.json), and the [ten plotted points](fig3_points.json). |
+| **Other tables** | [CSV exports](results/paper_tables/) and [structured table data](results/paper_tables.json). |
 
-## Quick CPU check
+The Fig. 3 / Table 7 release contains **12,355 statute generations and 1,568 retrieval answers across 14 model/domain runs**. The ten displayed points include the three-seed GLM SSL means. Table 3 retains its original archived files and scoring summaries.
 
-Requires Python 3.10+. The core CPU preparation/tests use the standard library.
+See the [data guide](results/README.md) for file formats and coverage. Original response text is available for the Qwen, GLM, and DeepSeek Table 1 runs; the Claude/GPT archives retain parsed predictions. BM25, Hybrid, and Embedding baselines provide saved aggregate results.
 
-```bash
-python -m unittest discover -s . -p test_review_core.py -v
-python review_cli.py --help
+## Verify the released results
+
+From the repository root, with Python 3.10 or later:
+
+```sh
 python audit_publication.py
 ```
 
-Plot the published coordinates without models, API calls or evaluation data:
+This standard-library audit checks release hashes, Table 1 generative-model ranking metrics, Table 2 seed results and statistics, Table 3 archive integrity, and the saved Fig. 3 / Table 7 records. It recomputes retrieval scores and checks memory classifications against stored similarities. No GPU or API access is needed.
 
-```bash
-pip install -r requirements.txt
+To render Fig. 3 from the released coordinates:
+
+```sh
+python -m pip install -r requirements.txt
 python plot_fig3.py
 ```
 
-## Local data formats
+The plotter writes `fig3.pdf` and `fig3.svg`.
 
-Provide these data separately; do not commit API keys or restricted benchmark data.
+## Adapter checkpoints
 
-1. Article corpus: JSON list of objects with `name` (a full Chinese statutory identifier), `content` (verbatim statute text), and optional `id`. The Civil Code/Criminal Law loaders reject duplicate or malformed IDs. Multi-law binding also accepts JSONL.
-2. Generation questions: JSON list with `id` and `question`. Gold is excluded from generation payloads.
-3. Evaluation gold: JSONL objects with `item_id` and `gold` (a list of statutory IDs).
-4. Predictions: JSONL objects with `item_id` and `raw_response`; API output records additionally retain the returned response and payload hash.
-5. Split construction questions: JSON list with `id`, `question`, and `articles` (gold IDs). Split/selection files are local evaluation artifacts, never SFT training inputs.
+Six PEFT adapter archives are provided for **GLM-4-9B-0414**, covering three seeds in each legal domain. Each archive contains adapter weights, configuration, and run metadata; individual ZIP files are approximately 42 MB.
 
-The paper's fixed Civil/Criminal diagnostic test sets contain 180/44 questions. A newly constructed split is not identical to the paper's frozen membership by default. Use the corresponding original membership and source hashes for an exact replay. All reported diagnostics are retrospective; this package does not relabel historical tests as blind.
+| Seed | Civil Code | Criminal Law |
+| --- | --- | --- |
+| 20260910 | [Step 600](checkpoints/retrained/civil_seed20260910_step600.zip) | [Step 40](checkpoints/retrained/criminal_law_seed20260910_step40.zip) |
+| 20260911 | [Step 1575](checkpoints/retrained/civil_seed20260911_step1575.zip) | [Step 220](checkpoints/retrained/criminal_law_seed20260911_step220.zip) |
+| 20260912 | [Step 520](checkpoints/retrained/civil_seed20260912_step520.zip) | [Step 40](checkpoints/retrained/criminal_law_seed20260912_step40.zip) |
 
-## Corpus-only knowledge injection
+Verify the archives, then extract the adapter folders for use with the matching base model:
 
-```bash
-python review_cli.py prepare-sft --domain civil --corpus inputs/data/civil_code_articles.json
-python review_cli.py prepare-sft --domain criminal_law --corpus inputs/data/criminal_law_articles.json
+```sh
+python checkpoints/retrained/verify_release.py
+python checkpoints/retrained/unpack_adapters.py --extract
 ```
 
-Each ratio has four slots per article. The Civil Code/Criminal Law corpora yield 5,040/2,020 slots per ratio. The 1:1 setting is available as `ratio_1f_1r.json`; all five ratios are preparation/ablation options, not a claim that all were trained. Slot ratios are not supervised-token or gradient-share measurements.
+Both commands run on CPU without loading model weights. Use the pinned base model and tokenizer described in the [dependency guide](checkpoints/retrained/reproduction/README.md); it includes official download commands, file checksums, and the recorded environment lock. [Loading and evaluation commands](checkpoints/retrained/reproduction/replay/README.md) and [adapter provenance](checkpoints/retrained/NOTICE.txt) accompany the files.
 
-With dependencies and local model/tokenizer files supplied, audit token boundaries before training:
+## Evaluation conventions
 
-```bash
-pip install -r requirements-model.txt
-python f_train_sft.py --domain civil --ratio 1f_1r --seed 20260910 --target-modules qvo --tokenizer /local/GLM-4-9B-0414 --dry-run
+**Table 1 reports Hit@K and MRR.** Hit@K measures whether at least one gold article appears in the first K predictions. Its evaluated subsets contain 954 LexRAG questions and 439 LawBench questions with nonempty gold labels.
+
+**The knowledge-injection and memory diagnostics use macro Recall@5**, which averages the fraction of gold articles retrieved for each question. Their fixed test sets contain 180 Civil Code questions and 44 Criminal Law questions. The `fixed_v2` parser uses the original five output slots: invalid or duplicate entries consume a slot, and no additional candidates are used to refill it. P@5 uses a fixed denominator of five.
+
+The statute-memory rate is **M = Eff. / N**, using a cosine threshold of 0.85 with the pinned text2vec scorer. Raw generations, reference statutes, and saved similarity scores are included for inspection. The [reproduction notes](REPRODUCIBILITY.md) describe the matching data, scoring settings, and artifact coverage.
+
+## Code and configuration
+
+| Entry | Purpose |
+| --- | --- |
+| [review_cli.py](review_cli.py) | Corpus preparation, article-ID parsing, retrieval evaluation, ID-to-text binding, API generation, and memory scoring. Run `python review_cli.py --help` for commands. |
+| [research_protocol.json](research_protocol.json) and [base_ft_eval_profile.json](base_ft_eval_profile.json) | Recorded experiment settings and evaluation configuration. |
+| [splits/](splits/) and [selection/](selection/) | Fixed diagnostic split membership and historical development-set checkpoint selection. |
+| [training/](training/) | Recorded training configurations. |
+| [release_manifest.json](release_manifest.json) | Published file sizes and SHA256 checksums. |
+
+Run the core CPU tests with:
+
+```sh
+python -m unittest discover -s . -p test_review_core.py -v
 ```
 
-The historical paper recipe uses QLoRA rank 32, alpha 64 and q_proj/v_proj/o_proj targets. Do not treat this CPU check as a GPU training result. Checkpoint choice is by development Recall@5, ties to the earliest step; matched Base and selected FT are then evaluated on the same fixed test membership. Generating every checkpoint's test curve for selection is not permitted by the protocol.
+## License and upstream resources
 
-## Retrieval, binding and evaluation
-
-API generation is preview-only by default. For real requests, set `GENARTID_API_KEY` in the local environment and add `--execute`; provision/credit management is deliberately outside this package. A real run may incur provider costs. Fix the model/provider and review the job count first.
-
-```bash
-python review_cli.py generate-api --task retrieval --domain civil --input questions.json --model cohere/command-r7b-12-2024 --provider cohere --out predictions.jsonl
-python review_cli.py evaluate --predictions predictions.jsonl --gold gold.jsonl --out metrics.json
-python review_cli.py bind --corpus law_library.jsonl --answer '{"articles":["《民法典》第243条"]}'
-```
-
-The frozen `fixed_v2` parser caps the original five slots before deduplication. Invalid/duplicate entries consume slots; candidates are never repaired or supplemented using gold. P@5 divides by 5. Formal macro Recall is refused for incomplete/extra prediction coverage. The legacy parser remains available for historical parity, not the default score.
-
-## Statute memory diagnostic
-
-```bash
-python review_cli.py generate-api --task recitation --domain civil --input inputs/data/civil_code_articles.json --model cohere/command-r7b-12-2024 --provider cohere --out recitations.jsonl
-python review_cli.py memory --domain civil --corpus inputs/data/civil_code_articles.json --predictions recitations.jsonl --encoder /local/text2vec-base-chinese --out memory.json
-```
-
-Recitation receives only the statute name and the shared closed-book prompt. Temperature is 0; retrieval/recitation caps are 256/2,048 tokens. Empty/truncated outputs are retained, and answers are not retried for quality. The encoder is `shibing624/text2vec-base-chinese`, revision `183bb99aa7af74355fb58d16edf8c13ae7c5433e`; its file hashes are checked before local CPU loading. Full text is split into non-overlapping 126-body-token windows plus two special tokens, with tail retention, attention-mask mean pooling, token-count weighting and final L2 normalization.
-
-Classification is target-first: target cosine >=0.85 is Eff.; otherwise another article in the whole same-domain pool >=0.85 is Dup.; otherwise Err. M=Eff/N. Exact string agreement is a different metric and is not substituted for M.
-
-## Measured Command addition to Fig.3
-
-| Domain | Articles | Eff. / Dup. / Err. | M | Recall@5 |
-|---|---:|---|---:|---:|
-| Civil Code | 1,260 | 9 / 749 / 502 | 0.007142857 | 0.138888889 |
-| Criminal Law | 505 | 26 / 312 / 167 | 0.051485149 | 0.462121212 |
-
-These are one-run OpenRouter/Cohere measurements; server weight revision and precision are undisclosed. GLM SSL points are paired three-seed means. The displayed model subset is not an unbiased sample for estimating a population correlation, and the diagnostic does not establish a causal relationship between memory and retrieval.
-
-## License
-
-Core code is MIT-licensed. Dataset, model and encoder licenses are separate. `provenance.json` records source-code hashes and the narrow layout adaptations; it does not contain raw cases or credentials.
+The core code is released under the [MIT License](LICENSE). Dataset, model, and encoder artifacts retain their respective upstream terms. The benchmarks are [LexRAG](https://github.com/CSHaitao/LexRAG) and [LawBench](https://github.com/open-compass/LawBench); model revisions and acquisition details are recorded in the [dependency guide](checkpoints/retrained/reproduction/README.md).

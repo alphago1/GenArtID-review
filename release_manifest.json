@@ -548,8 +548,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 8083,
-      "sha256": "6fd96a65d33314075a80eca2efb10b058ac8db858ce953ff31af415dc2538c50"
+      "bytes": 6582,
+      "sha256": "ba323a1aa1f4f9ccd1605f5a78022e516cfe363c9016b11894a693a2808421e2"
     },
     {
       "path": "REPRODUCIBILITY.md",
